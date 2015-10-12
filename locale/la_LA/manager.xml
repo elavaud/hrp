@@ -165,10 +165,10 @@
         <message key="manager.setup.about.governance.instruct">The below text will appear on the sub-category "Governance and Policies" of the "Governance, Policies and Procedures for Health Research" page ("Governance &amp; Policies" tab).</message>
         <message key="manager.setup.about.grants">Grants</message>
         <message key="manager.setup.about.grants.instruct">The below text will appear on the sub-category "Grants" of the "Governance, Policies and Procedures for Health Research" page ("Governance &amp; Policies" tab).</message>
-        <message key="manager.setup.about.committees">Committee(s)</message>
-        <message key="manager.setup.about.committees.instruct">The below text will appear on the sub-category "Committee(s)" of the "Governance, Policies and Procedures for Health Research" page ("Governance &amp; Policies" tab).</message>
-        <message key="manager.setup.about.files">Files</message>
-        <message key="manager.setup.about.files.instruct">The below text will appear on the sub-category "Files" of the "Governance, Policies and Procedures for Health Research" page ("Governance &amp; Policies" tab).</message>
+        <message key="manager.setup.about.committees">Ethics</message>
+        <message key="manager.setup.about.committees.instruct">The below text will appear on the sub-category "Ethics" of the "Governance, Policies and Procedures for Health Research" page ("Governance &amp; Policies" tab).</message>
+        <message key="manager.setup.about.files">Downloads</message>
+        <message key="manager.setup.about.files.instruct">The below text will appear on the sub-category "Downloads" of the "Governance, Policies and Procedures for Health Research" page ("Governance &amp; Policies" tab).</message>
         <message key="manager.setup.about.links">Links</message>
         <message key="manager.setup.about.links.instruct">The below text will appear on the sub-category "Links" of the "Governance, Policies and Procedures for Health Research" page ("Governance &amp; Policies" tab).</message>
 
