@@ -260,7 +260,7 @@ class NewSearchHandler extends Handler {
 				if ($index == 'investigator') {
 					$columns[$index] = $result->getPrimaryAuthor();
 				} elseif ($index == 'investigator_affiliation') {
-					$columns[$index] = $result->getInvestigatorAffiliation();
+					$columns[$index] = $this->_removeCommaForCSV($result->getInvestigatorAffiliation());
 				} elseif ($index == 'investigator_email') {
 					$columns[$index] = $result->getAuthorEmail();
 				} elseif ($index == 'title') {
@@ -298,6 +298,16 @@ class NewSearchHandler extends Handler {
 		unset($columns);
 	}
 	
+        
+        /*
+         * Internal function for removing the comma(s) of a string before a CSV export
+         */
+        function _removeCommaForCSV($string){
+            //also remove newlines
+            $string = preg_replace('/\s+/', ' ', trim($string));
+            return str_replace(',', '', $string);
+        }
+        
 	function viewProposal($args) {
 		$articleId = isset($args[0]) ? (int) $args[0] : 0;
 		$this->setupTemplate(true, $articleId);

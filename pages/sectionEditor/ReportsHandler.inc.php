@@ -471,7 +471,7 @@ class ReportsHandler extends Handler {
                 $journal =& Request::getJournal();
 
                 header('content-type: text/comma-separated-values');
-		header('content-disposition: attachment; filename=' . $journal->getLocalizedInitials() . '-' . date('YMd') . '-' . Locale::translate('editor.report') . '.csv');
+		header('content-disposition: attachment; filename=' . str_replace(' ', '', $journal->getLocalizedInitials()) . '-' . date('YMd') . '-' . Locale::translate('editor.report') . '.csv');
 		
 		$fp = fopen('php://output', 'wt');
                 
@@ -873,6 +873,8 @@ class ReportsHandler extends Handler {
          * Internal function for removing the comma(s) of a string before a CSV export
          */
         function _removeCommaForCSV($string){
+            //also remove newlines
+            $string = preg_replace('/\s+/', ' ', trim($string));
             return str_replace(',', '', $string);
         }
         
@@ -880,6 +882,8 @@ class ReportsHandler extends Handler {
          * Internal function for replacing all double quotes of a string by single quote and brace it with double quote
          */
         function _replaceQuoteCSV($string){
+            //also remove newlines
+            $string = preg_replace('/\s+/', ' ', trim($string));
             return '"'.str_replace('"', "'", $string).'"';
         }
         
