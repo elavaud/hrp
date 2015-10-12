@@ -42,6 +42,7 @@ class JournalSetupStep5Form extends JournalSetupForm {
 				'aboutGrants' => 'string',
            			'aboutCommittees' => 'string',
 				'aboutFiles' => 'string',
+                            	'aboutOtherContacts' => 'string',                            
 				'aboutLinks' => 'string',                            
 				'navItems' => 'object',
 				'itemsPerPage' => 'int',
@@ -61,7 +62,7 @@ class JournalSetupStep5Form extends JournalSetupForm {
 	 * @return array
 	 */
 	function getLocaleFieldNames() {
-		return array('homeHeaderTitleType', 'homeHeaderTitle', 'pageHeaderTitleType', 'pageHeaderTitle', 'readerInformation', 'authorInformation', 'librarianInformation', 'journalPageHeader', 'journalPageFooter', 'homepageImage', 'journalFavicon', 'additionalHomeContent', 'description', 'aboutHeader', 'aboutGovernance', 'aboutGrants','aboutCommittees', 'aboutFiles', 'aboutLinks', 'navItems', 'homeHeaderTitleImageAltText', 'homeHeaderLogoImageAltText', 'homepageImageAltText', 'pageHeaderTitleImageAltText', 'pageHeaderLogoImageAltText');
+		return array('homeHeaderTitleType', 'homeHeaderTitle', 'pageHeaderTitleType', 'pageHeaderTitle', 'readerInformation', 'authorInformation', 'librarianInformation', 'journalPageHeader', 'journalPageFooter', 'homepageImage', 'journalFavicon', 'additionalHomeContent', 'description', 'aboutHeader', 'aboutGovernance', 'aboutGrants','aboutCommittees', 'aboutFiles', 'aboutOtherContacts', 'aboutLinks', 'navItems', 'homeHeaderTitleImageAltText', 'homeHeaderLogoImageAltText', 'homepageImageAltText', 'pageHeaderTitleImageAltText', 'pageHeaderLogoImageAltText');
 
 	}
 

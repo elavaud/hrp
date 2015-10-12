@@ -166,7 +166,9 @@
         <message key="manager.setup.about.grants">Grants</message>
         <message key="manager.setup.about.grants.instruct">The below text will appear on the sub-category "Grants" of the "Governance, Policies and Procedures for Health Research" page ("Governance &amp; Policies" tab).</message>
         <message key="manager.setup.about.committees">Ethics</message>
-        <message key="manager.setup.about.committees.instruct">The below text will appear on the sub-category "Ethics" of the "Governance, Policies and Procedures for Health Research" page ("Governance &amp; Policies" tab).</message>
+        <message key="manager.setup.about.committees.instruct">The below text will appear on the sub-category "Ethics" of the "Governance, Policies and Procedures for Health Research" page ("Governance &amp; Policies" tab).</message>        
+        <message key="manager.setup.about.otherContacts">Other Contact(s)</message>
+        <message key="manager.setup.about.otherContacts.instruct">The sub-category "Contacts" of the "Governance, Policies and Procedures for Health Research" page ("Governance &amp; Policies" tab) will display the principal contact and the technical support contact of this website. If you wish to add other contact(s), please add it/them below.</message>
         <message key="manager.setup.about.files">Downloads</message>
         <message key="manager.setup.about.files.instruct">The below text will appear on the sub-category "Downloads" of the "Governance, Policies and Procedures for Health Research" page ("Governance &amp; Policies" tab).</message>
         <message key="manager.setup.about.links">Links</message>

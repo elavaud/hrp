@@ -397,6 +397,16 @@ function prepBlockFields() {
  
     </div>
 
+    <div id="otherContactsForm">
+    
+        <h4>{translate key="manager.setup.about.otherContacts"}</h4>
+
+        <p>{translate key="manager.setup.about.otherContacts.instruct"}</p>
+
+        <p><textarea id="aboutOtherContacts" name="aboutOtherContacts[{$formLocale|escape}]" rows="3" cols="50" class="textArea">{$aboutOtherContacts[$formLocale]|escape}</textarea></p>
+ 
+    </div>    
+        
     <div id="linksForm">
     
         <h4>{translate key="manager.setup.about.links"}</h4>
