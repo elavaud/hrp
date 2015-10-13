@@ -20,7 +20,7 @@
 {/strip}
 
 <br/>
-<div id="announcementForm">
+<div id="announcement">
 <form name="announcementForm" method="post" action="{url op="updateAnnouncement"}">
 {if $announcementId}
 <input type="hidden" name="announcementId" value="{$announcementId|escape}" />

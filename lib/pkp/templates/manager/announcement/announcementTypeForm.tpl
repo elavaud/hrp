@@ -21,7 +21,7 @@
 
 <br/>
 <div id="announcementType">
-<form name="announcementType" method="post" action="{url op="updateAnnouncementType"}">
+<form name="announcementTypeForm" method="post" action="{url op="updateAnnouncementType"}">
 {if $typeId}
 <input type="hidden" name="typeId" value="{$typeId|escape}" />
 {/if}
@@ -36,7 +36,7 @@
 			{if $typeId}{url|assign:"announcementTypeUrl" op="editAnnouncementType" path=$typeId escape=false}
 			{else}{url|assign:"announcementTypeUrl" op="createAnnouncementType" escape=false}
 			{/if}
-			{form_language_chooser form="announcementType" url=$announcementTypeUrl}
+			{form_language_chooser form="announcementTypeForm" url=$announcementTypeUrl}
 			<span class="instruct">{translate key="form.formLanguage.description"}</span>
 		</td>
 	</tr>
