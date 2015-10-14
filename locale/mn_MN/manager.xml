@@ -12,6 +12,11 @@
   -->
 
 <locale name="mn_MN" full_name = "Mongolian">
+
+        <!-- Added October 2015-->
+        <message key="manager.setup.ethicsInfo">Selection of a committee</message>
+        <message key="manager.setup.ethicsInfoDescription">If multiple review committees exist in the system, investigators will have to choose to which committee to submit their research proposal. The text below will appear in the step 1 of the submission process in order to provide information on which committee to choose.</message>
+        
     
         <!-- Added February 2014 -->
         

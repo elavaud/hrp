@@ -96,8 +96,18 @@
 
 </div>
 
+<div id="ethicsInfo">
+    
+    <h6>3.1.2 {translate key="navigation.stepNumber" step=1} - {translate key="manager.setup.ethicsInfo"}</h6>
+
+    <p>{translate key="manager.setup.ethicsInfoDescription"}</p>
+
+    <p><textarea name="ethics[{$formLocale|escape}]" id="ethics" rows="12" cols="50" class="textArea">{$ethics[$formLocale]|escape}</textarea></p>
+
+</div>
+    
 <div id="submissionPreparationChecklist">
-    <h6>3.1.2 {translate key="navigation.stepNumber" step=1} - {translate key="manager.setup.submissionPreparationChecklist"}</h6>
+    <h6>3.1.3 {translate key="navigation.stepNumber" step=1} - {translate key="manager.setup.submissionPreparationChecklist"}</h6>
     
     <p>{translate key="manager.setup.submissionPreparationChecklistDescription.part1"}</p>
 
@@ -130,7 +140,7 @@
 </div>
 
 <div id="submissionPreparationChecklist">
-    <h6>3.1.3 {translate key="navigation.stepNumber" step=2} - {translate key="proposal.sourceOfMonetary"}</h6>
+    <h6>3.1.4 {translate key="navigation.stepNumber" step=2} - {translate key="proposal.sourceOfMonetary"}</h6>
 
     
     <table width="100%" class="data">

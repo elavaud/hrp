@@ -221,6 +221,7 @@ class TinyMCEPlugin extends GenericPlugin {
 					case 3:
 						$fields[] = 'authorGuidelines';
 						$fields[] = 'submissionChecklistInfo';
+						$fields[] = 'ethics';
                                                 $fields[] = 'progressReportGuidelines';
 						$fields[] = 'completionReportGuidelines';
 						$fields[] = 'protocolAmendmentGuidelines';                                                

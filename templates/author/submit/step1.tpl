@@ -45,7 +45,7 @@
 <h3>{translate key="author.submit.journalSection"}</h3>
 
 {url|assign:"url" page="about"}
-<p>{translate key="author.submit.journalSectionDescription" aboutUrl=$url}</p>
+<p>{$currentJournal->getLocalizedSetting('ethics')}</p>
 
 <input type="hidden" name="submissionChecklist" value="1" />
 

@@ -26,6 +26,7 @@ class JournalSetupStep3Form extends JournalSetupForm {
 			array(
 				'authorGuidelines' => 'string',
 				'submissionChecklistInfo' => 'string',
+				'ethics' => 'string',
         			'submissionChecklist' => 'object',
                                 'sourceCurrency' => 'string',
                                 'convertionRate' => 'int',
@@ -86,7 +87,7 @@ class JournalSetupStep3Form extends JournalSetupForm {
 	 * @return array
 	 */
 	function getLocaleFieldNames() {
-		return array('authorGuidelines', 'submissionChecklistInfo','submissionChecklist', 'progressReportGuidelines', 'completionReportGuidelines', 'protocolAmendmentGuidelines', 'saeGuidelines'/*, 'copyrightNotice', 'metaDisciplineExamples', 'metaSubjectClassTitle', 'metaSubjectClassUrl', 'metaSubjectExamples', 'metaCoverageGeoExamples', 'metaCoverageChronExamples', 'metaCoverageResearchSampleExamples', 'metaTypeExamples', 'competingInterestGuidelines'*/);
+		return array('authorGuidelines', 'submissionChecklistInfo', 'ethics', 'submissionChecklist', 'progressReportGuidelines', 'completionReportGuidelines', 'protocolAmendmentGuidelines', 'saeGuidelines'/*, 'copyrightNotice', 'metaDisciplineExamples', 'metaSubjectClassTitle', 'metaSubjectClassUrl', 'metaSubjectExamples', 'metaCoverageGeoExamples', 'metaCoverageChronExamples', 'metaCoverageResearchSampleExamples', 'metaTypeExamples', 'competingInterestGuidelines'*/);
 	}
 
 	/**
