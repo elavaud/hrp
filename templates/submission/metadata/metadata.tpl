@@ -53,42 +53,47 @@
 
 {foreach from=$abstractLocales item=localeName key=localeKey}
 
-	<h6>{$localeName} {translate key="common.language"}</h6>
-	
-	{assign var="abstract" value=$abstracts[$localeKey]}
+    {assign var="abstract" value=$abstracts[$localeKey]}
 
-	<table class="listing" width="100%">
-    	<tr valign="top">
-        	<td class="label" width="30%">{translate key="proposal.scientificTitle"}</td>
-        	<td class="value">{$abstract->getScientificTitle()}</td>
-    	</tr>
-    	<tr valign="top">
-        	<td class="label" width="30%">{translate key="proposal.publicTitle"}</td>
-        	<td class="value">{$abstract->getPublicTitle()}</td>
-    	</tr>
-    	<tr><td colspan="2">&nbsp;</td></tr>
-    	<tr valign="top">
-        	<td class="label" width="30%">{translate key="proposal.background"}</td>
-        	<td class="value">{$abstract->getBackground()}</td>
-    	</tr>
-    	<tr valign="top">
-        	<td class="label" width="30%">{translate key="proposal.objectives"}</td>
-        	<td class="value">{$abstract->getObjectives()}</td>
-    	</tr>
-    	<tr valign="top">
-        	<td class="label" width="30%">{translate key="proposal.studyMethods"}</td>
-        	<td class="value">{$abstract->getStudyMethods()}</td>
-    	</tr>
-    	<tr valign="top">
-        	<td class="label" width="30%">{translate key="proposal.expectedOutcomes"}</td>
-        	<td class="value">{$abstract->getExpectedOutcomes()}</td>
-    	</tr>
-    	<tr><td colspan="2">&nbsp;</td></tr>
-    	<tr valign="top">
-        	<td class="label" width="30%">{translate key="proposal.keywords"}</td>
-        	<td class="value">{$abstract->getKeywords()}</td>
-    	</tr>
-	</table>
+    {if $abstract} 
+
+        <h6>{$localeName} {translate key="common.language"}</h6>
+
+        <table class="listing" width="100%">
+            <tr valign="top">
+                <td class="label" width="30%">{translate key="proposal.scientificTitle"}</td>
+                <td class="value">{$abstract->getScientificTitle()}</td>
+            </tr>
+            <tr valign="top">
+                <td class="label" width="30%">{translate key="proposal.publicTitle"}</td>
+                <td class="value">{$abstract->getPublicTitle()}</td>
+            </tr>
+            <tr><td colspan="2">&nbsp;</td></tr>
+            <tr valign="top">
+                <td class="label" width="30%">{translate key="proposal.background"}</td>
+                <td class="value">{$abstract->getBackground()}</td>
+            </tr>
+            <tr valign="top">
+                <td class="label" width="30%">{translate key="proposal.objectives"}</td>
+                <td class="value">{$abstract->getObjectives()}</td>
+            </tr>
+            <tr valign="top">
+                <td class="label" width="30%">{translate key="proposal.studyMethods"}</td>
+                <td class="value">{$abstract->getStudyMethods()}</td>
+            </tr>
+            <tr valign="top">
+                <td class="label" width="30%">{translate key="proposal.expectedOutcomes"}</td>
+                <td class="value">{$abstract->getExpectedOutcomes()}</td>
+            </tr>
+            <tr><td colspan="2">&nbsp;</td></tr>
+            <tr valign="top">
+                <td class="label" width="30%">{translate key="proposal.keywords"}</td>
+                <td class="value">{$abstract->getKeywords()}</td>
+            </tr>
+        </table>
+
+    {/if}
+        
 {/foreach}
 </div>
 
