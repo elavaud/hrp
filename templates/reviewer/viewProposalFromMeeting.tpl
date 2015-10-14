@@ -144,11 +144,13 @@
 	{assign var="abstracts" value=$submission->getAbstracts()}
 	
 	{foreach from=$abstractLocales item=localeName key=localeKey}
-	
+
+            {assign var="abstract" value=$abstracts[$localeKey]}
+
+            {if $abstract}
+                
 		<h6>{$localeName} {translate key="common.language"}</h6>
 		
-		{assign var="abstract" value=$abstracts[$localeKey]}
-
 		<table class="listing" width="100%">
     		<tr valign="top">
         		<td class="label" width="30%">{translate key="proposal.scientificTitle"}</td>
@@ -181,6 +183,7 @@
         		<td class="value">{$abstract->getKeywords()}</td>
     		</tr>
 		</table>
+            {/if}
 	{/foreach}
 </div>
 
