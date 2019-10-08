@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/mn_MN/installer.xml
+  *
+  * Copyright (c) 2000-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the mn_MN (Mongolian) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="mn_MN" full_name = "Mongolian">
+	<message key="installer.additionalLocales">Нэмэлт байршил</message>
+	<message key="installer.administratorAccount">Удирдагч бүртгэл</message>
+	<message key="installer.administratorAccountInstructions">Энэ хэрэглэгчийн бүртгэл сайтын удирдагч болох бөгөөд системд бүрэн хандана. Суулгасны дараа нэмэлт хэрэглэгчийн бүртгэл үүсгэж болно.</message>
+	<message key="installer.checkNo"><![CDATA[<span class="formError">ҮГҮЙ</span>]]></message>
+	<message key="installer.checkYes">Тийм</message>
+	<message key="installer.clientCharset">Клиент тэмдэгт багц</message>
+	<message key="installer.clientCharsetInstructions">Өгөгдөлд ашиглах кодчлолыг хөтчөөс хүлээж авах ба мөн илгээнэ.</message>
+	<message key="installer.configFileError"><![CDATA[Тохиргооны файл <tt>config.inc.php</tt> байхгүй эсвэл уншигдахгүй байна.]]></message>
+	<message key="installer.connectionCharset">Холболтын тэмдэгт багц</message>
+	<message key="installer.connectionCharsetInstructions">Өгөгдөлд ашиглах кодчлолыг өгөгдлийн сангаас хүлээж авах ба мөн илгээнэ. Энэ нь клиент тэмдэгтийн багцтай нэгэн адил байх ёстой. Үүний боломж нь зөвхөн MySQL> = 4.1.1, эсвэл PostgreSQL> = 7.1-ын дэмжиж байгаа болохыг анхаарна уу. Хэрэв таны өгөгдлийн сангийн сервер эдгээр шаардлагыг хангаж чадахгүй бол "Боломжгүй"-г сонго.</message>
+	<message key="installer.contentsOfConfigFile">Тохиргооны файлын агуулга</message>
+	<message key="installer.createDatabase">Шинэ өгөгдлийн сан үүсгэх</message>
+	<message key="installer.createDatabaseInstructions">Энэ тохируулгыг ашиглахын тулд таны өгөгдлийн сангийн систем нь алсын өгөгдлийн сан үүсгэхэд дэмждэг байх ёстой бөгөөд таны хэрэглэгчийн бүртгэл шинэ өгөгдлийн санг үүсгэхийн тулд зохих зөвшөөрөл авдаг байх ёстой. Хэрэв сонгосон хувилбарт тань суулгагч амжилтгүй болвол гар аргаар өөрийн сервер дээр өгөгдлийн сангаа үүсгээд тухайн сонгосон хувилбараа идэвхигүй болгон дахин суулгагчийг ажиллуулах хэрэгтэй.</message>
+	<message key="installer.databaseCharset">Өгөгдлийн сангийн тэмдэгт багц</message>
+	<message key="installer.databaseCharsetInstructions">Өгөгдөлд ашиглагдаж буй кодчилол өгөгдлийн санд хадгалагдана. Үүний боломж нь зөвхөн MySQL> = 4.1.1, эсвэл PostgreSQL> = 7.1-г дэмжиж байгаа болохыг анхаарна уу. Үүний боломж нь зөвхөн MySQL> = 4.1.1, эсвэл PostgreSQL> = 7.1-ын дэмжиж байгаа болохыг анхаарна уу. Таны өгөгдлийн сангийн сервер эдгээр шаардлагыг хангаж чадахгүй бол "Боломжгүй"-г сонго.</message>
+	<message key="installer.databaseDriver">Өгөгдлийн сангийн драйвер</message>
+	<message key="installer.databaseDriverInstructions"><![CDATA[<strong>Хашилтанд жагсаасан өгөгдлийн сагийн драйвер нь сонгоход шаардлагатай суулгагч, PHP өргөтгөл байхгүй байу болно. </strong><br />Дээр дурдсан аль нэгэн дэмжигдээгүй өгөгдлийн сангийн драйверууд эрдэм шинжилгээний зорилгоор зөвхөн жагсаагдсан.]]></message>
+	<message key="installer.databaseHost">Хост</message>
+	<message key="installer.databaseHostInstructions">TCP/IP -ийн оронд Домэйн сокет ашиглан холбохдоо хостын нэрийг хоосон орхих ёстой. Хэрэв "localhost" гэж оруулсан бол хэрэглэхэд автоматаар сокет ашиглах бөгөөд энэ нь MySQL нь шаардлагатай биш боловч PostgreSQL зэрэг бусад өгөгдлийн сангийн хувьд зайлшгүй шаардлагатай байдаг. </message>
+	<message key="installer.databaseName">Өгөгдлийн сангийн нэр</message>
+	<message key="installer.databasePassword">Нууц үг</message>
+	<message key="installer.databaseSettings">Өгөгдлийн сангийн тохиргоо</message>
+	<message key="installer.databaseUsername">Хэрэглэгчийн нэр</message>
+	<message key="installer.encryptionInstructions">Хэрэв таны систем (PHP >= 4.3.0 -ийн шаардлага)-ийг дэмждэг бол SHA1 зөвлөж байна.</message>
+	<message key="installer.encryption">Нууц үг шифрлэлтийн алгоритм</message>
+	<message key="installer.filesDir">Байршуулах директор</message>
+	<message key="installer.fileSettings">Файлын тохиргоо</message>
+	<message key="installer.form.clientCharsetRequired">Клиент тэмдэгт багцыг сонгох хэрэгтэй.</message>
+	<message key="installer.form.databaseDriverRequired">Өгөгдлийн сангийн драйверийг сонгох хэрэгтэй.</message>
+	<message key="installer.form.databaseNameRequired">Өгөгдлийн сангийн нэрийг оруулах хэрэгтэй.</message>
+	<message key="installer.form.emailRequired">Удирдагч бүртгэлд хүчинтэй и-мэйл хаяг шаардлагатай байна.</message>
+	<message key="installer.form.encryptionRequired">Хэрэглэгчийн нууц үгийг шифрлэхэд зориулж ашиглах алгоритм сонгогдсон байх ёстой.</message>
+	<message key="installer.form.filesDirRequired">Илгээсэн файлуудыг хадгалахад ашиглах директор шаардлагатай.</message>
+	<message key="installer.form.localeRequired">Локал сонгосон байх ёстой.</message>
+	<message key="installer.form.passwordRequired">Удирдагч бүртгэлд зориулсан нууц үг шаардлагатай.</message>
+	<message key="installer.form.passwordsDoNotMatch">Удирдлагчийн нууц үг тохирохгүй байна.</message>
+	<message key="installer.form.separateMultiple">Олон утгуудыг таслалаар тусгаарлана</message>
+	<message key="installer.form.usernameAlphaNumeric">Удирдагч хэрэглэгч нь зөвхөн зураас, цагаан толгойн үсэг тэмдэгтүүдийг агуулсан байж болох ба эхлэл ба төгсгөл нь үсэг байх ёстой.</message>
+	<message key="installer.form.usernameRequired">Удирдагч бүртгэлд хэрэглэгчийн нэр шаардлагатай.</message>
+	<message key="installer.installationWrongPhp"><![CDATA[<br/><strong>САНУУЛГА: Таны одоо хэрэглэж буй PHP хувилбар суулгахад зохих доод шаардлагагыг хангахгүй байна. Иймд PHP-ийн илүү сүүлийн хувилбарруу шинэчлэхийг санал болгож байна.</strong>]]></message>
+	<message key="installer.installErrorsOccurred">Суулгалтын явцад алдаа гарлаа</message>
+	<message key="installer.installerSQLStatements">Суулгах үеийн SQL мэдэгдэл</message>
+	<message key="installer.installFileError"><![CDATA[Суулгагч файл <tt>dbscripts/xml/install.xml</tt> байхгүй эсвэл уншигдахгүй байна.]]></message>
+	<message key="installer.installFilesDirError">Илгээсэн файлуудыг заасан директор байхгүй, эсвэл бичигдэх боломжгүй байна.</message>
+	<message key="installer.installParseDBFileError"><![CDATA[Өгөгдлийн сангийн суулгагч файл <tt>{$file}</tt> задлахад алдаа гарлаа.]]></message>
+	<message key="installer.installParseEmailTemplatesFileError"><![CDATA[И-мэйл загварын файл <tt>{$file}</tt> алдаа гарлаа.]]></message>
+	<message key="installer.locale">Локал</message>
+	<message key="installer.locale.maybeIncomplete">Тэмдэглэгдсэн локалууд бүрэн бус байж болзошгүй.</message>
+	<message key="installer.localeSettings">Локалийн тохиргоо</message>
+	<message key="installer.manualInstall">Гараар суулгагч</message>
+	<message key="installer.miscSettings">Төрөл бүрийн тохиргоо</message>
+	<message key="installer.oaiRepositoryIdInstructions"><![CDATA[Үл давтагдах танигч нь Метадата Харвестинг зориулсан <a href="http://www.openarchives.org/" target="_blank">Open Archives Initiative</a> протоколыг ашиглах энэ сайтаас индексжүүлсэн метадата бичлэгийг тодорхойлоход ашигладаг.]]></message>
+	<message key="installer.oaiRepositoryId">OAI архивын тодорхойлогч</message>
+	<message key="installer.pleaseUpgradeAfterManualInstall">Хэрэв та өөрийн өгөгдлийн сангийн суулгасан бол дахин шинэчлэх хэрэгсэл ажиллуулна уу. Үүний тулд үндсэн суулгагч директороос 'php tools/upgrade.php upgrade'-г ажиллуулна.</message>
+	<message key="installer.publicFilesDirError">Нийтэд зориулсан файл директор байхгүй эсвэл бичих боломжгүй байна.</message>
+	<message key="installer.releaseNotes">Илтгэх тэмдэглэл</message>
+	<message key="installer.securitySettings">Хамгаалалтын тохиргоо</message>
+	<message key="installer.skipFilesDir">Шаардлагатай дэд директор үүсгэж чадахгүй байна (зөвхөн гараар суулгахад хэрэгтэй)</message>
+	<message key="installer.manualUpgrade">Гараар шинэчлэн сайжруулна</message>
+</locale>

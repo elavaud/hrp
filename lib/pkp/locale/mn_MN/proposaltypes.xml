@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : proposaltypes.xml
+    Created on : May 12, 2011, 6:18 PM
+    Author     : anne
+    Description:
+        Proposal Types.
+    Updated    : 21 Dec 2011 - removed Proposal with Human Subjects; removed Operation Research types
+                 18 Nov 2011 - added Intervention Evaluation Research and Operation Research types
+    Note       : If adding proposal types, also add key to author.xml (author.proposal.type.<code>)
+-->
+
+<proposaltypes>
+    <proposaltype name="Хүнийг оролцуулсан эмнэлзүйн туршилт" code="CWHS" />
+    <proposaltype name="Эрүүл мэндийн тогтолцоо ба бодлогын судалгаа" code="HSPR" />
+    <proposaltype name="Хүн амд суурилсан судалгаа" code="PBS" />
+    <proposaltype name="Хүнийг оролцуулаагүй төсөл" code="PNHS" />
+    <proposaltype name="Чанарын судалгаа" code="QS" />
+    <proposaltype name="Интервенцийн үнэлгээний судалгаа" code="IER" />
+    <proposaltype name="Үйл ажиллагааны судалгаа" code="OR" />
+</proposaltypes>

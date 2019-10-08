@@ -1,0 +1,60 @@
+version: '2.3'
+
+services:
+
+  hrp:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    working_dir: /var/www
+    volumes:
+      - type: bind
+        source: ./
+        target: /var/www
+      - type: volume
+        source: uploads
+        target: /uploads
+      - type: volume
+        source: ojs_cache
+        target: /var/www/cache
+    env_file: .env
+    entrypoint: /var/www/ojsdockerstart.sh
+    restart: always
+
+  nginx:
+    build:
+      context: ./
+      dockerfile: nginx/Dockerfile
+    ports:
+      - 80:80
+    working_dir: /var/www
+    volumes:
+      - type: bind
+        source: ./
+        target: /var/www
+    restart: always
+
+  mysql:
+    image: mysql:5.7.27
+    volumes:
+      - type: volume
+        source: mysql_data
+        target: /var/lib/mysql
+    ports:
+      - "3306:3306"
+    env_file: .env
+    restart: always
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql
+    env_file: .env
+    restart: always
+
+volumes:
+  mysql_data:
+  uploads:
+  ojs_cache:

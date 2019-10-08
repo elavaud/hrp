@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/mn_MN/manager.xml
+  *
+  * Copyright (c) 2000-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the mn_MN (Mongolian) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="mn_MN" full_name = "Mongolian">
+	<message key="manager.announcements">Зарлалууд</message>
+	<message key="manager.announcements.confirmDelete">Та энэхүү зарлалыг бүрмөсөн устгахдаа итгэлтэй байна уу?</message>
+	<message key="manager.announcements.create">Шинэ зарлал үүсгэх</message>
+	<message key="manager.announcements.createTitle">Үүсгэх</message>
+	<message key="manager.announcements.dateExpire">Дуусгавар болох</message>
+	<message key="manager.announcements.edit">Зарлалыг засварлах</message>
+	<message key="manager.announcements.editTitle">Засварлах</message>
+	<message key="manager.announcements.form.dateExpireDayIncompleteDate">Дуусах огнооноос жил буюу сарыг сонгоно уу.</message>
+	<message key="manager.announcements.form.dateExpire">Дуусах огноо</message>
+	<message key="manager.announcements.form.dateExpireInstructions">Энэ зарлал нь энэ огноо хүртэл уншигчдад харагдана. Leave blank if the announcement should be displayed indefinitely.</message>
+	<message key="manager.announcements.form.dateExpireMonthIncompleteDate">Дуусах огнооны сар дээр жил, өдрийг нэмж оруулна уу.</message>
+	<message key="manager.announcements.form.dateExpireValid">Зарлалын хүчинтэй байх хугацаа дуусах огноог сонгоно уу.</message>
+	<message key="manager.announcements.form.dateExpireYearIncompleteDate">Дуусах огнооны жил дээр сар, өдрийг нэмж оруулна уу.</message>
+	<message key="manager.announcements.form.description">Тодорхойлолт</message>
+	<message key="manager.announcements.form.descriptionInstructions">Зарлалын бүрэн эх.</message>
+	<message key="manager.announcements.form.descriptionRequired">Зарлалын тодорхойлолтыг оруулах шаардлагатай.</message>
+	<message key="manager.announcements.form.descriptionShortInstructions">Зарлалын гарчгаас гадна товч тодорхойлолтыг харуулах.</message>
+	<message key="manager.announcements.form.descriptionShortRequired">Зарлалын тодорхойлолт товчхон байх шаардлагатай.</message>
+	<message key="manager.announcements.form.descriptionShort">Товч тодорхойлолт</message>
+	<message key="manager.announcements.form.saveAndCreateAnother">Хадгалаад шинээр үүсгэх</message>
+	<message key="manager.announcements.form.titleRequired">Зарлаллын гарчгийг оруулах шаардлагатай.</message>
+	<message key="manager.announcements.form.title">Гарчиг</message>
+	<message key="manager.announcements.form.typeId">Төрөл</message>
+	<message key="manager.announcements.form.typeIdValid">Зарлалын төрлийг зөв сонгох.</message>
+	<message key="manager.announcements.noneCreated">Зарлал үүсгэгдээгүй байна.</message>
+	<message key="manager.announcements.title">Гарчиг</message>
+	<message key="manager.announcements.type">Төрөл</message>
+	<message key="manager.announcementTypes">Зарлалын төрлүүд</message>
+	<message key="manager.announcementTypes.confirmDelete">Анхаар! Та энэ зарлалын төрлийг устгасан тохиолдолд энэ төрлийн бүх зарлалаууд мөн устгагдана. Та энэ зарлалын төрлийг устгахыг үргэлжлүүлэхдээ итгэлтэй байна уу?</message>
+	<message key="manager.announcementTypes.create">Зарлалын төрлийг үүсгэх</message>
+	<message key="manager.announcementTypes.createTitle">Үүсгэх</message>
+	<message key="manager.announcementTypes.edit">Зарлалын төрлийг засварлах</message>
+	<message key="manager.announcementTypes.editTitle">Засварлах</message>
+	<message key="manager.announcementTypes.form.saveAndCreateAnother">Хадгалаж шинээр үүсгэх</message>
+	<message key="manager.announcementTypes.form.typeNameExists">Ийм нэртэй зарлалын төрөл үүсгэгдсэн байна.</message>
+	<message key="manager.announcementTypes.form.typeName">Нэр</message>
+	<message key="manager.announcementTypes.form.typeNameRequired">Зарлалын төрлийн нэрийг оруулах шаардлагатай.</message>
+	<message key="manager.announcementTypes.noneCreated">Зарлалын төрөл үүсгэгдээгүй байна.</message>
+	<message key="manager.announcementTypes.typeName">Зарлалын төрөл</message>
+	<message key="manager.emails.confirmDelete">Энэхүү е-мэйлийн загварыг устгахдаа итгэлтэй байна уу?</message>
+	<message key="manager.emails.confirmReset">Энэхүү мэйлийн загварыг анхны хэлбэрт дахин оруулахыг хүсч байна уу?</message>
+	<message key="manager.emails.createEmail">Е-мэйл үүсгэх</message>
+	<message key="manager.emails.disable">Идэвхгүй</message>
+	<message key="manager.emails.editEmail">Е-мэйлийг засварлах</message>
+	<message key="manager.emails.editTestExample">Е-мэйлийг шалгах тестийг засварлах</message>
+	<message key="manager.emails.emailKey">Е-мэйлийн түлхүүр</message>
+	<message key="manager.emails.emailKeyExists">Өгөгдсөн түлхүүртэй Е-мэйл хаяг үүсгэгдсэн байна. Е-мэйлийн түлхүүр нь өвөрмөц байх хэрэгтэй.</message>
+	<message key="manager.emails.emailTemplate">Е-мжйлийн загвар</message>
+	<message key="manager.emails.emailTemplates">Е-мэйлийн загварууд</message>
+	<message key="manager.emails.enabled">Энэ Е-мэйлийн загвар идэвхтэй</message>
+	<message key="manager.emails.enable">Идэвхтэй</message>
+	<message key="manager.emails.form.emailKeyRequired">Е-мэйлд өвөрмөц түлхүүр шаардлагатай.</message>
+	<message key="manager.emails.form.bodyRequired">Е-мэйлд үндсэн хэсэг байх шаардлагатай</message>
+	<message key="manager.emails.form.subjectRequired">Е-мэйлд сэдвийг оруулах шаардлагатай.</message>
+	<message key="manager.emails">Бэлэн болсон е-мэйл</message>
+	<message key="manager.emails.resetAll">Бүх загварыг дахин үүсгэх</message>
+	<message key="manager.emails.reset">Дахин үүсгэх</message>
+	<message key="manager.emails.resetToDefault">Анхны хэлбэрт оруулах</message>
+	<message key="manager.filesBrowser">Файлуудын хөтөч</message>
+	<message key="manager.files.confirmDelete">Та файл болон хавтсыг утсгах устгах уу? Хавтсыг устгахын тулд хавтас нь хоосон байх хэрэгтэй гэдгийг анхаарна уу.</message>
+	<message key="manager.files.createDir">Хавтас үүсгэх</message>
+	<message key="manager.files.emptyDir">Энэ хавтсанд файл байгаагүй.</message>
+	<message key="manager.files.indexOfDir">{$dir} -ны индекс</message>
+	<message key="manager.files.parentDir">Агуулж буй хавтас</message>
+	<message key="manager.files.uploadedFiles">Татагдсан файлууд</message>
+	<message key="manager.files.uploadFile">Файлыг татах</message>
+	<message key="manager.groups.confirmDelete">Та энэ бүлгийг устгахдаа итгэлтэй байна уу?</message>
+	<message key="manager.groups.createTitle">Гарчиг үүсгэх</message>
+	<message key="manager.groups.editTitle">Гарчгийг засварлах</message>
+	<message key="manager.groups.form.groupTitleRequired">Бүлгийн гарчгийг оруулах шаардлагатай.</message>
+	<message key="manager.groups.membership.addMember">Гишүүн нэмэх</message>
+	<message key="manager.groups.membership.confirmDelete">Энэхүү бүлгийн гишүүнчлэлийг устгахдаа итгэлтэй байна уу?</message>
+	<message key="manager.groups.membership">Гишүүнчлэл</message>
+	<message key="manager.groups.membership.noneCreated">Энэ бүлэгт гишүүн байхгүй байна.</message>
+	<message key="manager.groups.membership.noUsers">Хэрэглэгч олдсонгүй.</message>
+	<message key="manager.groups.title">Гарчиг</message>
+	<message key="manager.importExport">Өгөгдөл оруулах / гаргаж авах</message>
+	<message key="manager.languages.alternateLocaleInstructions">Энэ систем нь сонголт зарим чухал мэдээллийг нэмэлт хэд хэдэн хэл дээр нь оруулах боломжийг олгодог. Энэ боломжийг ашиглахын тулд, өөр локалыг сонгоод доор жагсаасан сонголтуудаас сонгоно.</message>
+	<message key="manager.languages.supportedLocalesInstructions">Хуудас бүр дээр гарч хэл Цэс дамжуулан сайтын дэмжих бүх локалыг сонго. Хэрэв нэгээс илүү олон локал сонгогдсон бол зөвхөн цэс гарч ирнэ.</message>
+	<message key="manager.payment.timestamp">Төлбөр хийх тогтсон хугацаа</message>
+	<message key="manager.people.authSource">Нэвтрэлтийн эх үүсвэр</message>
+	<message key="manager.people.confirmUnenroll">Энэ хэрэглэгчийг бүртгэлээс хасах уу?</message>
+	<message key="manager.people.createUser">Шинэ хэрэглэгч нэмэх</message>
+	<message key="manager.people.createUserGeneratePassword">Системээс нууц үг үүсгэх.</message>
+	<message key="manager.people.createUserSendNotify">Хэрэглэгчийн нэр, нууц үгийн агуулсан мэндчилгээний е-мэйлийг хэрэглэгчид илгээх.</message>
+	<message key="manager.people.disable">Идэвхгүй</message>
+	<message key="manager.people.doNotEnroll">Хэрэглэгчийн эрхгүй</message>
+	<message key="manager.people.editProfile">Танилцуулгыг засварлах</message>
+	<message key="manager.people.editUser">Хэрэглэгчийн мэдээллийг засварлах</message>
+	<message key="manager.people.emailUsers.emailSelectedUsers">Сонгосон хэрэглэгчдийн е-мэйл.</message>
+	<message key="manager.people.emailUsers.emailUsersEnrolledAs">Е-мэйл хэрэглэгч бүртгэгдлээ: </message>
+	<message key="manager.people.emailUsers">Хэрэглэгчдийн е-мэйл</message>
+	<message key="manager.people.emailUsers.selectLocale">Локалыг сонгох</message>
+	<message key="manager.people.emailUsers.selectUsers">Тэдний нэрний хажуудах хайрцгийг шалгах аргаар хэрэглэгчийг сонгохыг хүсч байна уу.</message>
+	<message key="manager.people.enable">Идэвхтэй</message>
+	<message key="manager.people.enroll">Хэрэглэгчийг бүртгэх</message>
+	<message key="manager.people.enrollment">Бүртгэл</message>
+	<message key="manager.people.enrollSelected">Сонгогдсон хэрэглэгч(д)-ийг бүртгэх</message>
+	<message key="manager.people.enrollSyncRole">Хэрэглэгчийн эрхийг тохируулах</message>
+	<message key="manager.people.enrollSync">Бүртгэлийн тохиргоо</message>
+	<message key="manager.people.enrollUserAsDescription">Хэрэглэгчид нь ямар ч эрхэд томилогдох эсвэл хасагдаж болно.</message>
+	<message key="manager.people.enrollUserAs">Хэрэглэгчийг бүртгэх: </message>
+	<message key="manager.people.invalidUser">Уучлаарай, таны хүссэн хэрэглэгч үүсээгүй байна.</message>
+	<message key="manager.people.mergeUser">Хэрэглэгчийг нэгтгэх</message>
+	<message key="manager.people.mergeUsers.confirm">Та "{$newUsername}" хэрэглэгчийн нэртэй бүртгэлийг {$oldAccountCount} хэрэглэгчтэй нэгтгэхдээ итгэлтэй байна уу? Сонгосон {$oldAccountCount} хэрэглэгчийн эрх нэгтгэсний дараа байхгүй болно. Энэ үйлдэл нь буцаагдахгүй.</message>
+	<message key="manager.people.mergeUsers">Хэрэглэгчдийг нэгтгэх</message>
+	<message key="manager.people.mustChooseRole">"Хэрэглэгчийг бүртгэх" товчлуурыг дархаасаа өмнө хуудасны эхэнд хэрэглэгчийн эрхийг сонгоно уу.</message>
+	<message key="manager.people.mustProvideName">Хэрэглэгчийн нэрэнд эцэг/эх-ийн нэрийг дор хаяж агуулна уу.</message>
+	<message key="manager.people.noMatchingUsers">Тохирох хэрэглэгч байсангүй.</message>
+	<message key="manager.people.noneEnrolled">Бүртгэгдсэн хэрэглэгч байхгүй.</message>
+	<message key="manager.people">Хүмүүс</message>
+	<message key="manager.people.remove">Устгах</message>
+	<message key="manager.people.saveAndCreateAnotherUser">Хадгалаад шинээр үүсгэх</message>
+	<message key="manager.people.signInAs">-аар нэвтрэх</message>
+	<message key="manager.people.signInAsUser">Хэрэглэгчээр нэвтрэх</message>
+	<message key="manager.people.syncUsers">Хэрэглэгчийн бүртгэлийг тохируулах</message>
+	<message key="manager.people.unenroll">Бүртгэлээс хасах</message>
+	<message key="manager.people.userCreatedSuccessfully">Хэрэглэгч амжилттай үүслээ.</message>
+	<message key="manager.people.userMustChangePassword">Дараагийн удаа нэвтрэхдээ хэрэглэгч нууц үгээ солих шаардлагагатай.</message>
+	<message key="manager.plugins.action">Үйлдэл:</message>
+	<message key="manager.plugins.disable">Идэвхгүй</message>
+	<message key="manager.plugins.enable">Идэвхтэй</message>
+	<message key="manager.plugins.pluginManagement">Өргөтгөлийн менежмент</message>
+	<message key="manager.plugins.sitePlugin">Энэ бол сайтын дагуу өргөтгөл. Энэ өргөтгөлийг зөвхөн сайтын удирдлагч хийнэ</message>
+	<message key="manager.plugins">Системийн өргөтгөлүүд</message>
+	<message key="manager.readingTools">Унших хэрэгслүүд</message>
+	<message key="manager.reviewerSearch.advancedSearch">Ахисан түвшний хяналтын хайлт</message>
+	<message key="manager.reviewerSearch.searchByName">Шинжээчийн нэрээр хайх</message>
+	<message key="manager.reviewerSearch.doneAmount">Дууссан төслийн тоо</message>
+	<message key="manager.reviewerSearch.avgAmount">Хяналт хийх дундаж хоногийн тоо</message>
+	<message key="manager.reviewerSearch.lastAmount">Сүүлчийн хяналтаас хойших хоногийн тоо</message>
+	<message key="manager.reviewerSearch.activeAmount">Одоогоор хяналт хийж байгаа төслийн тоо</message>
+	<message key="manager.reviewerSearch.interests">Хяналт хийх сонирхол</message>
+	<message key="manager.roles">Хандалтын эрх</message>
+	<message key="manager.setup.citationAssistant">Ишлэл тэмдэглэх тусламж</message>
+	<message key="manager.setup.citationFilterParser">Ишлэл гарган авах</message>
+	<message key="manager.setup.citationFilterParserDescription"><![CDATA[<p>Ишлэлийн мэдээллийн сангаас ишлэлийг олох, шалгахад юуны өмнө гарчиг, нийтлэгч, хэвлүүлсэн огноо гэх мэт мета өгөгдлийг зохиогчийн анхны оруулсан мэдээллээс машин уншиж чадахаар байх ёстой. Гадаад веб үйлчилгээнд холбогчид нь энэ үйл ажиллагаанд тусална. Доорх "Зүйл нэмэх" товчлуурыг дарж нэг эсвэл хэд хэдэн холбогчдын нэмж болно. Эдгээр холбогчдын заримыг нь тохируулах хэрэг гарч болно. Ийм тохиолдолд та шуурхай ажиллана.</p>
+		<p>Та арааны зураг бүхий тэмдэгтэнд дээр дарж үүссэн Холбогчийг устгах эсвэл засварлаж болно.</p>]]></message>
+	<message key="manager.setup.citationFilterLookup">Ишлэлийг шалгах</message>
+	<message key="manager.setup.citationFilterLookupDescription"><![CDATA[<p>Та гадаад ишлэлийн өгөгдлийн санд хандах холболтыг тохируулах эсвэл идэвхтэй болгох ёстой. Энэ нь танд зохиогчийн ишлэлийн алдааг олох эсвэл цахим хэвлэл болон хадгалахад шаардагдах (DOI эсвэл PubMed ID) нэмэлт мэдээлэл оруулахад тусална.</p> 
+		<p>Бид та ишлэл хайх боломжтой гадаад өгөгдлийн хэд хэдэн санд холбож болно. Тэдгээр өгөгдлийн сангийн зарим нь нэвтрэх мэдээллийн тохиргоо ба бүртгэлийг шаарддаг. Бүртгүүлэхэд шаардлагатай мэдээллийг авахын тул нийтийн өгөгдлийн мэдээллийн санд хандана уу. Доорх "Зүйл нэмэх" товчлуурыг дарж нэг эсвэл хэд хэдэн өгөгдлийн сан нэмж болно.</p>
+		<p>Та арааны зураг бүхий тэмдэгтэнд дээр дарж үүссэн өгөгдлийн санг устгах эсвэл засварлаж болно.</p>
+		<p><strong>Тэмдэглэл:</strong> Ишлэлийг шалгах явцыг цаг хугацаанд нь дуусгахын тулд таны тохиргооны файлын <tt>citation_checking_max_processes</tt> чиглүүлэгч нь зохистой утгыг агуулсан байх ёстой. Дэлгэрэнгүй мэдээлэл авахын тул <tt>config.inc.php</tt> дэх Ерөнхий тохиргооны хэсгийг харна уу.</p>]]></message>
+	<message key="manager.setup.citationOutput">Ишлэлийн гаралт</message>
+	<message key="manager.setup.citationOutputStyleDescription">Зохиогчийн өргөн барьсан сэтгүүлд ашигладаг ишлэлийн хэлбэрийг сонго. Ишлэлийг тэмдэглэгч туслагч нь танд зохиогчийн ишлэлийн хувилбарыг XML-ээс үүсгэсэн хувилбартай харьцуулж алдааг хялбар олохыг зөвшөөрнө:</message>
+	<message key="manager.setup.errorDeletingItem">Энэ зүйлийг устгахад алдаа гарлаа.</message>
+	<message key="manager.setup.filter.grid.errorDeletingFilter">Энэ шүүлтүүрийг устгах явцад алдаа гарлаа. Энэ нь вэбийн алдаа гэж үзээд мэдээлнэ үү.</message>
+	<message key="manager.setup.filter.grid.filterDisplayName">Холбогч</message>
+	<message key="manager.setup.filter.grid.filterSettings">Бүртгэлийн мэдээлэл ба Холбогчийн тохиргоо</message>
+	<message key="manager.setup.filter.grid.filterTemplateRequired">Доош цувуулсан задаргаанаас нэг хувиргалтыг сонгоно уу.</message>
+	<message key="manager.setup.filter.grid.confirmDelete">Та {$filterName} шүүлтүүрийг устгахдаа итгэлтэй байна уу?</message>	
+	<message key="manager.setup.filter.lookup.grid.descriptionConfirm">{$filterDisplayName} өгөгдлийн санг нэмэхээр сонгосон байна. Баталгаажуулахын тулд 'Тийм' товчлуурыг дарна уу.</message>
+	<message key="manager.setup.filter.lookup.grid.descriptionTemplate">Өгөгдлийн санг лавлаж харахаар сонгоно уу.</message>
+	<message key="manager.setup.filter.lookup.grid.description.iSBNdb"><![CDATA[<p> Энэ шүүлтүүр нь ISBN өгөгдлийн сан ба <a href="http://isbndb.com/" target="_blank">ISBNdb.com</a> номтой холбогдоно.</p>
+	<p>ISBN өгөгдлийн санд API түлхүүр заавал байх ёстой. Түлхүүрийг үүсгэх мэдээллийг авахын тулд онлайн баримт бичиг <a href="http://isbndb.com/docs/api/30-keys.html" target="_blank"> -ийг харна уу. </a>.</p>]]></message>
+	<message key="manager.setup.filter.lookup.grid.description.crossRef"><![CDATA[<p>Энэ шүүлтүүр нь <a href="http://www.crossref.org/02publishers/openurl_info.html" target="_blank">НээлттэйURL хайлтын интерфэйс</a> ашиглан ишлэлийг шалгадаг ишлэлийн өгөгдлийн санд холбогдоно.</p> 
+	<p>Энэ шүүлтүүрийг ашиглахын тулд та Ишлэл шалгах системийн хэрэглэгчийн эрхийг ашиглаж болох ба эсвэл <a href="http://www.crossref.org/requestaccount/" target="_blank">Энэ</a> Ишлэлшалгагчид хүчинтэй е-мэйл хаягаар бүртгүүлнэ үү.</p>]]></message>
+	<message key="manager.setup.filter.lookup.grid.description.pubMed"><![CDATA[<p>Энэ шүүлтүүр нь дундын өгөгдлийн мэдээллийн сангийн хайлтын систем PubMed-ийн <a href="http://www.ncbi.nlm.nih.gov/gquery/gquery.fcgi" target="_blank">Entrez</a>-тэй холбогдоно.</p>
+	<p>Бүртгэлийн е-мэйл зайлшгүй шаардлагатай биш боловч хэрэв та холболтын асуудалтай бол шаардлагатай байж болно. Дэлгэрэнгүй мэдээллийг авахын тулд Entrez баримтын <a href="http://www.be-md.ncbi.nlm.nih.gov/bookshelf/br.fcgi?book=helpeutils&part=chapter2#chapter2.Usage_Guidelines_and_Requiremen" target="_blank">Хэрэглээний гарын авлага ба шаардлагууд</a> хэсгээс харна уу.</p>]]></message>
+	<message key="manager.setup.filter.lookup.grid.description.worldCat"><![CDATA[<p>Энэ шүүлтүүр нь <a href="http://www.worldcat.org/" target="_blank">Worldcat</a> (сонголттой) ба OCLC үйлчилгээнүүд <a href="http://www.worldcat.org/affiliate/webservices/xisbn/app.jsp" target="_blank">xISBN</a> -д холбогддог.</p>
+	<p>Хэрэв танд Worldcat <a href="http://www.worldcat.org/devnet/wiki/SearchAPIWhoCanUse" target="_blank">API түлхүүр</a> байгаа бол та доорх түлхүүрээр  you can connect to Worldcat by entering the key below.</p>]]></message>
+	<message key="manager.setup.filter.lookup.grid.loadMessage">Ишлэл өгөгдлийн сангийн тохиргоо ачаалагдаж дуусах хүртэл түр хүлээнэ үү...</message>
+	<message key="manager.setup.filter.lookup.grid.title">Ишлэл өгөгдлийн сангийн холбогчууд</message>
+	<message key="manager.setup.filter.noMoreTemplates">Бүх боломжит өөрчлөлт нэмэгдсэн байна. Тохиргоо хуудасруу буцах бол "Болих" дээр товшино уу.</message>
+	<message key="manager.setup.filter.parser.grid.descriptionConfirm">Та {$ filterDisplayName} ялгагчийг нэмж сонгосон байна. Баталгаажуулахын тулд "Тийм" дээр товшино уу.</message>
+	<message key="manager.setup.filter.parser.grid.descriptionTemplate">Та ишлэл ялгагчаа сонгоно уу.</message>
+	<message key="manager.setup.filter.parser.grid.description.freeCite"><![CDATA[<p>Энэ задлах шүүлтүүр <a href="http://freecite.library.brown.edu/" target="_blank">FreeCite</a> вэб үйлчилгээнд холбогдоно.</p>]]></message>
+	<message key="manager.setup.filter.parser.grid.description.paraCite"><![CDATA[<p>Энэ задлах шүүлтүүр гүйцэтгэлүүдийг магадлагч <a href="http://paracite.eprints.org" target="_blank">ParaCite</a> ишлэлд агуулагдах <a href="http://paracite.eprints.org/developers/" target="_blank">ParaTools</a> Perl модулийг ашиглана.	Энэ зөв амжилттай ажиллахын тулд, танд <a href="http://search.cpan.org/~mjewell/Biblio-Citation-Parser-1.10/" target="_blank">Biblio::Citation::Parser</a> ба <a href="http://search.cpan.org/~sburke/Text-Unidecode-0.04/" target="_blank">Text::Unidecode</a> CPAN модулийн хамт Perl суусан байх ёстой. Мөн та өөрийн тохиргооны файлдаа <tt> Perl </ TT> заалтад тохируулах хэрэгтэй. Энэ заалтыг та <tt>config.inc.php</tt> гадаад командын хэсгээс олж болно.</p>
+	<p>Та мөн ParaTools модулийн parser -ийг сонгож болно. Та <a href="http://search.cpan.org/~mjewell/Biblio-Citation-Parser-1.10/lib/Biblio/Citation/Parser/Jiao.pm" target="_blank">Jiao</a> ба <a href="http://search.cpan.org/~mjewell/Biblio-Citation-Parser-1.10/lib/Biblio/Citation/Parser/Citebase.pm" target="_blank">Citebase</a> модулийн алийг ч сонгож болно.</p>]]></message>
+	<message key="manager.setup.filter.parser.grid.description.parsCit"><![CDATA[<p>Энэ задлах шүүлтүүр <a href="http://aye.comp.nus.edu.sg/parsCit/" target="_blank">ParsCit</a> вэб үйлчилгээнд холбогдоно.</p>]]></message>
+	<message key="manager.setup.filter.parser.grid.description.regEx">RegEx задлагч шүүлтүүр нь ишлэл задлан ялгал хийх тогтмол илэрхийллүүдийн цуврал ашигладаг.</message>
+	<message key="manager.setup.filter.parser.grid.loadMessage">Ишлэл задлагч тохиргоо ачаалагдаж дуусах хүртэл түр хүлээнэ үү......</message>
+	<message key="manager.setup.filter.parser.grid.title">Ишлэл задлах үйлчилгээнүүд</message>
+	<message key="manager.setup.filter.pleaseSelect">Сонгоно уу...</message>
+	<message key="manager.setup.homeHeaderImageInvalid">Нүүр хуудасны толгой хэсгийн логоны зургийн формат нь буруу байна. Зөвшөөрөгдсөн хэлбэрүүд .gif, .jpg, or .png.</message>
+	<message key="manager.setup.homepageImageInvalid">Нүүр хуудасны зургийн формат нь буруу байна. Зөвшөөрөгдсөн хэлбэрүүд .gif, .jpg, or .png..</message>
+	<message key="manager.setup.homeTitleImageInvalid">Нүүр хуудасны гарчиг хэсгийн зургийн формат нь буруу байна. Зөвшөөрөгдсөн хэлбэрүүд .gif, .jpg, or .png.</message>
+	<message key="manager.setup.layout.leftSidebar">Зүүн sidebar</message>
+	<message key="manager.setup.layout.rightSidebar">Баруун sidebar</message>
+	<message key="manager.setup.layout.unselected">Сонгоогүй</message>
+	<message key="manager.setup.loggingAndAuditing">Нэвтрэх ба Аудит</message>
+	<message key="manager.setup.metaCitationsDescription">Ишлэл болон лавлах засварлалтыг идэвхжүүлэхийн тулд дараах хирээст талбарыг идэвхжүүл. Энэ нь зохиогчид ирүүлсэн материалаас бохир ишлэл оруулах боломжтой болгоно. Редакторууд нь үнэн зөв болгохын тулд WorldCat, ISBNdb, PubMed болон бусад гадаад өгөгдлийн сангуудын эсрэг бохир ишлэл шалгаж болдог ишлэл тэмдэглэх туслах авах эрхтэй болно. Батлагдсан ишлэл эцсийн файлуудруу экспортлогдоно.</message>
+	<message key="manager.setup.pageHeaderLogoImageInvalid">Хуудасны толгой хэсгийн логоны зургийн формат нь буруу байна. Зөвшөөрөгдсөн хэлбэрүүд .gif, .jpg, or .png.</message>
+	<message key="manager.setup.pageHeaderTitleImageInvalid">Хуудасны гарчиг хэсгийн зургийн формат нь буруу байна. Зөвшөөрөгдсөн хэлбэрүүд .gif, .jpg, or .png.</message>
+	<message key="manager.setup.selectOne">Нэгийг сонго</message>
+	<message key="manager.statistics"><![CDATA[Stats &amp; Reports]]></message>
+	<message key="manager.statistics.statistics.count.value">{$count} ({$percentage}%)</message>
+	<message key="manager.statistics.statistics.totalNewValue">{$numTotal} ({$numNew} new)</message>
+	<message key="manager.users">Хэрэглэгчид</message>
+	<message key="plugins.categories.auth">Зөвшөөрлийн нэмэлтүүд</message>
+	<message key="plugins.categories.blocks">Нэмэлтүүдийг хаах</message>
+	<message key="plugins.categories.blocks.description">Хаагдсан нэмэлтүүд нь бүх төрлийн sidebar хэрэгсэл гэх мэт UI компонентэд залгагдана.</message>
+	<message key="plugins.categories.citationFormats">Ишлэлийн форматын нэмэлтүүд</message>
+	<message key="plugins.categories.gateways.description">Гарцын нэмэлтүүд нь гадаад системийн бодит өгөгдлийг хангана.</message>
+	<message key="plugins.categories.gateways">Гарцын нэмэлтүүд</message>
+	<message key="plugins.categories.generic">Нийтлэг нэмэлтүүд</message>
+	<message key="plugins.categories.importexport.description">Импорт/экспорт нэмэлтүүдийг бусад системээс агуулга дамжуулахад ашиглана.</message>
+	<message key="plugins.categories.importexport">Импорт/экспорт нэмэлтүүд</message>
+	<message key="plugins.categories.paymethod.description">Төлбөрийн аргын нэмэлтүүд нь онлайн төлбөр төлөлтийн төрөл бүрийн аргуудад зориулсан дэмжлэгийг хэрэгжүүлнэ.</message>
+	<message key="plugins.categories.paymethod">Төлбөрийн нэмэлтүүд</message>
+	<message key="plugins.categories.reports.description">Тайлан нэмэлтүүдийг тайлан болон өгөгдөл задлах бүх төрлийг хэрэгжүүлэхэд ашиглана.</message>
+	<message key="plugins.categories.reports">Тайлан нэмэлтүүд</message>
+	<message key="plugins.categories.themes.description">Theme нэмэлтүүд нь системийн харагдах байдлыг өөрчилнө.</message>
+	<message key="plugins.categories.themes">Theme нэмэлтүүд</message>
+</locale>

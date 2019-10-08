@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/admin.xml
+  *
+  * Copyright (c) 2000-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (English) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="mn_MN" full_name = "Mongolian">
+	<message key="admin.adminFunctions">Удирдлагын функцүүд</message>
+	<message key="admin.auth.confirmDelete">Та бататгалын эх үүсгэврийг тогтмол устгахдаа итгэлтэй байна уу</message>
+	<message key="admin.auth.create">бататгалын эх үүсгэвэр үүсгэх</message>
+	<message key="admin.auth.noneCreated">Тодорхойлогдсон бататгалын эх үүсвэр байхгүй байна. </message>
+	<message key="admin.authSources">Бататгалын эх үүсвэр</message>
+	<message key="admin.clearDataCache">Өгөгдлийн кэйшийг цэвэрлэх</message>
+	<message key="admin.clearTemplateCache">Загварын кэйшийг цэвэрлэх</message>
+	<message key="admin.configFileUpdatedInstructions"><![CDATA[Таны тохиргооны файлууд амжилттай шинэчлэгдлээ. Please note that if your site no longer functions correctly you may need to manually fix your configuration by editing <tt>config.inc.php</tt> directly.]]></message>
+	<message key="admin.confirmClearTemplateCache">Та хөрвүүлэгдсэн загварын кэйшийг цэвэрлэхдээ итгэлтэй байна уу?</message>
+	<message key="admin.confirmExpireSessions">Та бүх хэрэглэгчийн горимыг хүчингүй болгохдоо итгэлтэй байна уу? Одоогоор системд нэвтэрсэн бүх хэрэглэгчид хүчээр дахин нэвтрэх болно(та орсон болно).</message>
+	<message key="admin.contentsOfConfigFile">Тохиргооны файлын агуулгууд</message>
+	<message key="admin.currentVersion">Одоогийн хувилбар</message>
+	<message key="admin.dateInstalled">Суулгасан огноо</message>
+	<message key="admin.displayConfigFileInstructions"><![CDATA[Таны шинэчилсэн тохиргооны агуулга доор дэлгэц дээр гарч ирнэ. Тохиргоонд өөрчлөлт хийхдээ та тохиромжтой текст засварлагч дээр <tt>config.inc.php</tt> -ийг нэээгээд доорх текстийн агуулгад нийцүүлэн агуулгыг өөрчлөх хэрэгтэй.   ]]></message>
+	<message key="admin.displayNewSystemConfig">Шинэ тохиргоог харуулах</message>
+	<message key="admin.expireSessions">Хэрэглэгчийн горимыг хүчингүй болгох</message>
+	<message key="admin.languages.confirmReload">Та энэ локалыг дахин уншуулах уу? Энэ нь өөрчлөгдсөн е-мэйл загварууд зэрэг одоо байгаа локалын тусгай өгөгдлийг арилгах болно.</message>
+	<message key="admin.languages.installedLocales">Локалыг суулгалаа</message>
+	<message key="admin.languages.installLanguages">Локалуудыг удирдах</message>
+	<message key="admin.languages.installLocales">Суулгах</message>
+	<message key="admin.languages.installNewLocales">Шинэ Локалыг суулгах</message>
+	<message key="admin.languages.languageSettings">Хэлний тохиргоо</message>
+	<message key="admin.languages.noLocalesAvailable">Суулгацад ямар нэгэн локалууд байхгүй байна.</message>
+	<message key="admin.languages.reload">Локалыг ачааллах</message>
+	<message key="admin.languages.uninstall">Локалыг устгах</message>
+	<message key="admin.phpInfo">Өргөтгөсөн PHP мэдээлэл</message>
+	<message key="admin.saveSystemConfig">Тохиргоог хадгалах</message>
+	<message key="admin.server.apacheVersion">Apache хувилбар</message>
+	<message key="admin.server.dbDriver">Өгөгдлийн сангийн драйвер</message>
+	<message key="admin.server.dbVersion">Өгөгдлийн сангийн серверийн хувилбар</message>
+	<message key="admin.serverInformationDescription"><![CDATA[Үндсэн үйлдлийн систем ба серверийн програм хангамжийн хувилбар. Энэ серверийн PHP тохиргооны өргөтгөсөн мэдээллийг харахдаа <span class="highlight">Өргөтгөсөн PHP мэдээлэл</span> -ийг дарна уу.]]></message>
+	<message key="admin.serverInformation">Серверийн мэдээлэл</message>
+	<message key="admin.server.phpVersion">PHP хувилбар</message>
+	<message key="admin.server.platform">Үйлдлийн системийн платформ</message>
+	<message key="admin.settings.aboutDescription">Сайтын тодорхойлолтын тухай</message>
+	<message key="admin.settings.contactEmail">Үндсэн харилцагчийн е-мэйл</message>
+	<message key="admin.settings.contactName">Үндсэн харилцагчийн нэр</message>
+	<message key="admin.settings.form.contactEmailRequired">Үндсэн харилцагчийн е-мэйл хаяг шаардлагатай.</message>
+	<message key="admin.settings.form.contactNameRequired">Үндсэн харилцагчийн нэр шаардлагатай.</message>
+	<message key="admin.settings.form.minPasswordLengthRequired">Та хамгийн багадаа 4 тэмдэгтийн урттай нууц үг оруулах шаардлагатай.</message>
+	<message key="admin.settings.form.titleRequired">Гарчиг шаардлагатай.</message>
+	<message key="admin.settings.homeHeaderImage.altText">Сайтын лого</message>
+	<message key="admin.settings.homeHeaderImageInvalid">Сайтын логоны зургийн формат буруу байна. Зөвшөөрөгдсөн форматууд: .gif, .jpg, .png.</message>
+	<message key="admin.settings.introduction">Танилцуулга</message>
+	<message key="admin.settings.minPasswordLength">Хамгийн бага нууц үгний урт</message>
+	<message key="admin.settings.oaiRegistration">Индексжүүлэлтэнд сайтыг бүртгүүлэх (Metadata Harvesting)</message>
+	<message key="admin.settings.passwordCharacters">Тэмдэгтүүд</message>
+	<message key="admin.settings.siteLanguage">Сайтын хэл</message>
+	<message key="admin.settings.siteStyleSheetInvalid">Сайтын загварчлалын формат буруу байна. Зөвшөөрөгдсөн формат: .css.</message>
+	<message key="admin.settings.siteStyleSheet">Сайтын загварчлал</message>
+	<message key="admin.settings.siteTitle">Сайтын нэр</message>
+	<message key="admin.siteAdmin">Сайтын удирдлага</message>
+	<message key="admin.siteManagement">Сайтын менежмент</message>
+	<message key="admin.siteSettings">Сайтын тохиргоо</message>
+	<message key="admin.systemConfigFileReadError"><![CDATA[<tt>config.inc.php</tt> энэхүү тохиргооны файл үүсээгүй, уншигдахгүй, эсвэл буруу байна.]]></message>
+	<message key="admin.systemInformation">Системийн мэдээлэл</message>
+	<message key="admin.versionBuild">Бүтээх (бий болгох)</message>
+	<message key="admin.version.checkForUpdates">Шинэчлэх зүйл байгаа эсэхийг шалгах</message>
+	<message key="admin.version.downloadPackage">Татах</message>
+	<message key="admin.version.downloadPatch">Patch-ийг татах</message>
+	<message key="admin.versionHistory">Хувилбарын түүх</message>
+	<message key="admin.version.latest">Сүүлийн хувилбар</message>
+	<message key="admin.versionMajor">Major</message>
+	<message key="admin.versionMinor">Minor</message>
+	<message key="admin.version.moreInfo">Нэмэлт мэдээлэл</message>
+	<message key="admin.versionRevision">Засвар</message>
+	<message key="admin.version.updateAvailable">Шинэчлэгдсэн хувилбар нь боломжтой</message>
+	<message key="admin.version.upToDate">Таны систем шинэчлэгдлээ</message>
+	<message key="admin.version">Хувилбар</message>
+</locale>

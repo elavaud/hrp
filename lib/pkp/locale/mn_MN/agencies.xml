@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : agencies.xml
+
+-->
+
+<agencies>
+    <agency name="Азийн хөгжлийн банк" code="ADB" />
+    <agency name="Дэлхийн зөн" code="WV" />
+    <agency name="Солонгос улсын Олон улсын хамтын ажиллагааны байгууллага" code="KOICA" />
+    <agency name="Япон улсын Олон улсын хамтын ажиллагааны байгууллага" code="JICA" />
+    <agency name="АНУ-ын Олон улсын хамтын ажиллагааны байгууллага (USAID)" code="USAID" />
+    <agency name="Австралийн Олон улсын хөгжлийн агентлаг (AUSAID)" code="AUSAID" />
+    <agency name="Эрүүл мэндийн яам" code="MoH" />
+    <agency name="Эрдэм шинжилгээ, хөгжлийн хүрээлэн" code="IRD" />
+    <agency name="Пастрийн хүрээлэн" code="IP" />
+    <agency name="НҮБ-ын Хүүхдийн сан(UNICEF)" code="UNICEF" />
+    <agency name="НҮБ-ын хөгжлийн хөтөлбөр (UNDP)" code="UNDP" />
+    <agency name="Дэлхийн банк" code="WB" />
+    <agency name="Дэлхийн эрүүл мэндийн байгууллага" code="WHO" />
+    <agency name="Бусад" code="OTHER" />
+    <!-- Do not change code of OTHER -->
+</agencies>

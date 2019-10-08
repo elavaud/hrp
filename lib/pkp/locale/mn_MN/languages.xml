@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE languages SYSTEM "../../dtd/languages.dtd">
+<!--
+  * locale/mn_MN/languages.xml
+  *
+  * Copyright (c) 2000-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized list of common languages. Based on ISO 639-1.
+  *
+  -->
+<languages>
+	<language code="ab" name="Абхаз хэл"/>
+	<language code="aa" name="Афар хэл"/>
+	<language code="af" name="Африк хэл"/>
+	<language code="ak" name="Акан хэл"/>
+	<language code="sq" name="Албани хэл"/>
+	<language code="am" name="Амхар хэл"/>
+	<language code="ar" name="Араб хэл"/>
+	<language code="an" name="Арагон хэл"/>
+	<language code="hy" name="Армен хэл"/>
+	<language code="as" name="Ассамесе хэл"/>
+	<language code="av" name="Авар хэл"/>
+	<language code="ae" name="Авестан хэл"/>
+	<language code="ay" name="Aямара хэл"/>
+	<language code="az" name="Aзербайжан хэл"/>
+	<language code="bm" name="Бамбара хэл"/>
+	<language code="ba" name="Башкир хэл"/>
+	<language code="eu" name="Баск хэл"/>
+	<language code="be" name="Беларусь хэл"/>
+	<language code="bn" name="Бенгал хэл"/>
+	<language code="bh" name="Бихари хэлнүүд"/>
+	<language code="bi" name="Бислам хэл"/>
+	<language code="bs" name="Босни хэл"/>
+	<language code="br" name="Бретон хэл"/>
+	<language code="bg" name="Болгар хэл"/>
+	<language code="my" name="Бирм хэл"/>
+	<language code="ca" name="Каталан хэл"/>
+	<language code="km" name="Төв Кхмер хэл"/>
+	<language code="ch" name="Чаморро хэл"/>
+	<language code="ce" name="Чечен хэл"/>
+	<language code="ny" name="Чичева хэл (ньянджа)"/>
+	<language code="zh" name="Хятад хэл"/>
+	<language code="cu" name="Сүмийн славян htl"/>
+	<language code="cv" name="Чуваш хэл"/>
+	<language code="kw" name="Корн хэл"/>
+	<language code="co" name="Корсик хэл"/>
+	<language code="cr" name="Кри хэл"/>
+	<language code="hr" name="Хорват хэл"/>
+	<language code="cs" name="Чех хэл"/>
+	<language code="da" name="Дани хэл"/>
+	<language code="dv" name="Дхивехи хэл"/>
+	<language code="nl" name="Нидерланд; фламанд хэл"/>
+	<language code="dz" name="Дзонг-кэ хэл"/>
+	<language code="en" name="Англи хэл"/>
+	<language code="eo" name="Эсперанто хэл"/>
+	<language code="et" name="Эстон хэл"/>
+	<language code="ee" name="Эве хэл"/>
+	<language code="fo" name="Фарерс хэл"/>
+	<language code="fj" name="Фижи хэл"/>
+	<language code="fi" name="Finnish"/>
+	<language code="fr" name="Франц хэл"/>
+	<language code="ff" name="Фула хэл"/>
+	<language code="gl" name="Галиси хэл"/>
+	<language code="lg" name="Ганда хэл"/>
+	<language code="ka" name="Гүрж хэл"/>
+	<language code="de" name="Герман хэл"/>
+	<language code="el" name="Грек хэл"/>
+	<language code="gn" name="Гуарани хэл"/>
+	<language code="gu" name="Гүжарат хэл"/>
+	<language code="ht" name="Гайти Креол хэл"/>
+	<language code="ha" name="Хауса хэл"/>
+	<language code="he" name="Иврит хэл"/>
+	<language code="hz" name="Гереро хэл"/>
+	<language code="hi" name="Хинди хэл"/>
+	<language code="ho" name="Хири Моту хэл"/>
+	<language code="hu" name="Унгар хэл"/>
+	<language code="is" name="Исланд хэл"/>
+	<language code="io" name="Идо хэл"/>
+	<language code="ig" name="Игбо хэл"/>
+	<language code="id" name="Индонез хэл"/>
+	<language code="ia" name="Интерлингва хэл"/>
+	<language code="ie" name="Интерлингви хэл"/>
+	<language code="iu" name="Инуктитут хэл"/>
+	<language code="ik" name="Инуит хэл"/>
+	<language code="ga" name="Ирланд хэл"/>
+	<language code="it" name="Итали хэл"/>
+	<language code="ja" name="Япон хэл"/>
+	<language code="jv" name="Яван хэл"/>
+	<language code="kl" name="Греланд хэл"/>
+	<language code="kn" name="Каннада хэл"/>
+	<language code="kr" name="Канури хэл"/>
+	<language code="ks" name="Kaшмир хэл"/>
+	<language code="kk" name="Казак хэл"/>
+	<language code="ki" name="Кикуйю; Гикуйю хэл"/>
+	<language code="rw" name="Кениванда хэл"/>
+	<language code="ky" name="Киргиз хэл"/>
+	<language code="kv" name="Коми хэл"/>
+	<language code="kg" name="Конго хэл"/>
+	<language code="ko" name="Солонгос хэл"/>
+	<language code="kj" name="Куанаума; Кюануама хэл"/>
+	<language code="ku" name="Курд хэл"/>
+	<language code="lo" name="Лао хэл"/>
+	<language code="la" name="Латин хэл"/>
+	<language code="lv" name="Латви хэл"/>
+	<language code="li" name="Лимбург хэл"/>
+	<language code="ln" name="Лингала хэл"/>
+	<language code="lt" name="Литва хэл"/>
+	<language code="lu" name="Луба-Катанга хэл"/>
+	<language code="lb" name="Люксембург хэл"/>
+	<language code="mk" name="Македон хэл"/>
+	<language code="mg" name="Малага хэл"/>
+	<language code="ms" name="Малай хэл"/>
+	<language code="ml" name="Малайлам хэл"/>
+	<language code="mt" name="Малти хэл"/>
+	<language code="gv" name="Мэнск хэл"/>
+	<language code="mi" name="Маори хэл"/>
+	<language code="mr" name="Марати хэл"/>
+	<language code="mh" name="Маршалл хэл"/>
+	<language code="mo" name="Молдав; Молдаван хэл"/>
+	<language code="mn" name="Монгол хэл"/>
+	<language code="na" name="Науру хэл"/>
+	<language code="nv" name="Навахо хэл"/>
+	<language code="ng" name="Конго хэл"/>
+	<language code="ne" name="Непал хэл"/>
+	<language code="nd" name="Хойд Ндебеле хэл"/>
+	<language code="se" name="Умаод сами хэл"/>
+	<language code="no" name="Норвеги хэл"/>
+	<language code="nb" name="Норвеги Букмол хэл"/>
+	<language code="nn" name="Норвеги Нюнорск хэл"/>
+	<language code="oc" name="Окситан хэл"/>
+	<language code="oj" name="Оджибва хэл"/>
+	<language code="or" name="Ория хэл"/>
+	<language code="om" name="Оромо хэл"/>
+	<language code="os" name="Осетин; Осетик хэл"/>
+	<language code="pi" name="Пали хэл"/>
+	<language code="pa" name="Панжаб хэл; Пунжаб хэл"/>
+	<language code="fa" name="Перс хэл"/>
+	<language code="pl" name="Польш хэл"/>
+	<language code="pt" name="Португал хэл"/>
+	<language code="ps" name="Пашто хэл"/>
+	<language code="qu" name="Кечуа хэл"/>
+	<language code="ro" name="Румын хэл"/>
+	<language code="rm" name="Романш хэл"/>
+	<language code="rn" name="Рунди хэл"/>
+	<language code="ru" name="Орос хэл"/>
+	<language code="ry" name="Русин хэл"/>
+	<language code="sm" name="Самоан хэл"/>
+	<language code="sg" name="Санго хэл"/>
+	<language code="sa" name="Санскрит хэл"/>
+	<language code="sc" name="Сардини хэл"/>
+	<language code="gd" name="Ирландын Гэльк хэл"/>
+	<language code="sr" name="Серб хэл"/>
+	<language code="sh" name="Серб-Хорват хэл"/>
+	<language code="sn" name="Шона хэл"/>
+	<language code="ii" name="Сычуань Ви хэл"/>
+	<language code="sd" name="Синдхи хэл"/>
+	<language code="si" name="Синхала хэл"/>
+	<language code="sk" name="Словак хэл"/>
+	<language code="sl" name="Словени хэл"/>
+	<language code="so" name="Сомали хэл"/>
+	<language code="st" name="Сото хэл, Өмнөд"/>
+	<language code="nr" name="Өмнөд Ндебеле хэл"/>
+	<language code="es" name="Испани хэл; Кастиллиан"/>
+	<language code="su" name="Сундан хэл"/>
+	<language code="sw" name="Свахили хэл"/>
+	<language code="ss" name="Свати хэл"/>
+	<language code="sv" name="Швед хэл"/>
+	<language code="tl" name="Тагалог хэл"/>
+	<language code="ty" name="Тайтян хэл"/>
+	<language code="tg" name="Taжик хэл"/>
+	<language code="ta" name="Taмил хэл"/>
+	<language code="tt" name="Татар хэл"/>
+	<language code="te" name="Телүгү хэл"/>
+	<language code="th" name="Tай хэл"/>
+	<language code="bo" name="Тибетан хэл"/>
+	<language code="ti" name="Тигринь хэл"/>
+	<language code="to" name="Тонга хэл"/>
+	<language code="ts" name="Цонга хэл"/>
+	<language code="tn" name="Тсвана хэл"/>
+	<language code="tr" name="Tурк хэл"/>
+	<language code="tk" name="Туркмен хэл"/>
+	<language code="tw" name="Чви хэл"/>
+	<language code="ug" name="Уйгур хэл"/>
+	<language code="uk" name="Украйн хэл"/>
+	<language code="ur" name="Урду хэл"/>
+	<language code="uz" name="Узбек хэл"/>
+	<language code="ve" name="Венда хэл"/>
+	<language code="vi" name="Вьетнам хэл"/>
+	<language code="vo" name="Волапюк хэл"/>
+	<language code="wa" name="Валлон хэл"/>
+	<language code="cy" name="Уэльс хэл"/>
+	<language code="fy" name="Баруун Фриск хэл"/>
+	<language code="wo" name="Волоф хэл"/>
+	<language code="xh" name="Ксхоса хэл"/>
+	<language code="yi" name="Жүүд хэл"/>
+	<language code="yo" name="Йоруба хэл"/>
+	<language code="za" name="Зжуан; Чжуан хэл"/>
+	<language code="zu" name="Зулу хэл"/>
+</languages>

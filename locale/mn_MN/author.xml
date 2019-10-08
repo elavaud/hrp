@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * ojs2-devel/locale/mn_MN/author.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the mn_MN (Mongolian) locale.
+  * Under translation
+  * $Id$
+  -->
+
+<locale name="mn_MN" full_name ="Mongolian">
+    
+        <!-- ***** -->
+        <!-- ADDED -->
+        <!-- ***** -->
+        
+        <!-- February 6th 2014 -->
+        
+        <message key="author.submit.form.proposalDetails">One or multiple required data seem to be missing in the "Proposal Details" section. Please ensure to provide all required information (denoted with a star "*" ).</message>
+	<message key="author.submit.form.KISNameAlreadyUsed">Your "Key Implementing Institution" was not in the database and you provided its information. However the name provided is already in use by an institution. Please ensure that your "Key Implementing Institution" is not included in the list and if not, complete its name</message>
+	<message key="author.submit.form.KISAcronymAlreadyUsed">Your "Key Implementing Institution" was not in the database and you provided its information. However the acronym provided is already in use by an institution. Please ensure that your "Key Implementing Institution" is not included in the list and if not, choose another acronym.</message>
+        <message key="author.submit.form.studentResearch">One or multiple required data seem to be missing in the "Student Research" section. Please ensure to provide all required information (denoted with a star "*" ).</message>
+        <message key="author.submit.form.riskAssessment">One or multiple required data seem to be missing in the "Risk Assessment" section. Please ensure to provide all required information (denoted with a star "*" ).</message>
+	<message key="author.submit.form.sourceRequiredFields">One or multiple required data seem to be missing in the "Source of Monetary and Material Support" section. Please ensure to provide all required information (denoted with a star "*" ).</message>
+	<message key="author.submit.form.sourceNameAlreadyUsed">One of your "Source of Monetary and Material Support" was not in the database and you provided its information. However the name provided is already in use by an institution. Please ensure that your source is not included in the list and if not, complete its name.</message>
+	<message key="author.submit.form.sourceAccronymAlreadyUsed">One of your "Source of Monetary and Material Support" was not in the database and you provided its information. However the accronym provided is already in use by an institution. Please ensure that your source is not included in the list and if not, choose another accronym.</message>
+	<message key="author.submit.form.sameInstitutionEntries">Your "Key Implementing Institution" and/or your "Source(s) of Monetary and Material Support" were not listed and you entered their information. However the same information (or the name of the institution, or its acronym) has been entered at least twice. Each source of monetary should be unique and if your "Key Implementing Institution" is also your (or one of your) "Source of Monetary", please select instead "Key Implementing Institution" in the bottom of the above list.</message>
+	<message key="author.submit.form.nonNumericValue">In the "Source of Monetary and Material Support" section, one of the amount is not numeric. Please enter only numeric values without any separator (comma "," / dot "." / space " " / etc.).</message>
+	<message key="author.submit.form.sameSource">In the "Source of Monetary and Material Support" section, at least 2 of your sources have the same institution. If 2 (or more) sources are coming from the same institution, please regroup them in one source.</message>
+        <!---->
+            
+	<message key="author.submit">Шинэ төсөл</message>
+	<message key="author.track">Идэвхитэй төслүүд</message>
+	<message key="author.submit.submitArticle">Төсөл оруулах</message>
+	<message key="author.submit.stepsToSubmit">Төсөл өргөн барих таван алхам</message>
+	<message key="author.submit.startHereTitle">Шинээр өргөн мэдүүлэх үйл ажиллагааг эхлүүлэх</message>
+	<message key="author.submit.startHereLink"><![CDATA[Төсөл өргөн барих таван алхмын эхний алхмыг хийхийн тулд <a href="{$submitUrl}" class="action">ЭНД ДАРНА УУ</a>]]></message>
+	<message key="author.submit.step1">Алхам 1. Шинээр өргөн мэдүүлэх үйл ажиллагааг эхлүүлэх</message>
+	<message key="author.submit.step2">Алхам 2. Үндсэн төслийн метадатааг оруулах</message>
+	<message key="author.submit.step3">Алхам 3. Үндсэн төслийн файлыг байршуулах</message>
+	<message key="author.submit.step4">Алхам 4. Нэмэлт файлуудыг байршуулах</message>
+	<message key="author.submit.step4a">Алхам 4a. Нэмэлт файлыг нэмэх</message>
+	<message key="author.submit.step5">Алхам 5. Өргөн барилтыг баталгаажуулах</message>
+	<message key="author.submit.start">1. Эхлэх</message>
+	<message key="author.submit.upload">2. Төслийн метадатааг оруулах</message>
+	<message key="author.submit.metadata">3. Үндсэн төслийг байршуулах</message>
+	<message key="author.submit.supplementaryFiles">4. Нэмэлт файлуудыг байршуулах</message>
+	<message key="author.submit.confirmation">5. Баталгаажуулалт</message>
+	<message key="author.submit.cancelSubmission">Та Судлаач хуудаснаас Төсөл ноорог хэлбэр гэснийг сонгосноор дараа нэг өдөр төслөө гүйцээж болно.</message>
+	<message key="author.submit.notAccepting">Энэ сайт нь одоо төслийг хүлээн авахгүй байна.</message>
+	<message key="author.submit.requestWaiver">Хүсэлтээс татгалзах</message>
+	<message key="author.submit.qualityForWaiver">Энэ нийтлэлийн нийтлэл өргөн барих хураамжаас татгалзахдаа анхаарч үзнэ үү.</message>
+	<message key="author.submit.addReasonsForWaiver">Яагаад хураамжаас татгалзаж байгаа тайлбараа доорх саналын хайрцганд бичнэ үү.</message>
+	<message key="author.submit.mustEnterWaiverReason">Хэрэв та татгалзаж байгаа бол өгсөн зайнд шалтгаанаа оруулна уу.</message>
+	<message key="author.submissions.queuedReviewSubsequent">Хяналтын {$round} шатанд</message>
+	<message key="author.submissions.queuedReviewRevisions">Хяналтанд: Дахин хянах шаардлагатай</message>
+	<message key="author.submissions.confirmDelete">Та энэ ноорог төслийг устгахдаа итгэлтэй байна уу?</message> 
+        <message key="author.submissions.confirmWithdraw">Та өөрийн өргөн барих үйл ажиллагаагаа буцаахдаа итгэлтэй байна уу? Та үүнийг буцаах үйлдэл хийх боломжгүй.</message>
+        <message key="author.submissions.confirmArchive">Та энэ төслийг архиьын хэсэгт илгээхдээ итгэлтэй байна уу?</message>
+	<message key="author.submissions.viewStatus">Төлвийг харах</message>
+	<message key="author.submissions.noSubmissions">Төсөл байхгүй.</message>
+	<message key="author.submit.howToSubmit"><![CDATA[Асуудал гарсан бол туслалцаа авахын тулд <a href="mailto:{$supportEmail}">{$supportName}</a> холбогдоно уу. ({$supportPhone}).]]></message>
+	<message key="author.submit.howToSubmitNoPhone"><![CDATA[Асуудал гарсан бол туслалцаа авахын тулд <a href="mailto:{$supportEmail}">{$supportName}</a> холбогдоно уу.]]></message>
+	<message key="author.submit.journalSection">Ёс зүйн хороонууд</message>
+	<message key="author.submit.journalSectionDescription">Энэ хэсэнт та өөрийн төслөө илгээж болох хороог сонгох боломжийг олгодог. Анхааралтай сонгоно уу.</message>
+	<message key="author.submit.selectSection">Та Ёсзүйн хороогоо сонгоно уу...</message>
+	<message key="author.submit.submissionChecklist">Өргөн барих хяналтын хуудас</message>
+	<message key="author.submit.submissionChecklistDescription">Дараах зүйлүүдийг шалгаснаар энэхүү систем таны төслийг бэлэн болсон байна гэж үзнэ:</message>
+	<message key="author.submit.verifyChecklist">Та үргэлжлүүлэхийн өмнө өргөн мэдүүлэх хяналтын хуудсан дээрх зүйлүүд хангалттай байгаа эсэхийг шалгах ёстой.</message>
+	<message key="author.submit.copyrightNoticeAgree">Үндсэн судлаачид нь энэ нь сайтад хэвлэгдсэн үед өргөн барисан төслүүд хэрэглэгдэх Зохиогчийн эрхийн нөхцлийг зөвшөөрнө. (Доор Хорооны нарийн бичгийн даргад санал өгч болно).</message>
+	<message key="author.submit.copyrightNoticeAgreeRequired">Та үргэлжлүүлэхийн өмнө Зохиогчийн эрхийн мэдэгдлийн нөхцлийг зөвшөөрөх ёстой.</message>
+	<message key="author.submit.commentsForEditor">Нарийн бичгийн даргад зориулсан санал</message>
+	<message key="author.submit.comments">Текстээ оруул (сонголттой)</message>
+        <message key="author.submit.form.noFileSelected">Сонгогдсон файл байхгүй байна.</message>
+	<message key="author.submit.form.sectionRequired">Таны төсөлд тохирох Ёсзүйн хороог сонгоно уу.</message>
+        <message key="author.submit.form.otherInternationalGrantName">Байгууллагыг оруулна уу</message>
+        <message key="author.submit.form.authorPhoneNumber">Судлаачийн утасны дугаар оруулна уу</message>
+        <message key="author.submit.form.typeOfResearchRequired">Судалгаа шинжилгээний төрлийг сонгоно уу.</message>
+        <message key="author.submit.form.nationwide">Тийм эсвэл Үгүй (улсын хэмжээнд) сонгоно уу.</message>
+        <message key="author.submit.form.primarySponsor">Өөрийн анхдагч ивээн тэтгэгчээ сонгоно уу.</message>
+        <message key="author.submit.form.otherPrimarySponsor">Өөрийн анхдагч ивээн тэтгэгчээ оруулна уу.</message>
+        <message key="author.submit.form.otherSecondarySponsor">Хоёрдогч ивээн тэтгэгч (ууд) оруулна уу.</message>
+        <message key="author.submit.form.multiCountry">Хэрэв судалгаа шинжилгээнд өөр улс орсон бол сонгоно уу.</message>
+        <message key="author.submit.form.country">Улсаа сонгоно уу.</message>
+        <message key="author.submit.form.researchField">Хамгийн багадаа нэг судалгаа шинжилгээний талбарыг сонгоно уу</message>
+        <message key="author.submit.form.otherResearchField">Судалгаа шинжилгээний талбарыг тодорхой оруулна уу</message>
+	<message key="author.submit.privacyStatement">Хувийн нууцын мэдэгдэл</message>
+        <message key="author.submit.reasonsForWithdrawal">Буцаах шалтгаан</message>
+        <message key="author.submit.otherReasonForWithdrawal">Бусад шалтгаанаа оруулна уу</message>
+        <message key="author.submit.form.abstractRequiredFields">Хэрэв олон хэл дээр байгаа бол хэл бүр дээр эрдэм шинжилгээний гарчиг, нийтийн гарчиг, үндэслэл, зорилт, судалгааны арга, хүрэх үр дүн ба түлхүүр үгийг оруулах шаардлагатай.</message>    
+	<message key="author.submit.form.authorRequired">Хамгийн багадаа нэг судлаач шаардлагатай.</message>
+	<message key="author.submit.form.authorRequiredFields">Судлаач бүр өрийн нэр, эцэг/эх/-ийн нэр, харьяалал, утасны дугаар ба и-мэйл хаяг оруулах шаардлагатай.</message>
+        <message key="author.submit.uploadWithdrawReport">Тайланг буцаан байршуулах</message>
+	<message key="author.article.decision">Хорооны шийдвэр</message>        
+        <message key="author.submit.form.scientificTitleRequired">Өөрийн судалгаа шинжилгээний төслийн эрдэм шинжилгээний гарчгийг оруулна уу.</message>
+        <message key="author.submit.form.publicTitleRequired">Өөрийн судалгаа шинжилгээний төслийн нийтийн гарчгийг оруулна уу.</message>
+        <message key="author.submit.form.studentInitiatedResearch">ТИЙМ эсвэл ҮГҮЙ гэснийг сонгоно уу(Оюутны санаачилсан судалгаа шинжилгээ).</message>
+        <message key="author.submit.form.studentInstitution">Оюутны байгууллагыг оруулна уу.</message>
+        <message key="author.submit.form.academicDegree">Оюутны эрдмийн зэргийг оруулна уу.</message>
+        <message key="author.submit.form.supervisorName">Эрдэм шинжилгээний удирдагчийн нэрийг оруулна уу.</message>
+        <message key="author.submit.form.supervisorEmail">Эрдэм шинжилгээний удирдагчийн и-мэйлийг оруулна уу.</message>
+        <message key="author.submit.form.ethicsCommittee">Ёсзүйн хороогоо сонгоно уу.</message>
+        <message key="author.submit.form.dataCollection">Өгөгдлийн цуглуулгыг сонгоно уу.</message>
+        <message key="author.submit.form.keywordsRequired">Өөрийн судалгаа шинжилгээний төслийн түлхүүр үгнүүдээ оруулна уу.</message>
+        <message key="author.submit.form.startDateRequired">Өөрийн судалгаа шинжилгээний төслийн эхэлсэн огноогоо оруулна уу.</message>
+        <message key="author.submit.form.otherPrimarySponsor">Өөрийн анхдагч ивээн тэтгэгчээ оруулна уу.</message>
+        <message key="author.submit.form.endDateRequired">Өөрийн судалгаа шинжилгээний төслийн дууссан огноогоо оруулна уу.</message>
+        <message key="author.submit.form.fundsRequiredRequired">Таны судалгаа шинжилгээнд шаардагдах хөрөнгийг оруулна уу.</message>
+        <message key="author.submit.form.geoAreaRquired">Энэ төсөлд хамгийн багадаа нэг газар зүйн бүс сонгоно уу.</message>
+        <message key="author.submit.form.withHumanSubjectsRequired">Хүн оролцсон судалгаа шинжилгээ бол заана уу.</message>
+        <message key="author.submit.form.proposalTypeRequired">Судалгаа шинжилгээний төслийн төрлийг оруулна уу.</message>
+        <message key="author.submit.form.otherProposalTypeRequired">Бусад төслийн төрлийг оруулна уу.</message>
+        <message key="author.submit.form.reviewedByOtherErcRequired">Тийм эсвэл Үгүй сонгоно уу(Бусад хорооны хянасан эсэх?).</message>
+        <message key="author.submit.form.industryGrant">Тийм эсвэл Үгүй сонгоно уу (салбарын грант?).</message>
+        <message key="author.submit.form.nameOfIndustry">Салбараа оруулна уу (салбарын грант).</message>
+        <message key="author.submit.form.internationalGrant">Тийм эсвэл Үгүй сонгоно уу(Байгууллагын грант?).</message>
+        <message key="author.submit.form.internationalGrantName">Байгууллагын грантаа сонгоно уу.</message>
+        <message key="author.submit.form.mohGrant">Тийм эсвэл Үгүй сонгоно уу(Эрүүл мэндийн яамны грант?).</message>
+        <message key="author.submit.form.governmentGrant">Тийм эсвэл Үгүй сонгоно уу(Засгийн газрын грант?).</message>
+        <message key="author.submit.form.governmentGrantName">Засгийн газрын грантаа оруулна уу.</message>
+        <message key="author.submit.form.universityGrant">Тийм эсвэл Үгүй сонгоно уу(Их сургуулийн грант?).</message>
+        <message key="author.submit.form.selfFunding">Тийм эсвэл Үгүй сонгоно уу(өөрийгөө санхүүжүүлсэн?).</message>
+        <message key="author.submit.form.otherGrant">Тийм эсвэл Үгүй сонгоно уу(Бусад грант?).</message>
+        <message key="author.submit.form.specifyOtherGrantField">Бусад грантаа оруулна уу.</message>
+        <message key="author.submit.form.completeRiskAssessmentFormNeeded">Эрсдлийн үнэлгээний хэсэг бүрэн байгаа эсэхийг шалгадаг уу</message>
+        <message key="author.submit.form.identityRevealedRequired">Хэрэв судалгаа шинжилгээний явцад судалгаа шинжилгээний сэдэв(үүд)-т өвөрмөц шинж байдал илэрсэн бол тэмдэгдэнэ үү.</message>
+        <message key="author.submit.form.unableToConsentRequired">Хэрэв судалгаа шинжилгээний сэдэв(үүд)-т зөвшөөрөх боломжтой (эсвэл боломжгүй) бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.under18Required">Хэрэв судалгаа шинжилгээний сэдэв(үүд)-т 18 доош насны хүн байгаа (эсвэл үгүй)  бол тэмдэгдэнэ үү.</message>
+        <message key="author.submit.form.dependentRelationshipRequired">Хэрэв судалгаа шинжилгээний сэдэв(үүд)-т судалгаа шинжилгээний багийн аль нэг гишүүнтэй харилцан хамааралтай (эсвэл үгүй) бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.ethnicMinorityRequired">Хэрэв судалгаа шинжилгээний сэдэв(үүд)-т үндэсний цөөнх бүлгээс байгаа(эсвэл үгүй) бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.impairmentRequired">Хэрэв судалгаа шинжилгээний сэдэв(үүд)-т оюуны эсвэл сэтгэцийн эмгэгтэй холбоотой (эсвэл үгүй) бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.pregnantRequired">Хэрэв судалгаа шинжилгээний сэдэв(үүд)-т жирэмсэн хүн байгаа (эсвэл үгүй)бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.newTreatmentRequired">Хэрэв судалгаа шинжилгээнд шинэ эмчилгээ(үүд), эрүүл мэндийн үйл ажиллагаа(ууд) эсвэл туршилт(ууд) байгаа бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.bioSamplesRequired">Хэрэв судалгаа шинжилгээнд эд эсийн гаргалгаа, биологийн дээж(үүд)-ийн цуглуулга багтаасан бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.radiationRequired">Хэрэв судалгаа шинжилгээнд ионжуулагч цацрагийн хэрэглээг багтаасан бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.distressRequired">Хэрэв судалгаа шинжилгээнд зовиур эсвэл сэтгэл санааны хямралыг багтаасан бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.inducementsRequired">Хэрэв судалгаа шинжилгээнд өдөөлт (урам зориг) багтаасан бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.sensitiveInfoRequired">Хэрэв судалгаа шинжилгээнд эмзэг мэдээллийн цуглуулга багтаасан бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.deceptionRequired">Хэрэв судалгаа шинжилгээнд мэхлэлт (хуурмаг зүйл) багтаасан бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.reproTechnologyRequired">Хэрэв судалгаа шинжилгээнд нөхөн үржихүйн технологийн туслалцааг багтаасан бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.geneticsRequired">Хэрэв судалгаа шинжилгээнд хүний ​​генийн болон геномын судалгааг багтаасан бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.stemCellRequired">Хэрэв судалгаа шинжилгээнд үүдэл эс багтаасан бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.biosafetyRequired">Хэрэв судалгаа шинжилгээнд биоаюулгүй байдлын асуудал(ууд) багтаасан бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.riskLevelRequired">Судалгаа шинжилгээний эрсдлийн төвшинг тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.listRisksRequired">Эрсдлийг товч жагсаана уу.</message>
+        <message key="author.submit.form.howRisksMinimizedRequired">Хэрхэн эрсдлийг удирдаж/ хамгийн бага байлгахыг тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.multiInstitutionsRequired">Судалгаа шинжилгээнд олон байгууллага орсон бол тэмдэглэнэ үү.</message>
+        <message key="author.submit.form.conflictOfInterestRequired">Хэрэв мэргэжлийн үнэлгээ эсвэл судалгаа шинжилгээний асуудлаарх үйл ажиллагаанд хоёрдогч ашиг сонирхолд хэт нөлөөлж болох эрсдлийг бий болгодог гэсэн харьцааг үүсгэдэг гэвэл заана уу.</message>
+        <message key="author.submit.form.withdrawReasonRequired">Буцаах шалтгаан шаардлагатай</message>
+        <message key="author.submit.form.otherReasonRequired">Буцаах бусад шалтгаан шаардлагатай</message>
+        <message key="author.submit.addProgressReport">Дунд үеийн явцын тайлан илгээх</message>
+        <message key="author.submit.addCompletionReport">Эцсийн тайланг илгээх</message>
+        <message key="author.submit.addExtensionRequest">Нэмэлт хүсэлт илгээх</message>
+        <message key="author.submit.addRawDataFile">Анхан шатны мэдээллийн файл нэмэх</message>
+        <message key="author.submit.addOtherSuppResearchOutput">Бусад нэмэлт судалгаа шинжилгээний бүтээгдэхүүн нэмэх</message>
+        <message key="author.submit.addWithdrawReport">Хүчингүй болгох шалтгаан</message>
+        <message key ="author.proposal.type.CWHS">Хүнийг оролцуулсан эмнэлзүйн туршилт</message>
+        <message key ="author.proposal.type.HSPR">Эрүүл мэндийн тогтолцоо ба бодлогын судалгаа</message>
+        <message key ="author.proposal.type.PBS">Хүн амд суурилсан судалгаа</message>
+        <message key ="author.proposal.type.PNHS">Хүнийг оролцуулаагүй төсөл</message> 
+        <message key ="author.proposal.type.QS">Чанарын судалгаа</message>
+        <message key ="author.proposal.type.IER">Интервенцийн үнэлгээний судалгаа</message>
+        <message key ="author.proposal.type.OR">Үйл ажиллагааны судалгаа</message>
+        <message key="author.submit.form.wordCountAlert">Та хураангуйн хэсгийн үгийн дээд хязгаараас давсан байна.</message>
+        <message key="author.submit.submissionFile">Өргөн барих файл</message>
+        <message key="author.submit.previousSubmissionFile">Өмнөх өргөн барьсан файл</message>
+        <message key="author.submit.submitInterimProgressReport.short">Явцын тайлан</message>
+        <message key="author.submit.submitInterimProgressReport">Дунд үеийн явцын тайлан</message>
+        <message key="author.submit.submitFinalReport">Эцсийн тайланг илгээх</message>
+        <message key="author.submit.submitFinalReport.short">Эцсийн тайлан</message>
+        <message key="author.submit.submitExtensionRequest">Нэмэлт хүсэлт илгээх</message>
+        <message key="author.submit.submitExtensionRequest.short">Нэмэлт хүсэлт</message>
+        <message key="author.submit.submitExtensionRequestInstruct">Судлаачид судалгаа шинжилгээнийхээ хугацааг сунгахдаа энэ сонголтоор дамжуулан товч танилцуулгын хамт хүсэлтээ ирүүлнэ</message>
+        <message key="author.submit.submitOtherOutputs">Бусад нэмэлт судалгаа шинжилгээний бүтээгдэхүүн байршуулах</message>
+        <message key="author.submit.submitOtherOutputs.short">Бусад судалгаа шинжилгээний бүтээгдэхүүн</message>
+        <message key="author.submit.submitOtherOutputsInstruct">Сэтгүүлийн нийтлэлүүд, мэдээ, бусад эсвэл судалгаа шинжилгээтэй холбоотой аливаа бусад нийтлэлүүд.</message>
+        <message key="author.submit.uploadSubmissionFile">Файл байршуулах</message>
+        <message key="author.submit.uploadRawData">Анхан шатны мэдээлэл байршуулах</message>
+        <message key="author.submit.uploadRawData.short">Анхан шатны мэдээлэл</message>
+        <message key="author.submit.uploadRawDataInstruct">Төгсгөлийн дүн шинжилгээ хийх эцсийн өгөгдлийн багц ашиглалт (Excel, SAS, SPSS, эсвэл Стата)</message>
+	<message key="author.submit.replaceSubmissionFile">Өргөн барих файлыг солих</message>
+	<message key="author.submit.noSubmissionFile">Файл байршсангүй. Та Алхам 4-т очиж өөрийн үндсэн төслөө байршуулах шаардлагатай</message>
+	<message key="author.submit.noSubmissionConfirm">Та файлаа байршуулахгүйгээр үргэлжлүүлэхдээ итгэлтэй байна уу?</message>
+	<message key="author.submit.supplementaryFilesInstructions">Энэхүү сонголттой алхам нь өргөн барихдаа нэмэх нэмэлт файлуудыг зөвшөөрдөг. Энэ файлууд ямар ч хэлбэр(формат)-ээр байж болно ба дараах байж болно. (а) Судалгаа шинжилгээний хэрэгсэл, (б) Судалгаа шинжилгээний ёс зүйн хяналтын нөхцлийг биелүүлсэн өгөгдлийн багц, (в) Шинжээчид хаалттай (харах боломжгүй) эх сурвалжууд, (г) Бичвэо хэлбэрээр оруулах боломжгүй зураг, хүснэгтүүд, эсвэл ажилд хэрэг болох нэмэлт бусад материалууд.</message>
+	<message key="author.submit.supplementaryFiles.saveToUpload">Файл байрлуулахдаа ХАДГАЛАХ дээр товшино.</message>
+	<message key="author.submit.forgottenSubmitSuppFile">Та өөрийн сонгосон нэмэлт файлаа байршуулалгүйгээр үргэлжлүүлэхдээ итгэлтэй байна уу?</message>
+	<message key="author.submit.noSupplementaryFiles">Энэ өргөн барих баримтад нэмэгдсэн файл байхгүй байна.</message>
+	<message key="author.submit.backToSupplementaryFiles">Нэмэлт файлуудруу буцах</message>
+	<message key="author.submit.confirmDeleteSuppFile">Та нэмэлт файлаа устгахдаа итгэлтэй байна уу?</message>
+	<message key="author.submit.uploadSuppFile">Нэмэлт файл байршуулах</message>
+	<message key="author.submit.addSupplementaryFile">Нэмэлт файл нэмэх</message>
+	<message key="author.submit.editSupplementaryFile">Нэмэлт файлыг засварлах</message>
+	<message key="author.submit.supplementaryFileData">Нэмэлт файлын метадата</message>
+	<message key="author.submit.supplementaryFileDataDescription">Нэмэлт файлаа индексжүүлэхдээ, байршуулах нэмэлт файлдаа дараах метадатааг оруулна.</message>
+	<message key="author.submit.supplementaryFileUpload">Нэмэлт файл</message>
+        <message key="author.submit.suppFileInstruct">Файлын төрөл(үүд)-ийг сонго<![CDATA[<br />]]>(Гараас CTRL товчлуурыг дарсан чигээрээ болон сонголт сонгоно)</message>
+        <message key="author.submit.suppFileSpecify">"Бусад" файлын төрлийг заана уу</message>
+        <message key="author.submit.suppFileUploadInstruct">Байршуулахын тулд файлаа сонгоно уу</message>
+	<message key="author.submit.suppFile.researchInstrument">Судалгаа шинжилгээний хэрэгсэл</message>
+	<message key="author.submit.suppFile.researchMaterials">судалгаа шинжилгээний материалууд</message>
+	<message key="author.submit.suppFile.researchResults">Судалгаа шинжилгээний үр дүнгүүд</message>
+	<message key="author.submit.suppFile.transcripts">Протоколууд</message>
+	<message key="author.submit.suppFile.dataAnalysis">Өгөгдлийн дүн шинжилгээ</message>
+	<message key="author.submit.suppFile.dataSet">Өгөгдлийн багц</message>
+        <message key="author.submit.suppFile.summary">Дүгнэлт</message>
+        <message key="author.submit.suppFile.informedConsent">Мэдээллэсэн зөвшөөрөл</message>
+        <message key="author.submit.suppFile.funding">Нарийвчилсан төсөв</message>
+        <message key="author.submit.suppFile.cv">Үндсэн судлаачийн тодорхойлолт (CV)</message>
+        <message key="author.submit.suppFile.localEthicalApproval">Нутгийн Ёс зүйн Баталсан</message>
+        <message key="author.submit.suppFile.minutes">минут</message>
+        <message key="author.submit.suppFile.questionnaire">Асуулгууд</message>
+        <message key="author.submit.suppFile.ethicalClearance">Нутгийн Ёс зүйн бүрдүүлэлт</message>
+        <message key="author.submit.suppFile.proofOfPayment">Төлбөрийн баримт</message>
+        <message key="author.submit.suppFile.proofOfRegistration">Бүртгэлийн баримт</message>
+        <message key="author.submit.suppFile.otherErcDecision">Бусад хорооны шийдвэр</message>
+        <message key="author.submit.suppFile.review">Хяналт</message>
+	<message key="author.submit.suppFile.briefDescription">Товч танилцуулга</message>
+	<message key="author.submit.suppFile.contributorOrSponsor">Хандивлагч эсвэл ивээн тэтгэгч байгууллага</message>
+	<message key="author.submit.suppFile.sourceDescription">Бусад эх үүсвэр болон судалгааны нэр.</message>
+	<message key="author.submit.suppFile.specifyOtherType">Бусдыг заах</message>
+	<message key="author.submit.suppFile.noFile">Байршсан файл байхгүй.</message>
+	<message key="author.submit.suppFile.form.titleRequired">Энэхүү нэмэлт файлын гарчгийг оруулна уу.</message>
+	<message key="author.submit.suppFile.form.subjectRequired">Сэдвээ оруулна уу.</message>
+	<message key="author.submit.suppFile.form.descriptionRequired">Тайлбарыг оруулна уу.</message>
+	<message key="author.suppFile.suppFilePublicIdentificationExists">Олон нийтийн нэмэлт файлын тодорхойлогч аль хэдийн орсон байна.</message>
+	<message key="author.suppFile.publicSuppFileIdentifier">Олон нийтийн нэмэлт файлын тодорхойлогч</message>
+	<message key="author.submit.confirmationDescription">Та өөрийн төслөө {$journalTitle} илгээхийн тулд Өргөн барих ажиллагааг дуусгах дээр дарна уу. Судлаачид мэйлээр хариу мэдэгдэл хүлээж авах ба энэхүү сайтад нэвтэрснээрээ өргөн барих явцаас хяналтын явцыг хүртэл харж болно. </message>
+	<message key="author.submit.noFiles">Өргөн барих файл хавсаргагдаагүй байна.</message>
+	<message key="author.submit.filesSummary">Файлын дүгнэлт</message>
+	<message key="author.submit.finishSubmission">Өргөн барих ажиллагааг дуусгах</message>
+	<message key="author.submit.submissionComplete">Өргөн барих ажиллагааг дууслаа. Өөрийн төслөө өргөн барьсан танд баярлалаа.</message>
+	<message key="author.article.uploadAuthorVersion">Судлаачийн хувилбарыг байршуулах</message>
+	<message key="author.article.authorRevisedFile">Судлаачийн файл</message>
+	<message key="author.submit.authorSubmitLoginMessage">Хорооруу илгээхэд хэрэглэгчийн бүртгэл шаардлагатай. Хэрэв танаас нэмэлт мэдээлэл шаардаж байгаа бол эсвэл өргөн барьсан төслийн төлвийг өөрчлөх бол Нарийн бичгийн даргатай холбогдоно уу.</message>
+</locale>

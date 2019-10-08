@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/mn_MN/submission.xml
+  *
+  * Copyright (c) 2000-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the mn_MN (Mongolian) locale.
+  -->
+
+<locale name="mn_MN" full_name = "Mongolian">
+	<message key="submission.abstractViews">Хураангуйн харагдацууд</message>
+	<message key="submission.accepted">Хүлээн авсан</message>
+	<message key="submission.acknowledge">Талархал</message>
+	<message key="submission.addSuppFile">Хавсралт файл нэмэх</message>
+    <message key="submission.agencies">Агентлагууд</message>
+	<message key="submission.ask">Асуух</message>
+	<message key="submission.comments.addComment">Санал нэмэх</message>
+	<message key="submission.comments.comments">Саналууд</message>
+	<message key="submission.comments.confirmDelete">Та энэ саналыг устгахдаа итгэлтэй байна уу?</message>
+	<message key="submission.comments.editComment">Саналыг засварлах</message>
+	<message key="submission.comments.importPeerReviews">Peer Review хийх</message>
+	<message key="submission.comments.noComments">Саналгүй</message>
+	<message key="submission.comments.noReviews">Хянагдаагүй</message>
+	<message key="submission.comments.review">Хяналт</message>
+	<message key="submission.comments.subject">Сэдэв</message>
+	<message key="submission.complete">Гүйцээх</message>
+	<message key="submission.continuingReview">Хяналтыг үргэлжлүүлэх</message>
+    <message key="submission.decisionFile">Шийдвэрийн файл</message>
+    <message key="submission.done">Хийсэн / Болсон</message>
+	<message key="submission.dueDate">Дуусгах огноо</message>
+	<message key="submission.due">улмаас</message>
+	<message key="submission.editing">Засвар хийх</message>
+	<message key="submission.editMetadata">Мета өгөгдлийг засварлах</message>
+	<message key="submission.email.backToEmailLog">Мэйлийн логруу буцах</message>
+	<message key="submission.email.confirmClearLog">Та өргөн мэдүүлэхдээ е-мэйлийн логийг цэвэрлэхдээ итгэлтэй байна уу?</message>
+	<message key="submission.email.confirmDeleteLogEntry">Та е-мэйлийн логийн бүртгэлийг устгахдаа итгэлтэй байна уу?</message>
+	<message key="submission.email.deleteLogEntry">Логийн бүртгэлийг устгах</message>
+	<message key="submission.emailLog">{$id} Е-мжйл лог</message>
+	<message key="submission.endOfStudy">Судалгааны төгсгөл</message>
+	<message key="submission.event.backToEventLog">Үйл явдлын логруу буцах</message>
+	<message key="submission.event.confirmClearLog">Та өргөн мэдүүлэхдээ үйл явдлын логийг цэвэрлэхдээ итгэлтэй байна уу?</message>
+	<message key="submission.event.confirmDeleteLogEntry">Та үйл явдлын логийн бүртгэлийг устгахдаа итгэлтэй байна уу?</message>
+	<message key="submission.event.deleteLogEntry">Бүртгэлийг логийн устгах</message>
+	<message key="submission.event.general.metadataUpdated">Шинэчилсэн мета өгөгдлийг өргөн барих</message>
+	<message key="submission.event.general.suppFileUpdated">Шинэчилсэн файлыг өргөн барих</message>
+	<message key="submission.event.reviewer.reviewAcceptedByProxy">PPROXY-аар хяналтын томилгоог хүлээн зөвшөөрсөн</message>
+	<message key="submission.event.reviewer.reviewAccepted">Хяналтын томилгоо хүлээн зөвшөөрөгдсөн</message>
+	<message key="submission.event.reviewer.reviewCancelled">Хяналтын томилгоог цуцлагдсан</message>
+	<message key="submission.event.reviewer.reviewDeclined">Хяналтын томилгооноос татгалзсан</message>
+	<message key="submission.event.reviewer.reviewDueDate">Хяналт хийж дуусах хугацааг шинэчилсэн</message>
+	<message key="submission.event.reviewer.reviewerAssigned">Шинжээч нь төслийг өргөн барихаар томилогдсон</message>
+	<message key="submission.event.reviewer.reviewerRated">Шинжээчийн дүгнэлт өргөн баригдсан</message>
+	<message key="submission.event.reviewer.reviewerUnassigned">Шинжээч өргөн барих томилгооноос татгалзсан</message>
+	<message key="submission.event.reviewer.reviewFile">Хяналтын файл шинэчлэгдсэн</message>
+	<message key="submission.event.reviewer.reviewInitiated">Хяналтын томилгоо хийсэн</message>
+	<message key="submission.event.reviewer.reviewRecommendation">Хяналтын зөвлөмжийн файл</message>
+	<message key="submission.event.reviewer.reviewReinitiated">Хяналтын томилгоо цуцлагдсан</message>
+	<message key="submission.event.reviewer.reviewResubmitted">Хяналтын дүнг дахин өргөн барьсан</message>
+	<message key="submission.event.reviewer.reviewRevision">Шинжээчийн хяналтын файл шинэчлэгдсэн</message>
+	<message key="submission.files">Файлууд</message>
+	<message key="submission.history.clearLog">Логийг цэвэрлэх</message>
+	<message key="submission.history">Түүх</message>
+	<message key="submission.history.noLogEntries">Логийн бүртгэл байхгүй байна.</message>
+	<message key="submission.history.recentLogEntries">Шинэхэн бүртгэлүүд</message>
+	<message key="submission.history.submissionEmailLog">Е-мэйл лог</message>
+	<message key="submission.history.submissionEventLog">Үйл явдлын лог</message>
+	<message key="submission.history.submissionNotes">Тэмдэглэлийг өргөн барих</message>
+	<message key="submission.history.viewLog">Логийг харагдац</message>
+    <message key="submission.indexing">Индексжүүлэлт</message>
+	<message key="submission.initialReview">Анхны хяналт</message>
+	<message key="submission.initiated">Санаачлагдсан</message>
+	<message key="submission.lastModified">Сүүлд үүсгэгдсэн</message>
+	<message key="submission.metadata">Мета өгөгдлийг өргөн барих</message>
+	<message key="submission.noReviewAssignments">Хяналтын томилгоо хийгдээгүй</message>
+    <message key="submission.originalFileInstruct">Судалгааны төслийн үндсэн файл. Үүнийг татаж авахын тулд түүний гарчиг (цэнхэр өнгөтэй холбоос) дээр дарна уу.</message>
+	<message key="submission.page.editing">{$id} Засварлах</message>
+	<message key="submission.page.history">{$id} Түүх</message>
+	<message key="submission.page.review">{$id} Хяналт</message>
+    <message key="submission.page.proposalFromMeeting">{$id} мэдээлэл</message>
+	<message key="submission.page.summary">{$id} Товчлол</message>
+	<message key="submission.peerReview">Peer&amp;nbsp; хяналт</message>
+    <message key="submission.previousProposalFile">Өмнөх төслийн файл(ууд)</message>
+    <message key="submission.previousProposalFileInstruct">Дахин өргөн барьсан тохиолдолд, энд өмнөх өргөн барьсан үндсэн төслийн файл байна. Үүнийг татаж авахын тулд түүний гарчиг дээр дарна уу.</message>
+    <message key="submission.proposalDetails">Төслийн дэлгэрэнгүй</message>
+	<message key="submission.protocolAmendment">Зөвшөөрсний дараах нэмэлт өөрчлөлтүүд</message>
+	<message key="submission.recommendation">Зөвлөмж</message>
+	<message key="submission.rejected">Буцаагдсан</message>
+	<message key="submission.request">Хүсэлт</message>
+	<message key="submission.response">Хариу</message>
+	<message key="submission.restrictions">Татгалзсан</message>
+	<message key="submission.reviewMetadata">Мета өгөгдлийг хянах</message>
+	<message key="submission.review">Хяналт</message>
+	<message key="submission.reviewFiles">Файл(ууд)-ын хяналт</message>
+	<message key="submission.reviewVersion">Хянасан хувилбар</message>
+    <message key="submission.saveMetadata">Мета өгөгдлийг хадгалах</message>
+	<message key="submission.seriousAdverseEvents">Хүнд зэргийн гаж нөлөө</message>
+    <message key="submission.status.approved">Батлагдсан</message>
+    <message key="submission.status.complete">Дуусгах</message>
+    <message key="submission.status.completed">Дууссан</message>
+    <message key="submission.status.continuingReview">Үргэлжлүүлэн хянах</message>
+    <message key="submission.status.declined">Татгалзсан</message>
+    <message key="submission.status.draft">Төсөл</message>
+    <message key="submission.status.exempted">Хяналт хийхээс чөлөөлөх</message>
+    <message key="submission.status.expeditedReview">Түргэвчилсэн хяналт</message>
+    <message key="submission.status.fullReview">Бүрэн хяналт</message>
+    <message key="submission.status.incomplete">Гүйцээгүй</message>
+    <message key="submission.status.resubmitted">Дахин өргөн баригдсан</message>
+    <message key="submission.status.reviewed">Хянагдсан</message>
+    <message key="submission.status.reviseAndResubmit">Хянаж дахин өргөн барих</message>
+    <message key="submission.status.submitted">Өргөн баригдсан</message>
+    <message key="submission.status.withdrawn">Татаж авах</message>
+    
+	<message key="submissions.active">ХЭРЭГЖИЖ БАЙГАА ТӨСЛҮҮД (Шийдвэр/хяналт дахин өргөн баригдахаар хүлээгдэж буй)</message>
+    <message key="submissions.approved">БАТЛАГДСАН ТӨСЛҮҮД (Үргэжилж байгаа судалгаанууд)</message>
+	<message key="submissions.archived">Архивлагдсан</message>
+	<message key="submissions.completed">Дууссан</message>
+	<message key="submissions.declined">ТАТГАЛЗСАН ТӨСЛҮҮД</message>
+	<message key="submissions.incomplete">Дуусаагүй</message>
+	<message key="submissions.noSubmissions">Өргөн баригдаагүй</message>
+    <message key="submissions.proposal.s">Судалгааны төсөл(үүд)</message>
+	<message key="submissions.queuedEditing">Хянагдаж байгаа</message>
+	<message key="submissions.submit">Өргөн барьсан огноо</message>
+	<message key="submissions.submitted">Өргөн баригдсан</message>
+	<message key="submission.start">Эхлэх</message>
+	<message key="submission.submissionHistory">Өргөн барилтын түүх</message>
+	<message key="submission.submissionManuscript">Судалгааны төслийн үндсэн файл</message>
+	<message key="submission.submissionReview">Хяналт хийлгэхээр өргөн барьсан</message>
+	<message key="submission.submitter">Өргөн баригч</message>
+    <message key="submission.submitterInstruct">Энэ эрүүл мэндийн эрдэм шинжилгээний порталаар судалгааны төслийг өргөн барьсан хэрэглэгч нь энэ судалгааны судлаач байж болохгүй.</message>
+	<message key="submission.summary">Товчлол</message>
+	<message key="submission.supplementaryFiles">Хавсралт файлууд</message>
+    <message key="submission.progressReports">Завсрын тайлангууд</message>
+    <message key="submission.completionReports">Төгсгөлийн тайланууд</message>
+    <message key="submission.extensionRequest">Сунгах хүсэлтүүд</message>
+    <message key="submission.withdrawReports">Татаж авах шалтгаан</message>
+    <message key="submission.withdrawLack">Санхүүжилт дутагдалтай</message>
+    <message key="submission.withdrawAdverse">Гаж нөлөө</message>
+    <message key="submission.rawDataFile">Анхны өгөгдлийн файл</message>
+    <message key="submission.otherSuppResearchOutput">Судалгааны бусад үр дүнгийн хавсралт</message>
+	<message key="submission.titleAndAbstract">Гарчиг ба хураангуй</message>
+	<message key="submission.underway">Хийгдэж байгаа</message>
+	<message key="submission.uploadFileTo">-руу файлыг хуулах</message>
+	<message key="submission.viewMetadata">Мета өгөгдлийг харах</message>
+	<message key="submission.views">Харагдацууд</message>
+	<message key="submission.uploadSuccessful">Таны файл татагдлаа.</message>
+	<message key="submission.uploadSuccessfulContinue">Таны файл татагдаж дууслаа. Файлын мета өгөгдлийг засварлахдаа Үргэжлүүлэх-ийг дарна уу.</message>
+	<message key="submission.loadMessage">Серверлүү файл хуулагдаж дуустал түр хүлээнэ үү.</message>
+	<message key="submission.fileDetails">Файлын дэлгэрэнгүй</message>
+	<message key="submission.nameRequired">Энэ зүйлд шаардлагатай нэр.</message>
+	<message key="submission.date.mmdd">Сар-Өдөр</message>
+	<message key="submission.date.yyyymmdd">Өргөн барьсан огноо</message>
+</locale>

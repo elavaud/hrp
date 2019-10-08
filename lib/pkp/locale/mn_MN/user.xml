@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/mn_MN/user.xml
+  *
+  * Copyright (c) 2000-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the mn_MN (Mongolian) locale.
+  -->
+
+<locale name="mn_MN" full_name = "Mongolian">
+	<message key="user.affiliation">Ажлын газар</message>
+    <message key="user.studentId">Оюутны ID</message>
+    <message key="user.tel">Утасны дугаар</message>
+	<message key="user.affiliation.description">(Таны хүрээлэн, Жишээлбэл: "Эрүүл мэндийн шинжлэх ухааны их сургууль")</message>
+	<message key="user.affiliations">Ажлын газрууд</message>
+
+	<message key="user.authorization.accessDenied">Хандалт цуцлагдсан.</message>
+	<message key="user.authorization.processAuthenticationTokenRequired">Тухайн хэрэглэгчийг таних үйл ажиллагаа дутуу эсвэл буруу байна.</message>
+	<message key="user.authorization.loginRequired">Нэвтрэх шаардлагатай.</message>
+	<message key="user.authorization.privateOperation">Таны хандахыг оролцож буй үйлдэл бол хувийн эсвэл байхгүй байна.</message>
+	<message key="user.authorization.restrictedSiteAccess">Таны хандалт цуцлагдлаа. Энэхүү сайтад хандах нь одоогоор хязгаарлагдсан байна.</message>
+	<message key="user.authorization.roleBasedAccessDenied">Та энэ үйлдлийг хийх эрхгүй байна.</message>
+	<message key="user.authorization.userGroupRequired">Та энэ үйл ажиллагааг хандахын тулд хүчинтэй хэрэглэгчийн бүлэгт бүртгүүлэх хэрэгтэй. </message>
+	<message key="user.changeMyPassword">Нууц үгээ солих</message>
+	<message key="user.changePassword">Нууц үг солих</message>
+	<message key="user.confirmEmail">Баталгаажуулах е-мэйл</message>
+	<message key="user.dateLastLogin">Сүүлийн нэвтрэлт</message>
+	<message key="user.dateRegistered">Бүртгүүлсэн огноо</message>
+	<message key="user.editMyProfile">Өөрийн мэдээллийг засварлах</message>
+	<message key="user.email">Е-мэйл</message>
+	<message key="user.fax">Факс</message>
+	<message key="user.functions">Үйлдэл(үүд)</message>
+	<message key="user.feminine">Эмэгтэй</message>
+	<message key="user.firstName">Өөрийн нэр</message>
+	<message key="user.gender">Хүйс</message>
+	<message key="user.initialsExample">Доржийн Дулмаа = ДД</message>
+	<message key="user.initials">Нэрийн товчлол</message>
+	<message key="user.interests">Ашиг сонирхлыг хянах</message>
+    <message key="user.interests.description">(Өөр өөр ашиг сониорхол оруулах бол ENTER эсвэл таслал (,) -аар тусгаарлана)</message>
+	<message key="user.lastName">Эцэг /эх/-ийн нэр</message>
+	<message key="user.login.accountDisabledWithReason">Таны хэрэглэгчийн эрх дараах шалтгаанаас идэвхгүй болсон байна: {$reason}</message>
+	<message key="user.login.accountDisabled">Таны хэрэглэгчийн эрх идэвхгүй байна. Дэлгэрэнгүй мэдээлэл авах бол системийн удирдагчтай холбогдоно уу.</message>
+	<message key="user.login.accountNotValidated">Таны е-мэйл хаяг хүчин төгөлдөр биш байна. Өөрийн е-мэйлээ шалгаад, өгөгдсөн зааврын дагуу ажиллана уу. Хэрвээ та е-мэйл хүлээж аваагүй бол системийн удирдагчтай холбогдоно уу.</message>
+	<message key="user.login.activate">Хэрэглэгчийн эрхийг идэвхижүүлэх</message>
+	<message key="user.login.activated">Таныг эрхээ идэвхжүүлсэнд баярлалаа. Хэрэв та хэрэглэгчийн эрх үүсгэсэн тохиолдолд одоо нийлүүлсэн итгэмжлэлүүдийг ашиглан нэвтэрч болно.</message>
+	<message key="user.login.changePasswordInstructions"><![CDATA[Та энэ сайтад нэвтрэхээсээ өмнө шинэ нууц үг сонгосон байх ёстой.<br /><br />Та өөрийн хэрэглэгчийн эрхийн нууц үгийг солихдоо хэрэглэгчийн нэр, одоогийн нууц үг болон шинэ нууц үгээ давтан оруулна уу.]]></message>
+	<message key="user.login.forgotPassword">Та нууц үгээ мартсан уу?</message>
+	<message key="user.login.loginError">Таны хэрэглэгчийн нэр эсвэл нууц үг буруу байна. Дахин оруулна уу.</message>
+	<message key="user.login">Нэвтрэх</message>
+	<message key="user.logIn">Нэвтрэх</message>
+	<message key="user.login.lostPassword.confirmationSent">Таны е-мэйлрүү баталгаажуулалтын мэдээ илгээгдлээ. Өөрийнхөө нууц үгийг солихын тулд дараах зааврыг дагана уу.</message>
+	<message key="user.login.lostPassword.invalidHash">Уучлаарай, таны орсон холбоосын хүчинтэй хугацаа дууссан эсвэл хүчин төгөлдөр биш байна. Нууц үгээ дахин үүсгэхийн тулд дахин оролдоно уу.</message>
+	<message key="user.login.lostPassword.invalidUser">Заасан е-мэйл хаягтай хэрэглэгч байхгүй байна.</message>
+	<message key="user.login.lostPassword.passwordSent">Таны шинэ нууц е-мэйлруу илгээгдсэн болно. Та шинэ нууц үгээрээ энэхүү сайтал нэвтэрч болно.</message>
+	<message key="user.login.registeredEmail">Бүртгэгдсэн хэрэглэгчийн е-мэйл</message>
+	<message key="user.login.rememberUsernameAndPassword">Миний хэрэглэгчийн нэр, нууц үгийг санах</message>
+	<message key="user.login.resetPassword">Нууц үгийг солих</message>
+	<message key="user.logOut">Гарах</message>
+	<message key="user.mailingAddress">Мэйл хаяг</message>
+	<message key="user.masculine">Эрэгтэй</message>
+	<message key="user.middleName">Middle name</message>
+	<message key="user.myAccount">Миний хэрэглэгчийн эрх</message>
+	<message key="user.name">Нэр</message>
+	<message key="user.natinality">Яс үндэс</message>
+	<message key="user.other">Бусад</message>
+	<message key="user.password">Нууц үг</message>
+	<message key="user.repeatPassword">Нууц үгийн давтан оруулах</message>
+	<message key="user.phone">Утасны дугаар</message>
+	<message key="user.profile.changePasswordInstructions">Хэрэглэгчийн эрхийнхээ нууц үгийг солихдоо доор одоогийн болон шинэ нууц үгээ оруулна уу.</message>
+	<message key="user.profile.editProfile">Танилцуулгаа засварлах</message>
+	<message key="user.profile.form.emailRequired">Зөв е-мэйл хаяг оруулах шаардлагатай.</message>
+	<message key="user.profile.form.affiliationRequired">Ажлын газрыг оруулах шаардлагатай.</message>
+	<message key="user.profile.form.firstNameRequired">Өөрийн нэрийг оруулах шаардлагатай.</message>
+	<message key="user.profile.form.lastNameRequired">Эцэг/эх-ийн нэрийг оруулах шаардлагатай</message>
+	<message key="user.profile.form.newPasswordRequired">Та шинэ нууц үгээ оруулах шаардлагатай.</message>
+	<message key="user.profile.form.oldPasswordInvalid">Таны оруулсан нууц үг буруу байна.</message>
+	<message key="user.profile.form.openAccessNotifications">Е-мэйлийн мэдэгдлийг нээлттэй хандалтыг үүсгэх</message>
+	<message key="user.profile.form.passwordRequired">Нууц үг оруулах шаардлагатай.</message>
+	<message key="user.profile.form.publishedNotifications">Шинэ асуудал е-мэйлийн мэдэгдэлд нийтлэгдлээ.</message>
+	<message key="user.profile.form.urlInvalid">Энэ тодорхойлогдсон URL буруу байна. URL дээр хоёр товшиж дахин оролдоно үү. (Санамж: URL-ийнхаа эхэнд http:// -ийг нэмэх.)</message>
+	<message key="user.profile.form.usernameRequired">Хэрэглэгийн нэр оруулах шаардлагатай.</message>
+    <message key="user.profile.form.ercStatusRequired">Хорооны төрлийг оруулах шаардлагатай.</message>
+	
+	<message key="user.profile.leavePasswordBlank">Одоогийн нууц үгээ өөрчлөхгүй үлдээгийн тулд нууц үгийн талбарыг хоосон үлдээнэ үү.</message>
+	<message key="user.profile.newPassword">Шинэ нууц үг</message>
+	<message key="user.profile.oldPassword">Одоогийн нууц үг</message>
+	<message key="user.profile">Танилцуулга</message>
+	<message key="user.profile.publicProfile">Хэрэглэгчийн танилцуулга</message>
+	<message key="user.profile.repeatNewPassword">Шинэ нууц үгийг давтан оруулна уу</message>
+	<message key="user.register.form.emailExists">Энэхүү сонгосон е-мэйл хаягийн өөр хэрэглэгч ашиглаж байна.</message>
+    <message key="user.register.form.tooManyMembers">Энэ хороонд таны сонгосон хэрэглэгчийн эрх бүхий хүмүүсийн тоо хэт олон бүртгэгдсэн байна. Хороонд 1 нарийн бичгийн дарга, 1 дарга, 1 орлогч дарга, 20 хүртэлх гишүүн байу болохыг анхаарна уу.(дарга, орлогч дарга нь хороонд гишүүнд тооцогдоно.).</message>
+	<message key="user.register.form.passwordsDoNotMatch">Нууц үгс тохирохгүй байна.</message>
+	<message key="user.register.form.emailsDoNotMatch">Е-мэйл хаягийн талбарууд тохирохгүй байна.</message>
+	<message key="user.register.form.usernameAlphaNumeric">Хэрэглэгчийн нэр нь үсэг, доогуур зураас, дундуур зураас, агуулж болох ба эхлэл ба төгсгөлийн тэмдэгт нь заавал үсэг байна.</message>
+	<message key="user.register.form.usernameExists">Сонгосон хэрэглэгчийн нэрийг өөр хэрэглэгч ашиглаж байна.</message>
+	<message key="user.register.passwordLengthRestriction">Нууц үг нь наад зах нь {$length} тэмдэгттэй байна.</message>
+	<message key="user.register.registerAs">Хэрэглэгчийн эрх: </message>
+	<message key="user.register">Бүртгүүлэх</message>
+	<message key="user.register.usernameRestriction">Хэрэглэгчийн нэр нь зөвхөн жижиг үсэг, тоо, дундуур болон доогуур зураасыг агуулсан байх шаардлагатай.</message>
+	<message key="user.role.reviewer">Хорооны гишүүн</message>
+	<message key="user.role.reviewers">Ёсзүйн хорооны гишүүд</message> /*From reviewers*/
+	<message key="user.role.siteAdmin">Удирдагчийн сайт</message>
+	<message key="user.role.siteAdmins">Удирдагчдын сайт</message>
+	<message key="user.roles">Хэрэглэгчийн эрх</message>
+	<message key="user.salutation">Хүндэтгэлийн зэрэг (Др./Хатагтай /Ноён...)</message>
+	<message key="user.sendPassword">Баталгаажуулалт</message>
+	<message key="user.sendPassword.description">Миний хэрэглэгчийн нэр, нууц үгийг агуулсан мэдээллийг баталжуулсан е-мэйлийг илгээнэ үү</message>
+	<message key="user.signature">Гарын үсэн</message>
+	<message key="user.title">Гарчиг</message>
+	<message key="user.url">URL</message>
+	<message key="user.userHome">Хэрэглэгчийн нүүр хуудас</message>
+	<message key="user.username">Хэрэглэгчийн нэр</message>
+	<message key="user.register.completeForm">Эрүүл мэндийн судалгааны порталд бүртгүүлэхийн тулд энэ маягтыг бөглөнө үү.</message>
+</locale>

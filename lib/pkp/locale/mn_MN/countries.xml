@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE countries SYSTEM "../../dtd/countries.dtd">
+<!--
+  * locale/mn_MN/countries.xml
+  *
+  * Copyright (c) 2000-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized list of countries.
+  *
+  * $Id$
+  -->
+<countries>
+	<country name="Афганистан" code="AF"/>
+	<country name="Аланд арал" code="AX"/>
+	<country name="Албани" code="AL"/>
+	<country name="Алжир" code="DZ"/>
+	<country name="Америкийн Самоа" code="AS"/>
+	<country name="Андорра" code="AD"/>
+	<country name="Ангол" code="AO"/>
+	<country name="Ангүйлла" code="AI"/>
+	<country name="Антарктик" code="AQ"/>
+	<country name="Антигуа ба Барбуда" code="AG"/>
+	<country name="Аргентин" code="AR"/>
+	<country name="Армени" code="AM"/>
+	<country name="Аруба" code="AW"/>
+	<country name="Australia" code="AU"/>
+	<country name="Австрали" code="AT"/>
+	<country name="Азербайжан" code="AZ"/>
+	<country name="Багам" code="BS"/>
+	<country name="Бахрейн" code="BH"/>
+	<country name="Бангладеш" code="BD"/>
+	<country name="Барбадос" code="BB"/>
+	<country name="Беларус" code="BY"/>
+	<country name="Бельги" code="BE"/>
+	<country name="Белиз" code="BZ"/>
+	<country name="Бенин" code="BJ"/>
+	<country name="Бермуда" code="BM"/>
+	<country name="Бутан" code="BT"/>
+	<country name="Болив" code="BO"/>
+	<country name="Босни ба Херцеговина" code="BA"/>
+	<country name="Ботсвани" code="BW"/>
+	<country name="Боувет арал" code="BV"/>
+	<country name="Бразил" code="BR"/>
+	<country name="Британий Энэтхэгийн далайн нутаг дэвсгэр" code="IO"/>
+	<country name="Бруней Даруссалам" code="BN"/>
+	<country name="Болгар" code="BG"/>
+	<country name="Буркина Фасо" code="BF"/>
+	<country name="Бурунди" code="BI"/>
+	<country name="Камбож" code="KH"/>
+	<country name="Камерун" code="CM"/>
+	<country name="Канад" code="CA"/>
+	<country name="Кабо-Верде" code="CV"/>
+	<country name="Кайманы арлууд" code="KY"/>
+	<country name="Төв Африкийн Бүгд Найрамдах улс" code="CF"/>
+	<country name="Чад" code="TD"/>
+	<country name="Чил" code="CL"/>
+	<country name="Хятад" code="CN"/>
+	<country name="Кристмас арал Island" code="CX"/>
+	<country name="Кокос (Кийлинг) Арлууд" code="CC"/>
+	<country name="Колумба" code="CO"/>
+	<country name="Коморос" code="KM"/>
+	<country name="Конго" code="CG"/>
+	<country name="Конго, Бүгд Найрамдах Ардчилсан" code="CD"/>
+	<country name="Күүкийн арлууд" code="CK"/>
+	<country name="Коста Рика" code="CR"/>
+	<country name="Кот д'Ивуар" code="CI"/>
+	<country name="Кроатиа" code="HR"/>
+	<country name="Куба" code="CU"/>
+	<country name="Киргиз" code="CY"/>
+	<country name="Чех" code="CZ"/>
+	<country name="Денмарк" code="DK"/>
+	<country name="Джибути" code="DJ"/>
+	<country name="Доминика" code="DM"/>
+	<country name="Доминиканы Бүгд Найрамдах Улс" code="DO"/>
+	<country name="Эквадор" code="EC"/>
+	<country name="Египет" code="EG"/>
+	<country name="Эл Салвадор" code="SV"/>
+	<country name="Экваторын Гвиней" code="GQ"/>
+	<country name="Эритрей" code="ER"/>
+	<country name="Эстон" code="EE"/>
+	<country name="Этиоп" code="ET"/>
+	<country name="Фолклендийн арлууд (Малвинас)" code="FK"/>
+	<country name="Фарерын Арлууд" code="FO"/>
+	<country name="Фижи" code="FJ"/>
+	<country name="Финлянд" code="FI"/>
+	<country name="Франц" code="FR"/>
+	<country name="Францын Гвиней" code="GF"/>
+	<country name="Францын Полинез" code="PF"/>
+	<country name="Францын өмнөд газар нутаг" code="TF"/>
+	<country name="Габон" code="GA"/>
+	<country name="Камбож" code="GM"/>
+	<country name="Гүрж" code="GE"/>
+	<country name="Герман" code="DE"/>
+	<country name="Гана" code="GH"/>
+	<country name="Гибралтар" code="GI"/>
+	<country name="Грек" code="GR"/>
+	<country name="Гринланд" code="GL"/>
+	<country name="Гренада" code="GD"/>
+	<country name="Гваделуп" code="GP"/>
+	<country name="Гуам" code="GU"/>
+	<country name="Гватемал" code="GT"/>
+	<country name="Гвиней" code="GN"/>
+	<country name="Гвиней-Бисау" code="GW"/>
+	<country name="Гайана" code="GY"/>
+	<country name="Гайти" code="HT"/>
+	<country name="Хэрд Арал ба Макдоналд Арлууд" code="HM"/>
+	<country name="Холи Си (Ватикан Хот Улс)" code="VA"/>
+	<country name="Гондурас" code="HN"/>
+	<country name="Хонг Конг" code="HK"/>
+	<country name="Унгар" code="HU"/>
+	<country name="Исланд" code="IS"/>
+	<country name="Энэтхэг" code="IN"/>
+	<country name="Индонези" code="ID"/>
+	<country name="Иран, Исламын Бүгд Найрамдах Улс" code="IR"/>
+	<country name="Ирак" code="IQ"/>
+	<country name="Ирланд" code="IE"/>
+	<country name="Израил" code="IL"/>
+	<country name="Итали" code="IT"/>
+	<country name="Ямайка" code="JM"/>
+	<country name="Япон" code="JP"/>
+	<country name="Жордан" code="JO"/>
+	<country name="Казахстан" code="KZ"/>
+	<country name="Кени" code="KE"/>
+	<country name="Кирбати" code="KI"/>
+	<country name="Солонгос, Ардчилсан Бүгд Найрамдах Улс" code="KP"/>
+	<country name="Солонгос, Бүгд Найрамдах Улс" code="KR"/>
+	<country name="Кувейт" code="KW"/>
+	<country name="Киргизстан" code="KG"/>
+	<country name="Лаос ард түмний Ардчилсан Бүгд Найрамдах улс" code="LA"/>
+	<country name="Латви" code="LV"/>
+	<country name="Ливан" code="LB"/>
+	<country name="Лесото" code="LS"/>
+	<country name="Либери" code="LR"/>
+	<country name="Ливийн Араб Жамагирия" code="LY"/>
+	<country name="Лихтенштейн" code="LI"/>
+	<country name="Литва" code="LT"/>
+	<country name="Люксембург" code="LU"/>
+	<country name="Макао" code="MO"/>
+	<country name="Македон, Югослав улс" code="MK"/>
+	<country name="Мадагаскар" code="MG"/>
+	<country name="Малави" code="MW"/>
+	<country name="Малайз" code="MY"/>
+	<country name="Мальдив" code="MV"/>
+	<country name="Мали" code="ML"/>
+	<country name="Мальта" code="MT"/>
+	<country name="Маршаллын арлууд" code="MH"/>
+	<country name="Мартиник" code="MQ"/>
+	<country name="Мавритан" code="MR"/>
+	<country name="Мауритиус" code="MU"/>
+	<country name="Майотта" code="YT"/>
+	<country name="Мексик" code="MX"/>
+	<country name="Микронези, Холбооны Улс" code="FM"/>
+	<country name="Молдав, Бүгд Найрамдах Улс" code="MD"/>
+	<country name="Монако" code="MC"/>
+	<country name="Монгол" code="MN"/>
+	<country name="Монтсеррат" code="MS"/>
+	<country name="Марокко" code="MA"/>
+	<country name="Мозамбик" code="MZ"/>
+	<country name="Мьянмар" code="MM"/>
+	<country name="Намиби" code="NA"/>
+	<country name="Науру" code="NR"/>
+	<country name="Балба" code="NP"/>
+	<country name="Нидерланд" code="NL"/>
+	<country name="Нидерландын Антилийн арлууд |" code="AN"/>
+	<country name="Шинэ Каледони" code="NC"/>
+	<country name="Шинэ Зеланд" code="NZ"/>
+	<country name="Никарагуа" code="NI"/>
+	<country name="Нигэр" code="NE"/>
+	<country name="Нигэри" code="NG"/>
+	<country name="Ниуэ" code="NU"/>
+	<country name="Норфолк арал" code="NF"/>
+	<country name="Умард Марианы арлууд" code="MP"/>
+	<country name="Норвег" code="NO"/>
+	<country name="Оман" code="OM"/>
+	<country name="Пакистан" code="PK"/>
+	<country name="Палау" code="PW"/>
+	<country name="Палестины эзлэгдсэн газар нутаг, эзлэгдсэн" code="PS"/>
+	<country name="Панам" code="PA"/>
+	<country name="Папуа Шинэ Гвиней" code="PG"/>
+	<country name="Парагвай" code="PY"/>
+	<country name="Перу" code="PE"/>
+	<country name="Филиппин" code="PH"/>
+	<country name="Питкэрн" code="PN"/>
+	<country name="Польш" code="PL"/>
+	<country name="Португал" code="PT"/>
+	<country name="Пуэрто-Рико" code="PR"/>
+	<country name="Катар" code="QA"/>
+	<country name="Реюньон" code="RE"/>
+	<country name="Румын" code="RO"/>
+	<country name="Оросын Холбооны улс" code="RU"/>
+	<country name="Руанда" code="RW"/>
+	<country name="Сент Хелена" code="SH"/>
+	<country name="Сент-Китс ба Невис" code="KN"/>
+	<country name="Сент Люси" code="LC"/>
+	<country name="Сент-Пьер ба Микелон" code="PM"/>
+	<country name="Сент-Винсент ба Гренадин" code="VC"/>
+	<country name="Самоа" code="WS"/>
+	<country name="Сан-Марино" code="SM"/>
+	<country name="Сан-Томе ба Принсипи" code="ST"/>
+	<country name="Саудын Араб" code="SA"/>
+	<country name="Сенегал" code="SN"/>
+	<country name="Серби ба Монтенегро" code="CS"/>
+	<country name="Сейшелийн Арлууд" code="SC"/>
+	<country name="Сьерра-Леоне" code="SL"/>
+	<country name="Сингапур" code="SG"/>
+	<country name="Чехословак" code="SK"/>
+	<country name="Словен" code="SI"/>
+	<country name="Соломоны Арлууд" code="SB"/>
+	<country name="Сомали" code="SO"/>
+	<country name="Өмнөд Африк" code="ZA"/>
+	<country name="Өмнөд Жорж ба Өмнөд Сэндвичийн арлууд" code="GS"/>
+	<country name="Испани" code="ES"/>
+	<country name="Шри Ланка" code="LK"/>
+	<country name="Судан" code="SD"/>
+	<country name="Суринам" code="SR"/>
+	<country name="Свалбард ба Ян Маен" code="SJ"/>
+	<country name="Свазиландын Вант Улс" code="SZ"/>
+	<country name="Швед" code="SE"/>
+	<country name="Швейцарь" code="CH"/>
+	<country name="Арабын Бүгд Найрамдах Сири" code="SY"/>
+	<country name="Тайвань – Бүгд Найрамдах Хятад Улсын муж" code="TW"/>
+	<country name="Тажикистан" code="TJ"/>
+	<country name="Танзани, Америкийн Бүгд Найрамдах Улс" code="TZ"/>
+	<country name="Тайланд" code="TH"/>
+	<country name="Зүүн-Тимор" code="TL"/>
+	<country name="Того" code="TG"/>
+	<country name="Токелау" code="TK"/>
+	<country name="Тонга" code="TO"/>
+	<country name="Тринидад ба Тобаго" code="TT"/>
+	<country name="Тунис" code="TN"/>
+	<country name="Турк" code="TR"/>
+	<country name="Туркменистан" code="TM"/>
+	<country name="Туркс ба Кайкосын Арлууд" code="TC"/>
+	<country name="Тувалу" code="TV"/>
+	<country name="Уганда" code="UG"/>
+	<country name="Украйн" code="UA"/>
+	<country name="Арабын Нэгдсэн Эмирт Улс" code="AE"/>
+	<country name="Нэгдсэн Вант Улс" code="GB"/>
+	<country name="Америкийн Нэгдсэн Улс" code="US"/>
+	<country name="АНУ-ын Бага Алслагдмал Арлууд" code="UM"/>
+	<country name="Уругвай" code="UY"/>
+	<country name="Узбекистан" code="UZ"/>
+	<country name="Вануату" code="VU"/>
+	<country name="Венесуэл" code="VE"/>
+	<country name="Вьетнам" code="VN"/>
+	<country name="Виржиний Арлууд, Британи" code="VG"/>
+	<country name="Виржиний Арлууд, АНУ" code="VI"/>
+	<country name="Уоллис ба Футуна" code="WF"/>
+	<country name="Баруун Сахар" code="EH"/>
+	<country name="Йемен" code="YE"/>
+	<country name="Замби" code="ZM"/>
+	<country name="Зимбабве" code="ZW"/>
+</countries>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/common.xml
+  *
+  * Copyright (c) 2000-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (English) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="mn_MN" full_name = "Mongolian">
+    
+    
+        <!-- ADDED -->
+        
+        <!-- February 6th 2014 -->
+                
+	<message key="common.outside">Outside</message>
+        
+        <!-- Old -->
+
+        <message key="common.archivedProposals">АРХИВЛАГДСАН ТӨСӨЛ</message>
+        <message key="common.activeProposals">ХЭРЭГЖИЖ БУЙ ТӨСЛҮҮД (Шийдвэр хүлээж буй/Хяналт хийх/Дахин өргөн барих)</message>
+        <message key="common.reviewerActiveProposals">ХЭРЭГЖИЖ БУЙ ТӨСЛҮҮД</message>
+        <message key="common.approvedProposals">ЗӨВШӨӨРӨГДСӨН ТӨСЛҮҮД(Одоо хийгдэж буй)</message>
+        <message key="common.approvalDate">Зөвшөөрөл олгосон огноо</message>
+        <message key="common.disableEnable">Идэвхгүй/Идэвхтэй</message>
+        <message key="common.proposalId">Төслийн ID</message>
+
+        <!-- /ADDED -->
+        
+        
+        <!-- CHANGED -->
+        
+        <!-- Old -->
+        
+	<message key="about.contact">Эрүүл мэндийн судалгааны Ёс зүйн үндэсний хороо</message>        
+        <message key="about.contact.principalContact">Нарийн бичгийн дарга</message>
+        <message key="about.contact.subPrincipalContact">Нарийн бичгийн даргын удирдлагын туслах</message>
+        <message key="about.people">Институцийн хянах самбарууд</message>
+
+        <!-- /CHANGED -->
+        
+	<message key="about.aboutSite">Энэ сайтын тухай</message>
+	<message key="about.contact.email">И-мэйл</message>
+	<message key="about.contact.fax">Факс</message>
+	<message key="about.contact.phone">Утас</message>
+	<message key="about.contact.supportContact">Харилцагчийг дэмжих</message>
+	<message key="about.other">Бусад</message>
+	<message key="about.policies">Бодлогууд</message>
+	<message key="about.siteMap">Сайтын газрын зураг</message>
+	<message key="about.templates">Тайлангийн загвар (ууд)</message>
+	<message key="about.userGuides">Хэрэглэгчийн хөтөч(үүд)</message>
+	<message key="announcement.announcements">Зарлалууд</message>
+	<message key="announcement.announcementsHome">Зарлалууд</message>
+	<message key="announcement.moreAnnouncements">Зарлалууд дэлгэрэнгүй...</message>
+	<message key="announcement.noneExist">Нийтэлсэн зарлалууд байхгүй байна.</message>
+	<message key="announcement.posted">Бичигдсэн</message>
+	<message key="announcement.viewLink">Дэлгэрэнгүй...</message>
+	<message key="announcement.view">Зарлалыг харах</message>
+	<message key="common.action">Үйл ажиллагаа</message>        
+	<message key="common.activate">Идэвхжүүлэх</message>
+	<message key="common.active">Идэвхитэй</message>
+	<message key="common.add">Нэмэх</message>
+	<message key="common.addSelf">Анхны хяналтыг эхлэх</message>
+	<message key="common.all">Бүгд</message>
+	<message key="common.alphaList">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</message>
+	<message key="common.alreadyAssigned">Томилогдсон</message>
+	<message key="common.altText">Зургийн тайлбар текст</message>
+	<message key="common.altTextInstructions">Туслах төхөөрөмж эсвэл зөвхөн-текст хөтчүүд бүхий хэрэглэгчдэд зориулсан хүртээмжийг хангахад энэхүү зурагт зориулан орлох текстэн тайлбарыг оруулна уу.</message>
+	<message key="common.and">ба</message>
+	<message key="common.applyAction">Үйл ажиллагааг эхлүүлэх</message>
+	<message key="common.assign">Томилгоо</message>
+	<message key="common.assigned">Томилогдсон</message>
+	<message key="common.back">Буцах</message>
+	<message key="common.between">хооронд</message>
+	<message key="common.bySomebody">-аар</message>
+	<message key="common.cancel">Цуцлах</message>
+	<message key="common.cancelled">Цуцлагдсан</message>
+	<message key="common.captchaField.altText">Баталгаажуулалтын зураг</message>
+	<message key="common.captchaField.badCaptcha">Таны оруулсан тэмдэгтүүд зурган дээрх тэмдэгдүүдтэй тохирохгүй байна. Тэмдэгтүүдээ шалгаад дахин оролдоно уу.</message>
+	<message key="common.captchaField.description">Дээрх зурган дээрх үсгүүдийг оруулна уу.</message>
+	<message key="common.captchaField">Баталгаажуулалт</message>
+	<message key="common.changesSaved">Таны хийсэн өөрчлөлт хадгалагдлаа.</message>
+	<message key="common.chatRoom">Ярилцах өрөө</message>
+	<message key="common.chooseOne">Нэгийг нь сонго.</message>
+	<message key="common.close">Хаах</message>
+	<message key="common.closeWindow">Цонхыг хаах</message>
+        <message key="common.comments">Саналууд</message>
+	<message key="common.complete">Гүйцээх</message>
+	<message key="common.completed">Гүйцээсэн. </message>
+	<message key="common.confirmed">Баталгаажуулсан</message>    
+	<message key="common.continue">Үргэлжлүүлэх</message>
+	<message key="common.copy">Хуулах</message>
+	<message key="common.country">Улс</message>
+        <message key="common.area">Газарзүйн бүс</message>
+        <message key="common.picountry">Оршин суугаа улс</message>
+	<message key="common.create">Үүсгэх</message>
+	<message key="common.dataNotProvided">Өгөгдөл агуулагдаагүй</message>
+	<message key="common.date">Огноо</message>
+        <message key="common.dateDecided">Шийдвэрлэгдсэн огноо</message>
+	<message key="common.dateCompleted">Дууссан огноо</message>
+        <message key="common.date.on">-ны өдөр</message>
+	<message key="common.dateModified">Үүсгэсэн огноо</message>
+	<message key="common.dateRequested">Хандсан огноо</message>
+	<message key="common.dateSubmitted">Өргөн барьсан огноо</message>
+        <message key="common.dateSubmittedInstruct">Төслийг Ёсзүйн хороонд өргөн барьсан огноо.</message>
+	<message key="common.dateUploaded">Татагдсан огноо</message>
+	<message key="common.day">Өдөр</message>
+	<message key="common.deactivate">Идэвхгүй болгох</message>
+	<message key="common.default">Үндсэн тохиргоо</message>
+	<message key="common.delete">Устгах</message>
+        <message key="common.withdraw">Сугалж авах</message>
+        <message key="common.sendtoarchive">Архивт илгээх</message>
+	<message key="common.deleteSelection">Сонгогдсон хэсгийг устгах</message>
+	<message key="common.description">Тодорхойлолт</message>
+	<message key="common.disable">Идэвхгүй</message>
+	<message key="common.disabled">Идэвхгүй болсон</message>
+	<message key="common.discipline">Зарчим</message>
+	<message key="common.done">Хийгдсэн</message>
+	<message key="common.download">Татаж авах</message>
+	<message key="common.edit">Засварлах</message>
+	<message key="common.enable">Идэвхтэй</message>
+	<message key="common.enabled">Идэвхтэй болсон</message>
+        <message key="common.enroll">Хэрэглэгчээр бүртгэх:</message>
+        <message key="common.enrollment.info1">* Гишүүнчлэлийн төлөв шаардлагатай.<![CDATA[<br/>&nbsp;&nbsp;]]>Хороо бүрт 20 хүртэл гишүүнтэй байхыг зөвшөөрдөг ба энд 1 дарга, 1 орлогч дарга, 1 нарийн бичгийн даргатай байна.<![CDATA[<br/>&nbsp;&nbsp;]]>Хэрвээ хэрэглэгч нь энэ порталд бүргүүлсэн бөгөөд дээрх жагсаалтад байхгүй бол ... </message>
+	<message key="common.error.databaseError">Өгөгдлийн санд алдаа гарсан: {$error}</message>
+	<message key="common.error.databaseErrorUnknown">Өгөгдлийн сангийн холболтод тодорхойгүй алдаа гарсан.</message>
+	<message key="common.error.framesRequired"><![CDATA[Энэ хуудсанд хүрээ шаардлагатай. Хүрээгүй хувилбар бол <a href="{$url}">ЭНД ДАР</a>]]></message>
+	<message key="common.event">Үйл явдал</message>
+	<message key="common.export">Гаргах</message>
+	<message key="common.fullscreen">Том дэлгэцээр харах</message>
+	<message key="common.fullscreenOff">Том дэлгэцийг хаах</message>
+	<message key="common.false">Худал</message>
+	<message key="common.file">Файл</message>
+        <message key="common.file.s">Файл(ууд)</message>
+	<message key="common.file.policy">Бодлогын файл(ууд)</message>
+	<message key="common.file.usermanuals">Хэрэглэгчийн гарын авлага(ууд)</message>
+	<message key="common.file.templates">Загвар(ууд)</message>
+	<message key="common.file.miscellaneous">Бусад файл(ууд)</message>
+	<message key="common.fileName">Файлын нэр</message>
+	<message key="common.fileSize">Файлын хэмжээ</message>
+	<message key="common.fileType">Файлын төрөл</message>
+        <message key="common.fileTooBig1">Энэ файл хэтэрхий том байна (</message>
+        <message key="common.fileTooBig2"> Kb). энэхүү хэмжээнээс ихгүй байх ёстой. </message>
+        <message key="common.fullName">Бүтэн нэр</message>
+	<message key="common.height">өндөр</message>
+	<message key="common.homePageHeaderLogo.altText">Нүүр хуудасны толгойн лого</message>
+	<message key="common.hour">Цаг</message>
+	<message key="common.id">ID</message>
+        <message key="common.idInstruct">Судалгааны төслийн дугаар.</message>
+	<message key="common.import">Оруулах</message>
+	<message key="common.initiate">Санаачлах</message>
+	<message key="common.inProgress">Үргэлжилж байгаа</message>
+	<message key="common.keywords">Түлхүүр үгс</message>
+	<message key="common.language">Хэл</message>
+	<message key="common.languages">Хэлнүүд</message>
+	<message key="common.manage">Удирдах</message>
+	<message key="common.mailingAddress">Шуудангийн хаяг</message>
+	<message key="common.minute">Минут(ууд)</message>
+	<message key="common.modify">Үүсгэх</message>
+	<message key="common.month">Сар</message>
+	<message key="common.name">Нэр</message>
+	<message key="common.noneAssigned">Томилогдоогүй</message>
+	<message key="common.none">Байхгүй</message>
+	<message key="common.no">Үгүй</message>
+	<message key="common.noComments">Саналгүй</message>
+	<message key="common.notApplicable">Ашиглах боломжгүй</message>
+	<message key="common.notApplicableShort">А/Бгүй</message>
+	<message key="common.notAvailable">Байхгүй байна</message>
+        <message key="common.notSure">Итгэлгүй байна</message>
+	<message key="common.note">Тэмдэглэл</message>
+	<message key="common.notes">Тэмдэглэлүүд</message>
+	<message key="common.notify">Тэмдэглэх</message>
+	<message key="common.off">Хаах</message>
+	<message key="common.on">Нээх</message>
+        <message key="common.ongoing">Үргэлжилж байгаа</message>
+        <message key="common.ok">Болсон</message>
+	<message key="common.options">Сонголтууд</message>
+	<message key="common.order">Дараалал</message>
+	<message key="common.originalFileName">Эх файлын нэр</message>
+	<message key="common.or">буюу</message>
+	<message key="common.other">Бусад</message>
+	<message key="common.pageHeaderLogo.altText">Хуудасны толгойн лого</message>
+	<message key="common.plugin">Өргөтгөл</message>
+	<message key="common.pluginEnabled">Өргөтгөл "{$pluginName}" идэвхтэй болсон.</message>
+	<message key="common.pluginDisabled">Өргөтгөл "{$pluginName}" идэвхигүй болсон.</message>
+	<message key="common.preview">Урьдчилан харах</message>
+	<message key="common.publisher">Хэвлэл эрхлэн гаргагч</message>
+	<message key="common.re">Буцаах:</message>
+	<message key="common.record">Бичлэг</message>
+	<message key="common.refresh">Сэргээх</message>
+	<message key="common.related">Хамаатай</message>
+	<message key="common.remove">Устгах</message>
+	<message key="common.removeSelection">Сонголтыг устгах</message>
+	<message key="common.replaced">Солигдсон</message>
+	<message key="common.replaceFile">Файлыг солих</message>
+	<message key="common.requiredField">* Шаардлагатай талбарыг харуулах</message>
+        <message key="common.mouseOver">[?] Хулгана очиход гарах тайлбар.</message>
+	<message key="common.required">Шаардлагатай</message>
+	<message key="common.saveAndContinue">Хадгалаад үргэлжлүүлэх</message>
+	<message key="common.saveAndEmail">Хадгалаад е-мэйлдэх</message>
+	<message key="common.save">Хадгалах</message>
+	<message key="common.search">Хайх</message>
+	<message key="common.second">Секунд(үүд)</message>
+	<message key="common.selectAll">Бүгдийг сонгох</message>
+	<message key="common.selectNone">Юу ч сонгоогүй</message>
+	<message key="common.select">Сонгох</message>
+	<message key="common.size">Хэмжээ</message>
+	<message key="common.source">Эх үүсвэр</message>
+	<message key="common.status">Төлөв</message>
+	<message key="common.subject">Сэдэв</message>
+	<message key="common.suggest">Санал болгох</message>
+	<message key="common.title">Гарчиг</message>
+        <message key="common.time.minutes">минут</message>
+        <message key="common.time.hours">цаг</message>
+	<message key="common.top">дээд</message>
+	<message key="common.true">Үнэн</message>
+	<message key="common.type">Төрөл</message>
+        <message key="common.undecided">Шийдэгдээгүй</message>
+	<message key="common.uninitiated">Санаачлагдаагүй</message>
+	<message key="common.untitled">Гарчиггүй</message>
+	<message key="common.updated">Шинэчлэгдсэн</message>
+	<message key="common.uploadedFile">Татагдсан файлууд</message>
+	<message key="common.upload">Татаж авах</message>
+	<message key="common.uploadFailed">Энэ файл татагдсангүй. Дахин оролдоод хэвээр байвал вэбийн удирдагчтай холбогдоно уу.</message>
+	<message key="common.up">Дээшээ</message>
+	<message key="common.url">Холбоос</message>
+	<message key="common.user">Хэрэглэгч</message>
+	<message key="common.view">Харагдац</message>
+	<message key="common.weeks">долоо хоног</message>
+	<message key="common.width">Өргөн</message>
+	<message key="common.year">Жил</message>
+	<message key="common.yes">Тийм</message>
+	<message key="common.loading">Ачааллаж байна ...</message>
+	<message key="debug.databaseQueries">Өгөгдлийн сангийн зүйлүүд(query)-ийн дугаар</message>
+	<message key="email.addAttachment">Хавсралт нэмэх</message>
+	<message key="email.addBccRecipient">BCC нэмэх</message>
+	<message key="email.addCcRecipient">CC нэмэх</message>
+	<message key="email.addToRecipient">Хүлээн авагчийг нэмэх</message>
+	<message key="email.attachments">Хавсралтууд</message>
+	<message key="email.bcc">BCC</message>
+	<message key="email.bccSender">Миний ({$address}) хаяг руу энэ илгээлтийн хуулбарыг явуулах</message>
+	<message key="email.body">Эх бие</message>
+	<message key="email.cc">CC</message>
+	<message key="email.compose">Е-мэйлийг илгээх</message>
+	<message key="email.compose.tooManyRecipients">Таны илгээхээр оролдох буй хүлээн авагчийн тоо хэт олон байна.</message>
+	<message key="email.compose.tooSoon">Таны хамгийн сүүлд илгээсэн мэйл тань яг одоо явж байгаа тул та илгээлтээ явуулахаа түр хүлээнэ үү. </message>
+	<message key="email.email">Е-мэйл</message>
+	<message key="email.from">Хэнээс</message>
+	<message key="email.invalid"> {$email} энэ е-мэйл хаяг буруу байна.</message>
+	<message key="email.recipient">Хүлээн авагч</message>
+	<message key="email.recipients">Хүлээн авагчууд</message>
+	<message key="email.sender">Илгээгч</message>
+	<message key="email.send">Илгээх</message>
+	<message key="email.skip">Е-мэйлийг алгасах</message>
+	<message key="email.subject">Агуулга</message>
+	<message key="email.to">Хэнд</message>
+	<message key="form.errorsOccurred">Энэ маягтыг боловсруулахад алдаа гарлаа.</message>
+	<message key="form.formLanguage.description">Хэлний жагсаалтны доор мэдээлэл нэмэхдээ эхний хэлээ сонгоно уу.</message>
+	<message key="form.formLanguage">Хэлний төрөл</message>
+	<message key="form.contains">агуулдаг</message>
+	<message key="form.is">бол</message>
+	<message key="form.startsWith">эхэлдэг</message>
+	<message key="form.postRequired">Маягтыг зөв өргөн бариагүй байна.</message>
+	<message key="form.required">(* Шаардлагатай)</message>
+	<message key="form.resubmit">Дахин өргөх барих</message>
+	<message key="form.saveToUpload">Файлын татаж авахдаа Хадгалах командыг ашигла.</message>
+	<message key="form.send">Илгэх</message>
+	<message key="form.submit">Өргөн барих</message>
+	<message key="help.contents">Гарчигууд</message>
+	<message key="help.help">Тусламж</message>
+	<message key="help.helpIndex">Тусламжийн индекс</message>
+	<message key="help.matchesFound">{$matches} илэрц олдлоо.</message>
+	<message key="help.searchResultsFor">-ний үр дүн</message>
+	<message key="help.searchResults">Хайлтын үр дүн</message>
+	<message key="help.search">Хайлтын тусламж</message>
+	<message key="help.toc">Гарчгийн түүвэр</message>
+	<message key="help.upALevel">Түвшинг дээшлүүлэх</message>
+	<message key="icon.checked.alt">Шалгагдсан</message>
+	<message key="icon.comment.alt">Санал</message>
+	<message key="icon.delete.alt">Устгах</message>
+	<message key="icon.edit.alt">Засварлах</message>
+	<message key="icon.folder.alt">Хавтас</message>
+	<message key="icon.font_large.alt">Том</message>
+	<message key="icon.font_medium.alt">Дунд зэрэг</message>
+	<message key="icon.font_small.alt">Жижиг</message>
+	<message key="icon.info.alt">Мэдээ</message>
+	<message key="icon.letter.alt">Захидал</message>
+	<message key="icon.mail.alt">Мэйл</message>
+	<message key="icon.unchecked.alt">Шалгагдаагүй</message>
+	<message key="icon.view.alt">Харагдац</message>
+	<message key="locale.primary">Анхны байрлал</message>
+	<message key="locale.supported">Дэмжигдсэн байрлал</message>
+	<message key="navigation.about">Бидний тухай</message>
+	<message key="navigation.browse">Хайх</message>
+	<message key="navigation.browseByTitle">Гарчгаар</message>
+	<message key="navigation.dashboard">Хянах самбар</message>
+	<message key="navigation.home">Нүүр хуудас</message>
+	<message key="navigation.login">Нэвтрэх</message>
+	<message key="navigation.nextPage"><![CDATA[&gt;&gt;]]></message>
+	<message key="navigation.nextStep">Дараагийн шат</message>
+	<message key="navigation.previousPage"><![CDATA[&lt;&lt;]]></message>
+	<message key="navigation.previousStep">Өмнөх шат</message>
+	<message key="navigation.register">Бүртгүүлэх</message>
+	<message key="navigation.search">Сүүлд &amp; үргэлжилж буй судалгаа</message>
+	<message key="navigation.stepNumber">Шат {$step}</message>
+	<message key="navigation.userHome">Хэрэглэгчийн нүүр хуудас</message>
+	<message key="navigation.user">Хэрэглэгч</message>
+	<message key="notification.allow">Миний мэдэгдлийн талбарт эдгээр төрлийн мэдэглүүдийг харуулахыг зөвшөөрөх.</message>
+	<message key="notification.email">Энэ төрлийн мэдэгдлүүдийг миний е-мэйлрүү илгээнэ.</message>
+	<message key="notification.location">Харагдац</message>
+	<message key="notification.mailList">Мэдэгдлүүдийг мэйлдсэн жагсаалт</message>
+	<message key="notification.mailList.emailInvalid">Зөв е-мэйл хаягийг оруулна уу.</message>
+	<message key="notification.mailList.privacyProtection">Нууцлал хамгаалах бодлого</message>
+	<message key="notification.mailList.register">Та энэ сайтыг ашиглан ...-д бүртгүүлж болно.</message>
+	<message key="notification.noneExist">Одоогоор танд ямар нэгэн мэдэгдэл байхгүй байна.</message>
+	<message key="notification.notification">Мэдэгдэл</message>
+	<message key="notification.notifications">Мэдэгдлүүд</message>
+	<message key="notification.notificationsNew">({$numNew} шинэ)</message>
+	<message key="notification.notificationsDescription">Танд {$readCount} уншсан, {$unreadCount} уншаагүй мэдэгдэл байна.<![CDATA[  <a href="{$settingsUrl}">ЭНД</a> дарж мэдэгдлийнхээ тохиргоог өөрчилнө үү.]]></message>
+	<message key="notification.settings">Мэдэгдлийн тохиргоо</message>
+	<message key="notification.settingsDescription">Та тэмдэглэхийг хүсч байгаа системийн үйлийг сонгоно уу. Таны мэдэгдлийн талбарт тэмдэглээгүй мэдэгдлүүд нь харагдахгүй болно.</message>
+	<message key="notification.subscribe">Тэмдэглэгдэх</message>
+	<message key="notification.subscribeError">Таны е-мэйл хаяг мэдэгдлийн талбарт бүртгэгдсэн байна.</message>
+	<message key="notification.subscribeSuccess">Таны сонгосон хаягруу е-мэйл илгээгдсэн байна. Таны е-мэйлрүү илгээгдэх баталгаажуулалтын холбоосон дээр дарж өөрийгөө мэйлийн жагсаалтруу нэмнэ үү.</message>
+	<message key="notification.reminderError">Таны нууц үгийг илгээхэд алдаа гарлаа. Та е-мэйл хаяг оруулсан эсэхээ шалгана уу.</message>
+	<message key="notification.reminderSent">Таны бичсэн е-мэйл хаягруу шинэ нууц үг тань илгээгдлээ.</message>
+	<message key="notification.unsubscribe">Тэмдэглэгдээгүй</message>
+	<message key="notification.unsubscribeDescription">Мэйлийн тэмдэглэлүүдээс захиалгаа цуцлахын тулд та е-мэйл хаяг, нууц үгээ оруулна уу. Хэрвээ та нууц үгээ санахгүй байгаа бол нууц үгийн талбараа хоосон үлдээнэ үү. Ингэснээр бид таны бүргүүлсэн мэйл хаягруу шинэ нууц үгийг илгээх болно.</message>
+	<message key="notification.unsubscribeError">Энд тэмдэглэгдээгүй алдаа илэрлээ. Та өөрийн е-иэйл хаяг болон нууц үгээ зөв эсэхийг шалгана уу.</message>
+	<message key="notification.unsubscribeSuccess">Таны захиалга цуцлалт амжилттай боллоо.</message>
+	<message key="search.abstract">Хураангуй</message>
+	<message key="search.allFields">Бүгд</message>
+	<message key="search.coverage">Хамралт</message>
+	<message key="search.date">Огноо</message>
+	<message key="search.dateFrom">-аас/ээс</message>
+	<message key="search.dateTo">хүртэл</message>
+        <message key="search.exportSearchResults">Хайлтын үр дүнг гаргах</message>
+        <message key="search.hideExportOptions">Гаргалтын сонголтыг далдлах</message>
+        <message key="search.exportIntruct">Гаргаж авахыг хүсч буй талбаруудаа тэмдэглэнэ үү.</message>
+        <message key="search.studentExport">Хэрэв оюутан-судлаач бол Хүрээлэнгийн &amp; Шинжлэх ухааны зэрэгтэй</message>
+        <message key="search.nonStudent">Оюутан биш судлаач</message>
+        <message key="search.researchDates">Судалгааны огноо</message>
+        <message key="search.inclusive">Оролцуулсан</message>
+	<message key="search.discipline">Мэдлэгийн салбар(ууд)</message>
+        <message key="search.exportSearchResults">Хайлтын үр дүнг гаргаж авах</message>
+        <message key="search.exportIntruct">Гаргаж авахыг хүссэн талбараа тэмдэглэнэ үү.</message>
+        <message key="search.hideExportOptions">Гаргалтын сонголтыг далдлах</message>
+	<message key="search.fullText">Бүрэн эх</message>
+        <message key="search.fromTitle">Гарчиг эсвэл түлхүүр үгээр хайх</message>
+        <message key="search.startDate">Судалгаа эхэлсэн огноо</message>
+        <message key="search.startDateAbr">Эхэлсэн огноо</message>
+        <message key="search.endDateAbr">Дууссан огноо</message>
+	<message key="search.indexTerms">Нэр томъёсны индекс</message>
+	<message key="search.matchAll">Бүх категорийг тааруулах</message>
+	<message key="search.noKeywordError">Та дор хаяад нэг түлхүүр үгийг оруулна уу.</message>
+	<message key="search.noResults">Илэрцгүй</message>
+        <message key="search.results">Илэрц(үүд)</message>
+	<message key="search.operator.and">ба / бөгөөд</message>
+	<message key="search.operator.not">үгүй</message>
+	<message key="search.operator.or">эсвэл</message>
+	<message key="search.researchDetails">Судалгааны задаргаа</message>
+	<message key="search.reviseSearch">Хайлтыг шалгах</message>
+	<message key="search.searchAllCategories">Бүх категориор хайх</message>
+	<message key="search.searchCategories">Категориудаар хайх</message>
+	<message key="search.searchResults">Хайлтын илэрц</message>
+        <message key="search.studentExport">Хэрэв оюутан-судлаач бол, Хүрээлэнгийн &amp; Шинжлэх ухааны зэрэгтэй.</message>
+	<message key="search.subject">Түлхүүр үг(с)</message>
+        <message key="search.takingPlaceIn">-эндээс авсан</message>
+	<message key="search.titleIndex">Гарчгийн индексээр хайх</message>
+	<message key="search.title">Гарчиг</message>
+	<message key="search.titlesAndAbstract">Гарчиг(ууд) ба хураангуй</message>
+	<message key="search.typeMethodApproach">Төрөл (арга/хандлага)</message>
+        <message key="search.investigator">Судлаач</message>
+        <message key="search.investigatorAffiliation">Судлаачийн ажлын газар</message>
+        <message key="search.investigatorEmail">Судлаачийн Е-мэйл</message>
+        <message key="common.update">Шинэчлэх</message>
+	<message key="common.setFinal">Эцэслэх</message>		
+</locale>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/mn_MN/reader.xml
+  *
+  * Copyright (c) 2000-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the mn_MN (Mongolian) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="mn_MN" full_name = "Mongolian">
+	<message key="comments.anonymous">Нэргүй хэрэглэгчид</message>
+	<message key="comments.anonymousNamed">"{$userName}"</message>
+	<message key="comments.body">Үндсэн хэсэг</message>
+	<message key="comments.titleRequired">Санал нь гарчигтай байх шаардлагатай</message>
+	<message key="comments.confirmDeleteChildren">Энэхүү саналыг устгахад түүнтэй холбоотой хариултууд устгагдана. Та энэхүү үйлдлийг хийхдээ итгэлтэй байна уу?</message>
+	<message key="comments.delete">Энэ саналыг устгах</message>
+	<message key="comments.email">Ханын илтгэгчийн цахим хаяг</message>
+	<message key="comments.emailReply">Цахим хариулт</message>
+	<message key="comments.enterComment">Саналыг оруулах</message>
+	<message key="comments.inResponseTo"><![CDATA[<a href="{$url}">{$title}</a> -д өгсөн хариу]]></message>
+	<message key="comments.name">Ханын илтгэлийн нэр</message>
+	<message key="comments.noComments">Уншигчдын санал байхгүй.</message>
+	<message key="comments.nReplies">({$num} Хариултууд)</message>
+	<message key="comments.oneReply">(1 Хариулт)</message>
+	<message key="comments.postAnonymously">Нэргүй санал ирүүлсэн</message>
+	<message key="comments.postReply">Шуудангаар ирүүлсэн хариулт</message>
+	<message key="comments.readerComments">Уншигчийн саналууд</message>
+	<message key="comments.readMore">Дэлгэрэнгүй унших...</message>
+	<message key="comments.replies">Хариултууд</message>
+	<message key="comments.title">Сэдэв</message>
+	<message key="comments.viewAllComments">Бүх саналыг харах</message>
+	<message key="reader.fullText">Бүрэн эх:</message>
+	<message key="rt.addComment">Санал нэмэх</message>
+	<message key="rt.admin.configuration">Тохиргоо</message>
+	<message key="rt.admin.contexts.confirmDelete">Энэ агуулгыг болон бусад холбоотой хайлтуудыг устгахдаа итгэлтэй байна уу?</message>
+	<message key="rt.admin.contexts.createContext">Хам сэдэв үүсгэх</message>
+	<message key="rt.admin.contexts.edit.editContext">Хам сэдвийг хянах</message>
+	<message key="rt.admin.contexts.metadata">Метадата</message>
+	<message key="rt.admin.contexts.options.authorTerms">Энэ сэдвээр бусад судлаачдын ажлыг олохын тулд энгийн хайлтын нэр томъчо болон зохиогчийн нэрийг ашиглах боломжийг олгох (жишээлбэл, "бусад ажлууд" гэсэн хам сэдвээр)</message>
+	<message key="rt.admin.contexts.options.citedBy">Зохиогчийн нэрийг энгийн хайлтын нэр томьёог ашиглах ба энэ өгүүллээс ишлэл авалтыг хайх хам сэдвийг тайлбарлах.</message>
+	<message key="rt.admin.contexts.options.defineTerms"><![CDATA[Уншигчийн тодруулсан үгийг энгийн хайлтын нэр томьёо болгон ашиглах, эсвэл энэ чиглэлээр сонгосон үг байхгүй бол хоосон үлдээ (жишээлбэл, "Нэр томьёоны тодорхойлолт" хам сэдвээр).Хам сэдвийг нээхийн тулд хулганаараа 2 товшилт хийснээр <a href="{$settingsUrl}">RST Settings</a>-д  "Нэр томьёоны тодорхойлолт" сонголт оруулах боломжтой.]]></message>
+	<message key="rt.admin.contexts.options.geoTerms">Энгийн хайлтын нэр томьёо болгож газарзүйн индексийн мэдээллийг ашиглаж болно.</message>
+	<message key="rt.admin.contexts.options">Сонголтууд</message>
+	<message key="rt.admin.management">Удирдлага</message>
+	<message key="rt.admin.sharing">Хуваалцах</message>
+	<message key="rt.admin.sharing.enabled">Хуваалцах боломжтой</message>
+	<message key="rt.admin.sharing.description"><![CDATA[Сэтгүүлийн өгүүллийг уншигчдад ашиглах боломж олгохын тулд  <a href="http://addthis.com">addthis.com</a> -тэй эрхээр нэвтэрч, кодны доор байрлах Хуваалцах товчлуур дээр дарж хуулж байрлуулна.]]></message>
+	<message key="rt.admin.sharing.basic">Үндсэн тохиргоо</message>
+	<message key="rt.admin.sharing.userNameLabel">AddThis.com хэрэглэгчийн нэр</message>
+	<message key="rt.admin.sharing.buttonStyleLabel">Товчлуурын хэлбэр</message>
+	<message key="rt.admin.sharing.dropDownMenuLabel">Задардаг цэс ашиглах</message>
+	<message key="rt.admin.sharing.advanced">Нарийн тохиргоо (сонголттой)</message>
+	<message key="rt.admin.sharing.customizationLink"><![CDATA[Лавлахдаа <a href="http://www.addthis.com/help/customize/custom-button/">AddThis.com тусгай баримтжуулалт</a> -ийг хар.]]></message>
+	<message key="rt.admin.sharing.brandLabel">Брэнд</message>
+	<message key="rt.admin.sharing.dropDownLabel"><![CDATA[Задардаг сонголтууд <br /> (таслалаар тусгаарласан жагсаалт)]]></message>
+	<message key="rt.admin.sharing.languageLabel">Хэл</message>
+	<message key="rt.admin.sharing.logolabel">Лого</message>
+	<message key="rt.admin.sharing.logoBackgroundLabel">Логоны суурь</message>
+	<message key="rt.admin.sharing.logoColorLabel">Логоны өнгө</message>
+
+	<message key="rt.admin.readingToolsEnabled">Унших хэрэгсэл</message>
+	<message key="rt.admin.searches.confirmDelete">Та энэ хайлтыг устгахдаа итгэлтэй байна уу?</message>
+	<message key="rt.admin.searches.createSearch">Хайлт үүсгэх</message>
+	<message key="rt.admin.searches.edit.editSearch">Хайлтыг засварлах</message>
+	<message key="rt.admin.selectedVersion">Холбоотой хэсгүүд</message>
+	<message key="rt.admin.settings.abstract">Хураангуй(энэ хэсгийн хураангуйг харуулна).</message>
+	<message key="rt.admin.settings.authorBio">Зохиогчийн тухай (Зохиогчийн оруулсан намтрыг харуулах).</message>
+	<message key="rt.admin.settings.captureCite">Энэ хэсгээс хэрхэн ишлэл авах вэ (энэ хэсгийн дэлгэрэнгүй намтрыг оруулах).</message>
+	<message key="rt.admin.settings.defineTerms">Нэр томъёог хайх (Зохиогч тухайн хэсгийн аль нэг үг дээр 2 товшиж үгийг толь бичигрүү илгээх боломжтой).</message>
+	<message key="rt.admin.settings.disableRelatedItems">Холбоотой хэсгийг идэвхгүйжүүлэх</message>
+	<message key="rt.admin.settings.emailAuthor">Зохиогч И-мэйл (зохиогчийн и-мэйл бүхий и-мэйл загварруу хөтөлдөг).</message>
+	<message key="rt.admin.settings.emailOthers">Хамтран ажиллагсдаа тодорхойлох(хэсэгтэй холбоотой и-мэйлийн загварыг бий болгох).</message>
+	<message key="rt.admin.settings.findingReferences">Номзүй хайх</message>
+	<message key="rt.admin.settings.printerFriendly">Хэвлэмэл хувилбар (тухайн хэсгийн хэвлэхэд тохиромжтой хувилбарыг сонгох).</message>
+	<message key="rt.admin.settings.supplementaryFiles">Нэмэлт файлууд (Өргөн барьсан зохиогчдын жагсаалтыг харуулах).</message>
+	<message key="rt.admin.settings.viewMetadata">Метадата индексжүүлэлт (Зохиогч болон системээр өгөгдсөн метадатагийн индексийг харуулах).</message>
+	<message key="rt.admin.status">Төлөв</message>
+	<message key="rt.admin.configureSharing">AddThis -ийг тохируулах</message>
+	<message key="rt.admin.validateUrls.complete">Баталгаажуулалт дууссан.</message>
+	<message key="rt.admin.validateUrls.ok">Тийм</message>
+	<message key="rt.admin.validateUrls.urlIsInvalid">{$url} хүчин төгс биш.</message>
+	<message key="rt.admin.validateUrls">Унших хэрэгсэлд URL-ийг баталгаажуулна</message>
+	<message key="rt.admin.validateUrls.validate">Баталгаатай хугацаа</message>
+	<message key="rt.admin.versions.confirmDelete">Та энэ хуулбар болон бусад бүх сэдэв, хайлтын үр дүнг устгахдаа итгэлтэй байна уу?</message>
+	<message key="rt.admin.versions.confirmRestore">Тэдгээрийн анхны хувилбарыг засварлахгүйгээр сэргээнэ гэдэгтээ та итгэлтэй байна уу? Хэрэв тийм бол, та тохиргооны хуудсан ТОХИРГОО хуудсанд идэвхтэй хувилбарыг сонгох хэрэгтэй болно.</message>
+	<message key="rt.admin.versions.createVersion">Хувилбар үүсгэх</message>
+	<message key="rt.admin.versions.edit.editVersion">Хувилбарыг хянах</message>
+	<message key="rt.admin.versions.export">Гаргах</message>
+	<message key="rt.admin.versions.importVersion">Хувилбарыг оруулах</message>
+	<message key="rt.admin.versions.metadata">Метадата</message>
+	<message key="rt.admin.versions.restoreVersions">Анхны хувилбарыг сэргээх</message>
+	<message key="rt.authorBio">Зохиогчийн тухай</message>
+	<message key="rt.captureCite.format">Ишлэлийн загвар</message>
+	<message key="rt.captureCite">Зүйлийг хэрхэн тайлбарлах</message>
+	<message key="rt.captureCite.online">Онлайн</message>
+	<message key="rt.captureCite.web">Вэб</message>	
+	<message key="rt.colleague">Хамтран ажиллагсдыг тодорхойлох</message>
+	<message key="rt.context.abbrev">Товчилсон үг</message>
+	<message key="rt.context.and">БА</message>
+	<message key="rt.context.citesContextDescription">Нийтлэл Google Scholar-д индексжүүлсэн бол үүнийг иш татах нь ажлын жагсаалтыг хөтлөх нь "Х дүгнэдэг" холбоо, хамт байх болно. Түүнчлэн Google Scholar нь гарчиг, зохиогч, иш татсан бүх хэсгийг жагсааж болно. Таны номын сангаар дамжуулан ашиглаж болох онлайн нөөц рүү хандахын тулд, та Google Scholar-дахь Scholar Preference-д орж, танай байгууллагатай холбох НОМЫН САН-гийн холбоосыг идэвхжүүлэх боломжтой.</message>
+	<message key="rt.context">Хам сэдэв</message>
+	<message key="rt.context.defineTermsDescription">Хэрэв зүйл (гэхээсээ илүү PDF) нь HTML файл байгаа бол текстэн доторх ямар нэгэн үгийг давхар товшисноор уг үгийг тодорхойлох хайрцаг гарч ирнэ. Өөрөөр хэлбэл үгсийг хайрцаг дотор бичих буюу хуулж тавиж болно. Нөөцийн талаар илүү ихийг мэдэхийн тулд хайлт ТУХАЙ товчлуур дээр дарна уу. Эдгээр нөөц нь тэдний ач холбогдол, тэдгээрийн агуулгыг бүхэлд нь буюу хэсгийг нь нээлттэй (үнэ төлбөргүй) нэвтрэх сонгосон байна.</message>
+	<message key="rt.context.description">Тайлбар</message>
+	<message key="rt.context.order">Дараалал</message>
+	<message key="rt.contexts">Хам сэдэв</message>
+	<message key="rt.context.searchDescription">Зохиогчоор нь Хайлтын нэр томъёог сонголоо. Хоёр буюу гурван богино, нарийн нэр томъёо, хэллэгийг хамгийн шилдэг Boolean (БА) хайлт үйлдвэрлэсэн адил тэд уншигч өөрчилж эсвэл устгаж болно. Хайлт нөөцийн талаар илүү ихийг мэдэхийн тулд ТУХАЙ товчлуур дээр дарна уу. Эдгээр эх үүсвэрүүд нь ач холбогдол, тэдгээрийн агуулгыг бүхэлд нь буюу хэсэгчлэн нээлттэй (үнэ төлбөргүй) олж авахаар сонгогдсон байна.</message>
+	<message key="rt.context.searchTerms">Хайлтын нэр томъёо</message>
+	<message key="rt.context.termToDefine">Тодорхойлох үг</message>
+	<message key="rt.context.title">Сэдэв</message>
+	<message key="rt.emailAuthor">Зохиогчийн и-мэйл</message>
+	<message key="rt.email.needLogin"><![CDATA[* <a target="_parent" href="{$loginUrl}">Бүртгэл</a> шаардлагатай]]></message>
+	<message key="rt.email.sent">Таны захидал илгээгдлээ. </message>
+	<message key="rt.findingReferences">Лавлагаа номзүй)-г олох</message>
+	<message key="rt.findingReferences.googleScholar">Google Scholar</message>
+	<message key="rt.findingReferences.windowsLiveAcademic">Windows Live Academic</message>
+	<message key="rt.lookUp">Нэр томъёог хайх</message>
+	<message key="rt.metadata.dublinCore.contributor">Хувь нэмэр оруулагчид</message>
+	<message key="rt.metadata.dublinCore.coverage">Хамралт</message>
+	<message key="rt.metadata.dublinCore.date">Огноо</message>
+	<message key="rt.metadata.dublinCore.description">Тайлбар</message>
+	<message key="rt.metadata.dublinCore">Dublin цөм</message>
+	<message key="rt.metadata.dublinCore.format">Загвар</message>
+	<message key="rt.metadata.dublinCore.identifier">Ялган тодорхойлогч</message>
+	<message key="rt.metadata.dublinCore.language">Хэл</message>
+	<message key="rt.metadata.dublinCore.publisher">Эрхлэн гаргагч</message>
+	<message key="rt.metadata.dublinCore.relation">Хамааралт</message>
+	<message key="rt.metadata.dublinCore.rights">Эрх</message>
+	<message key="rt.metadata.dublinCore.source">Эх сурвалж</message>
+	<message key="rt.metadata.dublinCore.subject">Судлах зүйл</message>
+	<message key="rt.metadata.dublinCore.title">Сэдэв</message>
+	<message key="rt.metadata.dublinCore.type">Төрөл</message>
+	<message key="rt.metadata.forThisDocument">Энэхүү баримтын метадата</message>
+	<message key="rt.metadata.pkp.abstract">Хураангуй</message>
+	<message key="rt.metadata.pkp.copyright">Зохиогчийн эрх ба зөвшөөрөл</message>
+	<message key="rt.metadata.pkp.coverage">Газарзүй-огторгуйн байршил, цаг тооллын үечлэл, судалгааны түүвэр (хүйс, нас, гм.)</message>
+	<message key="rt.metadata.pkp.date">(ЖЖЖЖ-СС-ӨӨ)</message>
+	<message key="rt.metadata.pkp.discipline">Салбар(ууд)</message>
+	<message key="rt.metadata.pkp.format">Файлын загвар</message>
+	<message key="rt.metadata.pkp.genre"><![CDATA[Төлөв байдал ба хэлбэр]]></message>
+	<message key="rt.metadata.pkpItem">PKP Метадатагийн зүйл</message>
+	<message key="rt.metadata.pkp.language">Англи=en</message>
+	<message key="rt.metadata.pkp.publisher">Зохион байгуулагч, байршил</message>
+	<message key="rt.metadata.pkp.source">Сэтгүүл/бага хурлын нэр; боть., дугаар. (жил)</message>
+	<message key="rt.metadata.pkp.sponsors">Ивээн тэтгэгч(д)</message>
+	<message key="rt.metadata.pkp.subjectClass">Судлах зүйлийн ангилал</message>
+	<message key="rt.metadata.pkp.subject">Түлхүүр үг(с)</message>
+	<message key="rt.metadata.pkp.suppFiles">Нэмэлт файлууд</message>
+	<message key="rt.metadata.pkp.title">Баримтын нэр</message>
+	<message key="rt.metadata.pkp.type">Төрөл</message>
+	<message key="rt.metadata.pkp.uri">Эх сурвалжийг таних нэгдсэн маягт</message>
+	<message key="rt.printVersion">Хэвлэсэн хувилбар</message>
+	<message key="rt.readingTools">Унших хэрэгслүүд</message>
+	<message key="rt.relatedItems">Холбогдох зүйл</message>
+	<message key="rt.reviewPolicy">Бодлогын тойм</message>
+	<message key="rt.search.description">Тайлбар</message>
+	<message key="rt.searches">Хайлтууд</message>
+	<message key="rt.search.order">Дараалал</message>
+	<message key="rt.search">Хайлт</message>
+	<message key="rt.search.searchPost">Мэдээллийг байрлуулах</message>
+	<message key="rt.search.searchUrl">Холбоосыг хайх</message>
+	<message key="rt.search.suggest">Эх сурвалжийг санал болгох</message>
+	<message key="rt.search.title">Сэдэв</message>
+	<message key="rt.search.url">Холбоос</message>
+	<message key="rt.suppFiles.download">Татаж авах</message>
+	<message key="rt.suppFiles">Нэмэлт файлууд</message>
+	<message key="rt.suppFiles.viewMetadata">Метадата индексжүүлэлт</message>
+	<message key="rt.version.description">Тайлбар</message>
+	<message key="rt.version.key">Түлхүүр</message>
+	<message key="rt.version.locale">Байрлал</message>
+	<message key="rt.versions">Холбогдох бүлгийн багц</message>
+	<message key="rt.version.title">Сэдэв</message>
+	<message key="rt.version">Хувилбар</message>
+	<message key="rt.viewMetadata">Метадата индексжүүлэлт</message>
+</locale>

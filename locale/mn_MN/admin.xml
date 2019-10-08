@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!-- This is a comment --> 
+
+<!--
+  * ojs2-devel/locale/mn_MN/admin.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the mn_MN Mongolian locale.
+  *
+  * $Id$
+  -->
+
+<locale name="mn_MN" full_name = "Mongolian">
+	<message key="admin.hostedJournals">Хост хийгдсэн сайтууд</message>
+	<message key="admin.settings.journalRedirect">Сайтыг дахин илгээх</message>
+	<message key="admin.settings.journalRedirectInstructions">Үндсэн сайтад авах хүсэлтийг энэ сайтад илгээж болно. Жишээ нь, хэрэв сайтад зөвхөн нэг системийг хостод байрлуулбал ашигтай байж болно. </message>
+	<message key="admin.settings.noJournalRedirect">Дахин илгээхгүй</message>
+	<message key="admin.languages.primaryLocaleInstructions">Энэ нь хостод байрлуулсан ямар ч систем ба сайтад хэл нь анхдагч сонголтоороо байна.</message>
+	<message key="admin.languages.supportedLocalesInstructions">Сонгосон локалууд нь сайтад хост хийгдсэн бүх системүүд дээр ашиглах боломжтой ба мөн сайт нэг бүр(энэ нь системийн тусгай хуудсанд өөрчлөгдөж дарагдан бичигдэж болно) дээр хэл сонгох цэс харагдана. Хэрэв олон локалууд сонгогдоогүй байгаа бол хэл түлхүүр цэс гарч ирэхгүй ба өргөтгөсөн хэлний тохиргоонууд сайтад идэвхигүй байна.</message>
+	<message key="admin.locale.maybeIncomplete">Тэмдэглэгдсэн локалууд бүрэн бус байж болзошгүй.</message>
+	<message key="admin.languages.confirmUninstall">Та локалыг устгахдаа итгэлтэй байна уу? Энэ нь магадгүй одоогийн ашиглагдаж буй локалын хостед байрлуулсан ямар нэг сайтад нөлөөлж болно.</message>
+	<message key="admin.languages.installNewLocalesInstructions">Энэ системийг дэмжигчийг суулгахад нэмэлт ямар нэг локал сонгоно уу. Хост хийсэн сэтгүүлийг ашиглахын өмнө локалууд суусан байх ёстой. Шинэ хэлэнд зориулсан нэмэлт дэмжилтүүдийн мэдээллийг OJS баримтаас үзнэ үү.</message>
+	<message key="admin.languages.downloadLocales">Локалуудыг татаж авах</message>
+	<message key="admin.languages.downloadFailed">Локал татаж авах амжилтгүй боллоо. Доор алдааг тайлбарлав.</message>
+	<message key="admin.languages.localeInstalled">"{$locale}" локал суусан байна.</message>
+	<message key="admin.languages.download">Лозалыг татаж авах</message>
+	<message key="admin.languages.download.cannotOpen">PKP вэб сайтаас хэл тодорхойлогчийг нээж чадахгүй байна.</message>
+	<message key="admin.languages.download.cannotModifyRegistry">Локал бүртгэлийн файлд шинэ локал нэмж чадахгүй байна, ихэвчлэн "registry/locales.xml" байдаг.</message>
+	<message key="admin.auth.ojs">OJS хэрэглэгчийн өгөгдлийн сан</message>
+	<message key="admin.auth.enableSyncProfiles">Хэрэглэгчийн мэдээллийг синхрончлол идэвхитэй байна(хэрэв нэвтрэлт танилтын plug-in дэмждэг бол). Хэрэглэгчийн бүртгэлийн мэдээлэл хэрэглэгч нэвтрэх үед гадны эх сурвалжаас автоматаар шинэчлэгдэх ба бүртгэлийн мэдээллийн өөрчлөлт (мөн нууц үгний өөрчлөлт) нь гадны эх сурвалжаас автоматаар шинэчлэгдэн OJS дотор хийгдэнэ. Хэрэв энэ тохируулга нь идэвхигүй байгаа бол OJS бүртгэлийн мэдээлэл гадны эх сурвалжийн бүртгэлийн мэдээллээс тусдаа хадгалагдана.</message>
+	<message key="admin.auth.enableSyncPasswords">Хэрэглэгчийн нууц үгийн өөрчлөлт идэвхитэй байна(хэрэв нэвтрэлт танилтын plug-in дэмждэг бол). 
+Энэ тохируулгыг идэвхжүүлэх нь хэрэглэгчид OJS дотор өөрсдийн нууц үгээ өөрчлөх болон мартсан нууц үгээ анхны байдалд нь оруулах OJS "алдагдсан нууц үг" боломжийг ашиглах боломжийг олгодог. Хэрэв энэ тохируулга нь идэвхигүй байгаа бол нэвтрэлт танилтын эх үүсвэр бүхий хэрэглэгчдэд энэ функц нь ажиллахгүй байх болно.</message>
+	<message key="admin.auth.enableCreateUsers">Хэрэглэг үүсгэлт идэвхитэй байна(хэрэв нэвтрэлт танилтын plug-in дэмждэг бол). Хэрэв тэдгээр нь байхгүй байгаа бол гадны нэвтрэлт танилтын эх үүсвэрт автоматаар нэмдэг нэвтрэлт танилтын эх үүсвэр бүхий OJS-д хэрэглэгчид үүсгэнэ. Нэмж хэлэхэд, энэ эх үүсвэр нь анхдагч (default) нэвтрэлт танилтын эх үүсвэр бол хэрэглэгчийн бүртгэлээр дамжуулаг үүсгэгдсэн OJS бүртгэл нь гадны нэвтрэлт танилтын эх үүсвэр нэмэгдэнэ.</message>
+	<message key="admin.systemVersion">OJS хувилбар</message>
+	<message key="admin.systemConfiguration">OJS Тохиргоо</message>
+	<message key="admin.systemConfigurationDescription"><![CDATA[<tt>config.inc.php</tt>-аас OJS тохиргоо.]]></message>
+	<message key="admin.journals.journalSettings">Сайтын тохиргоо</message>
+	<message key="admin.journals.noneCreated">Үүсгэгдсэн сайт байхгүй.</message>
+	<message key="admin.journals.confirmDelete">Та бүрмөсөн энэ сайтыг, бүх агуулгыг устгахдаа итгэлтэй байна уу?</message>
+	<message key="admin.journals.create">Сайт үүсгэх</message>
+	<message key="admin.journals.createInstructions">Та автоматаар сайтын менежер гэж бүртгэгдсэн болно. Шинэ сайт үүсгэсний дараа түүний тохиргоо болон хэрэглэгчийн бүртгэлийг цааш үргэлжлүүлэх бол менежер гэж ойлгоно.</message>
+	<message key="admin.journals.urlWillBe">Энэ сайтыг тодорхойлолт нь нэг богино буюу хураангуй үг байх ёстой.. Энэ сайтын URL нь {$sampleUrl} болно.</message>
+	<message key="admin.journals.form.titleRequired">Гарчиг шаардлагатай байна.</message>
+	<message key="admin.journals.form.pathRequired">Зам шаардлагатай байна.</message>
+	<message key="admin.journals.form.pathAlphaNumeric">Энэ зам нь зөвхөн үсэг, дундуур болон доогуур зураас агуулах ба эхэн болон төгсгөлдөө үсэг байх ёстой.</message>
+	<message key="admin.journals.form.pathExists">Энэхүү сонгосон зам аль хэдийн өөр сайтад ашиглагдаж байна.</message>
+	<message key="admin.journals.enableJournalInstructions">Нийтэд харагдуулахын тулд энэ сайтыг идэвхжүүлнэ.</message>
+	<message key="admin.journals.journalDescription">Сайтын тодорхойлолт</message>
+	<message key="admin.journal.pathImportInstructions">Одоогийн сайт зам эсвэл зам үүсгэ(жишээлбэл, "ojs").</message>
+	<message key="admin.journals.importSubscriptions">Захиалгуудыг оруул</message>
+	<message key="admin.journals.transcode">ISO8859-1-аас Transcode нийтлэлийн метадата</message>
+	<message key="admin.journals.redirect">OJS 2 URL -т  OJS 1 URL зураглал хийх кодыг үүсгэх</message>
+	<message key="admin.journals.form.importPathRequired">Импортын зам шаардлагатай</message>
+	<message key="admin.journals.importErrors">Амжилттай дуусгах явцад импортлох (оруулах) үйл ажиллагаанд алдаа гарсан.</message>
+	<message key="admin.mergeUsers">Хэрэглэгчдийг нэгтгэх</message>
+	<message key="admin.mergeUsers.mergeUser">Хэрэглэгчийг нэгтгэх</message>
+	<message key="admin.mergeUsers.into.description">Өмнөх хэрэглэгчийн үйл ажиллагаанд хандах хэрэглэгчийг сонго. Жишээлбэл: өргөн баригдсан материалууд, хянах даалгаврууд гэх мэт.</message>
+	<message key="admin.mergeUsers.from.description">Өөр хэрэглэгчийн бүртгэлтэй нэгтгэх хэрэглэгч (эсвэл хэд хэдэн) сонго. (жишээлбэл, хэн нэгэн нь хоёр хэрэглэгчийн бүртгэлтэй байгаа үед). Анхны сонгосон хэрэглэгч(ид) устгахад бүх өргөн баригдсан материалууд, даалгаврууд устгагдах ба 2дагч бүртгэлтэй мөн хамаааралтай байна.</message>
+	<message key="admin.mergeUsers.allUsers">Бүх бүртгэгдсэн хэрэглэгчид</message>
+	<message key="admin.mergeUsers.confirm">"{$newUsername}" хэрэглэгчийн нэр бүхий бүртгэлийг сонгогдсон {$oldAccountCount} бүртгэлтэй нэгтгэхдээ итгэлтэй байна уу? Сонгогдсон {$oldAccountCount} бүртгэл дараа нь байхгүй болно. Энэ үйл ажиллагаа буцаагдахгүй болно.</message>
+	<message key="admin.mergerUsers.noneEnrolled">Бүртгэгдсэн хэрэглэгч байхгүй.</message>
+</locale>

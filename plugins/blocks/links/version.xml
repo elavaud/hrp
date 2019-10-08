@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * version.xml
+  *
+  *
+  * Plugin version information.
+  -->
+<version>
+	<application>links</application>
+	<type>plugins.blocks</type>
+	<release>1.0.0.0</release>
+	<date>2014-04-7</date>
+	<lazy-load>1</lazy-load>
+	<class>LinksBlockPlugin</class>
+</version>
