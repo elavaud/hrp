@@ -1,12 +1,9 @@
 config.inc.php
 .env
-cache/_db/*
+cache/*
 !cache/_db/.keep
-cache/t_cache/*
 !cache/t_cache/.keep
-cache/t_compile/*
 !cache/t_compile/.keep
-cache/t_config/*
 !cache/t_config/.keep
 /public/about/*
 /public/site/images/*

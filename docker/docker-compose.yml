@@ -1,36 +1,33 @@
-version: '2.3'
+version: '3.7'
 
 services:
 
   hrp:
     build:
-      context: ./
-      dockerfile: Dockerfile
+      context: ../
+      dockerfile: docker/Dockerfile
     working_dir: /var/www
     volumes:
       - type: bind
-        source: ./
+        source: ../
         target: /var/www
       - type: volume
         source: uploads
         target: /uploads
-      - type: volume
-        source: ojs_cache
-        target: /var/www/cache
     env_file: .env
-    entrypoint: /var/www/ojsdockerstart.sh
+    entrypoint: /var/www/docker/ojsdockerstart.sh
     restart: always
 
   nginx:
     build:
-      context: ./
-      dockerfile: nginx/Dockerfile
+      context: ../
+      dockerfile: docker/nginx/Dockerfile
     ports:
       - 80:80
     working_dir: /var/www
     volumes:
       - type: bind
-        source: ./
+        source: ../
         target: /var/www
     restart: always
 
@@ -40,6 +37,12 @@ services:
       - type: volume
         source: mysql_data
         target: /var/lib/mysql
+      - type: bind
+        source: ../dbscripts/template.sql
+        target: /template.sql
+      - type: bind
+        source: ./mysqlinithrpdb.sh
+        target: /docker-entrypoint-initdb.d/mysqlinithrpdb.sh
     ports:
       - "3306:3306"
     env_file: .env
@@ -57,4 +60,3 @@ services:
 volumes:
   mysql_data:
   uploads:
-  ojs_cache:

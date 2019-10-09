@@ -28,13 +28,6 @@ fi
 # Set upload folder at root
 sed -i -e "s/files_dir = files/files_dir = \/uploads/g" /var/www/config.inc.php
 
-# Clean cache folder
-rm -R /var/www/cache
-mkdir /var/www/cache/_db
-mkdir /var/www/cache/t_cache
-mkdir /var/www/cache/t_compile
-mkdir /var/www/cache/t_config
-
 # Use URL parameters instead of CGI PATH_INFO. This is useful for broken server setups that don't support the PATH_INFO environment variable.
 sed -i -e "s/disable_path_info = Off/disable_path_info = On/g" /var/www/config.inc.php
 
