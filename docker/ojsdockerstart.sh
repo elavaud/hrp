@@ -34,4 +34,9 @@ sed -i -e "s/disable_path_info = Off/disable_path_info = On/g" /var/www/config.i
 # Set writable permissions to cache directory
 chown -R www-data:www-data /var/www/cache
 
+# Check if CSS file exists, if not create it using template
+if [ ! -e /var/www/plugins/themes/hrp/hrp.css ] then
+    cp /var/www/plugins/themes/hrp/hrp.TEMPLATE.css /var/www/plugins/themes/hrp/hrp.css
+fi
+
 php-fpm --nodaemonize
